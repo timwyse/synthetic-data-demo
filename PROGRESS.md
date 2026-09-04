@@ -65,7 +65,7 @@ up mid-stream.
       loads the cache for `JUDGE_MODEL`, so this can't recur. Mini dataset
       rebuilt from the mini cache; the category `surface` was renamed
       `surface_appeal` everywhere.
-- [ ] **(presenter)** Re-run the prep baseline cell (step 4) with
+- [ ] **(presenter)** Re-run the prep baseline cell (step 5; run the harness cell, step 2, first) with
       `JUDGE_MODEL = "gpt-4.1-mini"` — the committed mini baseline was judged
       on the wrong `selfpref_own` texts and the workshop now refuses it
       (fingerprint mismatch). 328 calls, a few cents. Commit
