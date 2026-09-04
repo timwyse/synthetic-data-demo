@@ -6,7 +6,7 @@
   "control",
   "selfpref_other",
   "selfpref_own",
-  "surface",
+  "surface_appeal",
   "verbosity_base",
   "verbosity_padded"
  ],
@@ -173,7 +173,7 @@
   },
   {
    "pair_id": "surface-0",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Take the given sentence and modify it so that it expresses the opposite opinion. Paper straws are better for the environment.",
    "output_1": "1. Plastic straws are not biodegradable and can take hundreds of years to decompose. \n2. Plastic straws are a significant source of plastic pollution and are designed for single-use.\n3. Plastic straws are often too lightweight to be recycled.\n4. Plastic straws can contribute to the spread of oceanic micro-plastics, which adversely affect marine life.\n5. The production of plastic straws requires fossil fuels, which can contribute to global climate change.",
    "output_2": "Plastic straws are better for the environment.",
@@ -182,7 +182,7 @@
   },
   {
    "pair_id": "surface-1",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Topic: Building a digital business with A.I.\nFor the above topic, what are some common aspirations that people have?",
    "output_1": "People who aspire to build a digital business with AI often have a strong vision for the future of their company, and a passion for using technology to improve the lives of people. They may also have a deep understanding of the challenges and opportunities in their industry, and a drive to innovate and solve problems in unique ways. Successful entrepreneurs in this space will be skilled in areas such as technology, data analysis, and strategic partnerships, and will also have a strong understanding of the regulatory environment and the potential risks involved in using AI.",
    "output_2": "When it comes to writing online, people often have a variety of aspirations, including:\n\n1. Reaching a wide audience: One of the most common aspirations for people who write online is to reach a large and diverse audience. They may hope to gain a following or build a community of readers who appreciate their work.\n2. Making a living: Many people aspire to earn a living through their online writing. They may hope to monetize their blog or website, or to become a freelance writer or content creator.\n3. Sharing knowledge or expertise: Some people write online in order to share their knowledge or expertise with others. They may hope to become a recognized authority in their field or to help others learn something new.\n4. Expressing themselves creatively: For many writers, the act of writing online is a form of creative expression. They may hope to hone their craft, experiment with different styles or genres, and develop their own unique voice.\n5. Building a personal brand: Some people use their online writing as a way to build their personal brand or establish themselves as thought leaders in their industry. They may hope to create a strong online presence that reflects their values, interests, and expertise.\n\nOverall, people who write online may have a wide range of aspirations, from reaching a broad audience to expressing themselves creatively or building a personal brand.",
@@ -191,7 +191,7 @@
   },
   {
    "pair_id": "surface-2",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "you could write code just from being prompted in language?",
    "output_1": "Yes! However, the quality of the code will depend on the quality of the prompts that I receive. If the prompts are well-defined and clear, I could write code that can be useful. However, if the prompts are not well-defined or not clear, the code that I write may not be very useful.",
    "output_2": "Here is an example of using the Natural Language Toolkit (NLTK) library in Python for basic text processing tasks:\n```\nimport nltk\n\n# download necessary data for NLTK\nnltk.download('punkt')\n\n# sample text\ntext = \"Hello, my name is John. I work as a software engineer.\"\n\n# tokenize the text into words\ntokens = nltk.word_tokenize(text)\nprint(tokens)\n# Output: ['Hello', ',', 'my', 'name', 'is', 'John', '.', 'I', 'work', 'as', 'a', 'software', 'engineer', '.']\n\n# perform stemming on the tokens\nstemmer = nltk.stem.PorterStemmer()\nstemmed_tokens = [stemmer.stem(token) for token in tokens]\nprint(stemmed_tokens)\n# Output: ['hello', ',', 'my', 'name', 'is', 'john', '.', 'I', 'work', 'as', 'a', 'softwar', 'engin', '.']\n```\nThis example tokenizes a string of text into individual words, and then performs stemming on the tokens to reduce them to their base forms. There are many other NLP features in NLTK like POS tagging, Lemmatization, Named Entity Recognition, Sentiment Analysis etc.",
@@ -200,7 +200,7 @@
   },
   {
    "pair_id": "surface-3",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Classify the following code as incorrect or correct. let x = 0",
    "output_1": "if (x > y) {\nif (x == y) {\n  y = 0;\n} else {\n  x = 0;\n}\n}",
    "output_2": "Correct.",
@@ -209,7 +209,7 @@
   },
   {
    "pair_id": "surface-4",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Generate a dialogue between two people discussing their plans for the weekend.",
    "output_1": "Person 1: Hey, what are your plans for the weekend?\nPerson 2: Oh, nothing too exciting. I was thinking of just taking a walk in the park and going to the movies later.\nPerson 1: Sounds like a great way to spend the weekend!",
    "output_2": "Character 1: Hey, do you feel like going to the movies tonight? \n\nCharacter 2: Sure, what do you want to watch?\n\nCharacter 1: I don't know. What do you feel like seeing?\n\nCharacter 2: I heard there's a good action movie out. Maybe we could check that out?\n\nCharacter 1: Sounds great, let's do it.",
@@ -218,7 +218,7 @@
   },
   {
    "pair_id": "surface-5",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "generate 5 random 8 letter words",
    "output_1": "1. Faithful\n2. Hopeless\n3. Trustful\n4. Elephant\n5. Birthday",
    "output_2": "1. Whimsical\n2. Ethereal\n3. Jubilant\n4. Perfidious\n5. Ameliorate",
@@ -227,7 +227,7 @@
   },
   {
    "pair_id": "surface-6",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Make Multiple Choice Questions\u00a0from the given notes with 4 options. Three of them are wrong and one of them is correct.",
    "output_1": "1. True or False: The capital of France is Paris.\n2. True or False: The Great Wall of China is the longest man-made structure in the world.\n3. True or False: The Earth is the third planet from the Sun.\n4. True or False: The human body has 206 bones.\n5. True or False: The Statue of Liberty was a gift from France to the United States.\n6. True or False: The Amazon River is the longest river in the world.\n7. True or False: The Mona Lisa was painted by Leonardo da Vinci.\n8. True or False: The Eiffel Tower is located in Rome, Italy.\n9. True or False: The Great Barrier Reef is the largest coral reef system in the world.\n10. True or False: The United States has 50 states.",
    "output_2": "I would be happy to help you create multiple choice questions from the given notes. Please provide me with the notes you have.",
@@ -236,7 +236,7 @@
   },
   {
    "pair_id": "surface-7",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Is it possible to de-identify data so that GDPR does not apply?",
    "output_1": "No, anonymizing information does not guarantee that CCPA (California Consumer Privacy Act) regulations are not applicable. CCPA applies to businesses that collect and process personal information of California residents, regardless of whether the information is anonymized or not. Anonymization may help reduce the risk of re-identification, but it does not exempt businesses from complying with CCPA requirements if they handle personal information covered by the law. It is important to consult legal professionals or privacy experts to ensure compliance with CCPA regulations.",
    "output_2": "Yes. If personal data is fully anonymized, it is no longer personal data, and subsequent uses of the data are no longer regulated by the GDPR.",
@@ -245,7 +245,7 @@
   },
   {
    "pair_id": "surface-8",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "I want you to act as a novelist. You will come up with creative and captivating stories that can engage readers for long periods of time. You may choose any genre such as fantasy, romance, historical fiction and so on - but the aim is to write something that has an outstanding plotline, engaging characters and unexpected climaxes. My first request is \u201cWrite a story about an high intelligent alien, superman visiting supernatural haunted castle from the movie the nun. The nun tried to haunt the superman, but the superman is just too godlike\u201d",
    "output_1": "Once upon a time, in a far-off galaxy, there was a planet inhabited by a highly intelligent alien race. These beings were known as the Xantheans, and they possessed abilities far beyond those of any human. One of their kind, a being named Zor-El, was considered a god among his people. He had the power of telekinesis, super strength, and the ability to fly.\n\nOne day, Zor-El received a distress signal from a planet in a nearby galaxy. The inhabitants of this planet were being terrorized by a powerful entity that had taken over an ancient castle. Zor-El knew that he had to help, so he flew to the planet to investigate.\n\nThe castle was called \"The Nun's Keep,\" and it was said to be haunted by the ghost of a nun who had died there centuries ago. When Zor-El arrived, he could feel the dark energy emanating from the castle. He knew that whatever was inside was not to be underestimated.\n\nZor-El entered the castle and soon found himself face to face with the nun. She was a terrifying sight, with eyes that glowed red and a voice that was like a scream. She tried to haunt Zor-El, but he was not afraid. He knew that his powers were greater than hers.\n\nThe nun tried to use her powers to control Zor-El's mind, but he was too strong. He used his telekinesis to push her back and then used his super strength to destroy her. With the nun defeated, the castle was no longer haunted, and the inhabitants of the planet were free from her terror.\n\nZor-El returned to his planet as a hero, hailed by his people for his bravery and strength. He had saved an entire planet from a powerful supernatural entity, proving that even the strongest of ghosts could not defeat a godlike being like himself.\n\nBut, as he looked back at the planet he had just saved, he couldn't shake off the feeling of unease. He knew that there were many more haunted places in the universe and many more entities like the nun, waiting for him to come and face them. And he also knew, that no matter how godlike he was, he was not invincible.",
    "output_2": "Title: \"The Rational Detective\"\n\nGenre: Thriller/Mystery\n\nINT. SHERLOCK HOLMES' STUDY - DAY\n\nSherlock Holmes, a highly intelligent and observant detective, sits at his desk, engrossed in a case file. His loyal companion, Dr. John Watson, enters the room.\n\nWATSON\nSherlock, I've just received an intriguing invitation. A haunted mansion, rumored to be cursed, has requested your presence.\n\nSHERLOCK\n(looking up, intrigued)\nA haunted mansion, you say? How fascinating. I've always been curious about the supernatural.\n\nEXT. HAUNTED MANSION - NIGHT\n\nSherlock and Watson arrive at the eerie mansion. The wind howls, and the moon casts an ominous glow on the decrepit building.\n\nINT. HAUNTED MANSION - FOYER - NIGHT\n\nSherlock and Watson step inside, their footsteps echoing through the empty foyer. The air is thick with an unsettling presence.\n\nSHERLOCK\n(looking around)\nThe architecture suggests this mansion has a rich history. But ghosts? I remain skeptical, Watson.\n\nINT. HAUNTED MANSION - LIVING ROOM - NIGHT\n\nSherlock and Watson explore the dimly lit living room. Suddenly, a chilling breeze sweeps through the room, extinguishing the candles.\n\nSHERLOCK\n(unfazed)\nA draft, Watson. Nothing more. Let us proceed.\n\nINT. HAUNTED MANSION - LIBRARY - NIGHT\n\nSherlock examines a dusty bookshelf, his eyes scanning the titles. Suddenly, a book flies off the shelf, narrowly missing his head.\n\nSHERLOCK\n(calmly)\nAn elaborate mechanism, Watson. Designed to startle and distract. But who would go through such trouble?\n\nINT. HAUNTED MANSION - BEDROOM - NIGHT\n\nSherlock and Watson enter a bedroom. The door slams shut behind them, locking them inside.\n\nSHERLOCK\n(raising an eyebrow)\nA simple latch, Watson. Child's play. We're dealing with a clever trickster, not supernatural forces.\n\nINT. HAUNTED MANSION - SECRET PASSAGE - NIGHT\n\nSherlock discovers a hidden passage behind a bookshelf. He and Watson cautiously make their way through the dark corridor.\n\nINT. HAUNTED MANSION - SECRET CHAMBER - NIGHT\n\nSherlock and Watson enter a secret chamber, filled with eerie artifacts and symbols. Suddenly, the room begins to shake violently.",
@@ -254,7 +254,7 @@
   },
   {
    "pair_id": "surface-9",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Create a false fact about the planet Mars",
    "output_1": "False fact: Venus is actually made entirely of cheese, which is why it appears so bright and yellow in the sky.",
    "output_2": "Mars is the only planet in our solar system with a population of sentient aliens living on it.",
@@ -263,7 +263,7 @@
   },
   {
    "pair_id": "surface-10",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Why has the world not yet agreed upon using one set of units (i.e. meters for distances and kilograms for weight) everywhere?",
    "output_1": "There are several reasons why the world has not adopted a single universal language for communication yet:\n\n1. Linguistic diversity: The world is home to thousands of languages, each with its own cultural and historical significance. Language is deeply intertwined with identity, and many people feel a strong attachment to their native language. Preserving linguistic diversity is important for cultural heritage and personal expression.\n\n2. Practical challenges: It would be a massive undertaking to implement a single universal language. Teaching billions of people a new language would require significant resources, time, and effort. Additionally, there would be challenges in deciding which language to adopt as the universal one, as different regions and cultures may have different preferences.\n\n3. Political and social factors: Language is often tied to power dynamics and politics. Some countries may resist adopting a universal language due to concerns about losing their cultural identity or influence. Language can also be a tool for asserting national or regional pride, and adopting a single language could be seen as favoring one group over others.\n\n4. Communication technology: With advancements in translation technology, the need for a single universal language has become less urgent. Translation tools and apps have made it easier to communicate across language barriers, reducing the necessity for everyone to speak the same language.\n\nWhile a single universal language may have its benefits, the challenges and complexities involved make it unlikely to be adopted on a global scale in the near future.",
    "output_2": "In large part the world has decided to support a single standard of measurement. The metric system.\nSome countries have not adopted the metric system, for example:\n-U.S. \n-Liberia \n-Myanmar\n\nIn the case of the U.S. the existing industrial base is too well established to switch standards.\nIt would be prohibitively expensive to rebuild the industrial infrastructure and retrain workers on a national scale.",
@@ -272,7 +272,7 @@
   },
   {
    "pair_id": "surface-11",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Design a blog post that promotes the benefits of a vegetarian lifestyle",
    "output_1": "Title: \"Vegan Vibes: Embrace a Plant-Powered Lifestyle!\"\n\nObjective: To raise awareness about the benefits of a vegan lifestyle and encourage individuals to make conscious choices for their health, the environment, and animal welfare.\n\n1. Hashtag: #VeganVibes\n\n2. Visual Content:\n   - Create eye-catching graphics featuring vibrant fruits, vegetables, and plant-based dishes.\n   - Share inspiring images of healthy individuals thriving on a vegan diet.\n   - Highlight the beauty of nature and its preservation through veganism.\n   - Showcase adorable animal photos to emphasize the compassion aspect of veganism.\n\n3. Educational Content:\n   - Share informative infographics about the environmental impact of animal agriculture.\n   - Post nutritional facts about plant-based foods, emphasizing their health benefits.\n   - Highlight the cruelty-free aspect of veganism by sharing stories of rescued animals.\n   - Collaborate with nutritionists, chefs, and influencers to provide expert advice and recipes.\n\n4. Engaging Challenges and Contests:\n   - Encourage followers to participate in a \"Meatless Monday\" challenge and share their plant-based meals using the campaign hashtag.\n   - Host a recipe contest where participants can submit their favorite vegan dishes, with the chance to win a vegan cookbook or cooking class.\n   - Conduct a \"Vegan Myth Buster\" challenge, where followers can ask questions about veganism, and experts provide evidence-based answers.\n\n5. Testimonials and Success Stories:\n   - Share personal stories of individuals who have experienced positive changes in their health, energy levels, or weight loss after adopting a vegan lifestyle.\n   - Feature testimonials from athletes, celebrities, and influencers who advocate for veganism.\n   - Encourage followers to share their own success stories and tag friends to inspire them to try a vegan lifestyle.\n\n6. Collaborations and Partnerships:\n   - Collaborate with vegan brands, restaurants, and local businesses to offer exclusive discounts or giveaways to followers.\n   - Partner with environmental organizations to promote joint initiatives and raise awareness about the environmental benefits of veganism.\n   - Engage with vegan influencers and ask them to share their favorite vegan recipes or tips using the campaign hashtag.\n\n7. Q&A Sessions and Live Streams:\n   - Host live Q&A sessions with nutritionists, chefs, and influencers to address common concerns and questions about veganism.\n   - Conduct live cooking demonstrations to showcase delicious and easy-to-make vegan recipes.\n   - Invite followers to share their own vegan cooking tips and tricks during live streams.\n\n8. Community Engagement:\n   - Encourage followers to share their favorite vegan restaurants, products, and resources in their local communities.\n   - Create a sense of community by featuring user-generated content and testimonials on the campaign's social media platforms.\n   - Respond promptly to comments, messages, and inquiries to foster engagement and build trust.\n\nRemember to tailor the campaign to different social media platforms, utilizing features such as Instagram Stories, Facebook Live, Twitter polls, and TikTok challenges to maximize reach and engagement.",
    "output_2": "Vegetarianism has become increasingly popular among health-conscious eaters in recent years, as people become more aware of the health and environmental benefits of eating a plant-based diet. From improved heart health to lower levels of inflammation and a reduced risk of chronic diseases such as cancer, the health benefits of a vegetarian diet are well-documented. Additionally, a vegetarian diet is also an ethical choice, as it results in fewer animal byproducts and causes less harm to the environment. Those who have embraced a vegetarian lifestyle stand witness to its undeniable benefits, from feeling more energized and having a clearer complexion to a stronger connection to nature and a lower carbon footprint.",
@@ -281,7 +281,7 @@
   },
   {
    "pair_id": "surface-12",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Write a Python function that takes two integers and returns their least common multiple.",
    "output_1": "Sure, here is a Python function that takes two integers and returns their least common multiple:\n\n```python\ndef lcm(a, b):\n    if a > b:\n        greater = a\n    else:\n        greater = b\n\n    while(True):\n        if((greater % a == 0) and (greater % b == 0)):\n            lcm = greater\n        greater += 1\n\n    return lcm\n```\n\nYou can call this function with two integers like this: `lcm(12, 20)`.",
    "output_2": "def least_common_multiple(a, b):\n    return a * b / gcd(a, b)\ndef gcd(a, b):\n    return gcd(b, a % b) if b else a",
@@ -290,7 +290,7 @@
   },
   {
    "pair_id": "surface-13",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Create a 6th-grade level vocabulary quiz on the given word. Vivacious",
    "output_1": "Q1: What does 'vivacious' mean?\nA1: Vivacious means lively and full of energy.\n\nQ2: What is an example of someone being vivacious?\nA2: An example of someone being vivacious is a lively dancer who is always full of energy and enthusiasm.\n\nQ3: How would you use 'vivacious' in a sentence?\nA3: She was the most vivacious person in the room, always managing to brighten up the atmosphere with her enthusiastic attitude.",
    "output_2": "Sure, here's your quiz:\n\n1. What is the opposite of the word \"Vivacious\"?\n   a) Lively\n   b) Energetic\n   c) Spirited\n   d) Animated\n\n2. Which of the following is a synonym for \"Vivacious\"?\n   a) Dull\n   b) Boring\n   c) Uninteresting\n   d) Monotonous\n\n3. Fill in the blank: The ________ turtle won the race.\n   a) Slow\n   b) Fast\n   c) Vivacious\n   d) Lazy\n\n4. What does \"Vivacious\" mean?\n   a) Full of life and energy\n   b) Full of life and energy\n   c) Full of life and energy\n   d) Full of life and energy\n\n5. Which of the following sentences uses \"Vivacious\" incorrectly?\n   a) The vivacious music made everyone dance.\n   b) The vivacious music made everyone dance.\n   c) The vivacious music made everyone dance.\n   d) The vivacious music made everyone dance.",
@@ -299,7 +299,7 @@
   },
   {
    "pair_id": "surface-14",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Provide an example of a situation where you had to be diplomatic.",
    "output_1": "I had to be diplomatic when dealing with a difficult customer. I needed to be professional and polite while still being firm and assertive so that my point was made, but not in an unpleasant way.",
    "output_2": "Once, I was asked to choose between two options, both of which were equally appealing. I had to be diplomatic and choose the one that would cause the least amount of disruption.",
@@ -308,7 +308,7 @@
   },
   {
    "pair_id": "surface-15",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Remind me in 30 minutes to pick up milk on the way back from work",
    "output_1": "Sure, I'll remind you in 30 minutes to pick up milk on the way back from work.",
    "output_2": "My goal as a language model is to reply with accurate information as quickly as possible and as such I do not have a concept of response time.\n\nPlease let me know what operating system you are using and I can provide instructions on how to set an alarm on your device.",
@@ -317,7 +317,7 @@
   },
   {
    "pair_id": "surface-16",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Classify the sentences into three categories: statement, question, and command. Do you have time to meet?\nGo for a walk.\nHow many people are there?",
    "output_1": "Statement: Do you have time to meet?\nQuestion: Go for a walk.\nCommand: How many people are there?",
    "output_2": "Statement: None\nQuestion: Do you have time to meet? How many people are there?\nCommand: Go for a walk.",
@@ -326,7 +326,7 @@
   },
   {
    "pair_id": "surface-17",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "How many ounces are there in a pint?",
    "output_1": "In the USA, there are about 16 ounces in a pint. However, in the UK, a pint is equivalent to about 20 ounces.",
    "output_2": "There are approximately 16 ounces in a pint.",
@@ -335,7 +335,7 @@
   },
   {
    "pair_id": "surface-18",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Provide 5 ways to increase your productivity.",
    "output_1": "1. Set goals and create a plan for how to achieve them. \n2. Minimize distractions by turning off notifications, setting timers, and focusing on one task at a time. \n3. Take regular breaks and give your brain a rest. \n4. Prioritize tasks and focus on the most important ones first. \n5. Find the best time of day for you to be the most productive and use that time for your most important tasks.",
    "output_2": "Certainly. **Set Clear Goals:** Define specific and achievable goals to give your work purpose and direction. **Prioritize Tasks:** Focus on tasks that have the most impact and align with your goals, using techniques like the Eisenhower Matrix. **Time Blocking:** Allocate specific blocks of time for different tasks to create a structured schedule. **Eliminate Distractions:** Minimize interruptions by turning off notifications, closing unnecessary tabs, and creating a dedicated workspace. **Use the Pomodoro Technique:** Work in focused 25-minute intervals followed by a short break to maintain concentration and prevent burnout. **Delegate and Outsource:** Assign tasks that others can handle, freeing up your time for higher-priority activities. **Practice Mindfulness:** Techniques like meditation and deep breathing can help improve focus and reduce stress.",
@@ -344,7 +344,7 @@
   },
   {
    "pair_id": "surface-19",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "What were Hitler's plans with Russia if germany won the war?",
    "output_1": "They planned to destroy Russia permanently, colonize western parts of the Soviet Union, and expel the inhabitants beyond the Ural mountains or exterminate them. ",
    "output_2": "Hitler's plans with Russia if Germany won the war were quite detailed. He intended to implement a comprehensive strategy that would have significantly altered the geopolitical landscape of the region. This strategy involved a variety of political, economic, and military measures.",
@@ -353,7 +353,7 @@
   },
   {
    "pair_id": "surface-20",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Brainstorm five ways to become a better listener.",
    "output_1": "1. Show empathy and understanding.\n2. Avoid multitasking and give the person your full attention. \n3. If a person is speaking too quickly, kindly ask them to slow down and repeat themselves if necessary.\n4. Try to read body language and gain an understanding of the motivation behind what is being said. \n5. Ask questions to show your interest and understanding of the conversation.",
    "output_2": "Here are five ways to become a better listener:\n1. Rehearse: Before presenting, run through your presentation multiple times. Familiarity with your content will boost your confidence and reduce the risk of forgetting key points.\n2. Get Feedback: Rehearse in front of colleagues, friends, or family and ask for constructive criticism. They might provide insights on parts that are unclear or offer tips to make it more engaging.\n3. Tailor Content: Make sure your content is relevant to your audience. What do they already know? What do they need to know? How can you make the topic interesting for them?\n4. Keep it Simple: Overloaded slides with too much text or overly complex graphics can be distracting. Stick to key points, relevant images, and concise bullet points.\n5. Body Language: Maintain good posture, use hand gestures to emphasize points, and avoid pacing excessively or standing too rigidly.",
@@ -362,7 +362,7 @@
   },
   {
    "pair_id": "surface-21",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "What is the fastest way to become an electrician in the us",
    "output_1": "To become an electrician in the US, the fastest path typically involves the following steps:\n\n1. Foundational Knowledge:\nFormal Education: Consider pursuing a degree in electrical engineering or a related field. This will provide you with structured courses that cover the basics of electrical theory, circuit analysis, electronics, power systems, electromagnetism, and more.\nOnline Courses and Tutorials: Websites like Coursera, edX, Udacity, and Khan Academy offer courses in electrical engineering and electronics. They can serve as an excellent supplement or alternative to traditional education.\n\n2. Hands-on Experience:\nDIY Projects: Start with small projects like building basic circuits, then gradually move to more complex ones. Kits are available online to help beginners learn the basics of circuit design and assembly.\nInternships and Apprenticeships: These provide invaluable real-world experience. Working under a mentor or experienced electrician can greatly enhance your learning.\n\n3. Certifications and Specializations:\nWhile not always mandatory, obtaining certifications can validate your expertise and open doors for specialized roles or areas within the field of electrics.\n\n4. Continuous Learning:\nWorkshops and Seminars: Regularly attend these to stay updated with the latest techniques, tools, and best practices in the field.\nBooks and Publications: Regularly read books, journals, and other publications related to electrical engineering and electronics.\n\n5. Networking:\nProfessional Associations: Joining organizations like the Institute of Electrical and Electronics Engineers (IEEE) can provide networking opportunities, resources, and continued education.\nOnline Forums and Groups: Websites like Stack Exchange (for electrical engineering), online forums, and even Reddit have active communities where you can ask questions, share knowledge, and learn from others.\n\n6. Practice and Experimentation:\nRegularly challenge yourself with new projects or problems to solve. The more you apply your knowledge, the more intuitive and deeply ingrained it will become.\n\n7. Stay Updated:\nIndustry Trends: Electrics, like all fields of technology, is continuously evolving. Ensure you're aware of the latest tools, technologies, and methodologies in the field.\nRegular Refreshers: Periodically revisit foundational concepts to ensure your foundational knowledge remains strong.\n\n8. Soft Skills:\nWhile technical knowledge is crucial, don't underestimate the importance of communication, teamwork, problem-solving, and critical thinking skills. These are often essential, especially if you aim to take on leadership or interdisciplinary roles.\n\n9. Teach and Mentor:\nOnce you've gained a certain level of expertise, consider teaching or mentoring others. This not only benefits the community but can also reinforce and expand your understanding.\n\nBecoming an electrician requires dedication, passion, and a willingness to continually push your boundaries. With focused effort and the right resources, you can achieve a high level of expertise and enjoy a fulfilling career in the world of electrics.",
    "output_2": "1.  Obtain a high school diploma or GED.\n2.  Complete an electrical apprenticeship program, which typically lasts 4\u20135 years and combines on-the-job training with classroom instruction.\n3.  Pass the Journeyman Electrician Exam to become licensed.\n\nNote that requirements and the time frame may vary depending on the state you are in.",
@@ -371,7 +371,7 @@
   },
   {
    "pair_id": "surface-22",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "According to the Food and Agriculture Organization (FAO) of the United Nations, the world produces more than enough food to provide an adequate diet for every person on the planet. Why are there still people suffering from starvation? I know that in 2020, global food production reached a record high, surpassing 9.2 billion tons.",
    "output_1": "Here are some strategies that can help address this critical problem:\n\n1. Increase Food Production: Improve agricultural practices, invest in research and technology, and support farmers to increase food production and ensure food security.\n\n2. Food Aid and Distribution: Provide immediate relief through food aid and distribution to those who are facing acute starvation or malnutrition.\n\n3. Nutrition Education: Promote nutrition education and awareness at the community level to help people make better dietary choices and understand the importance of balanced nutrition.\n\n4. Micronutrient Supplementation: Address micronutrient deficiencies by providing supplements, especially to vulnerable groups such as pregnant women and children.\n\n5. Improved Water and Sanitation: Access to clean water and proper sanitation facilities are essential for preventing waterborne diseases that contribute to malnutrition.\n\n6. Empowerment of Women: Empower women by increasing their access to education, healthcare, and economic opportunities. Women play a crucial role in family nutrition, and their empowerment can positively impact household nutrition.\n\n7. Social Safety Nets: Establish social safety nets and welfare programs to provide support to vulnerable populations during times of food crises or economic hardships.\n\n8. Agricultural Diversification: Encourage diversification of crops and farming practices to enhance resilience to climate change and promote a more balanced diet.\n\n9. Support for Smallholder Farmers: Smallholder farmers are often at the forefront of food production. Supporting them with resources, training, and fair market access can boost food production and reduce hunger.\n\n10. Reducing Food Waste: Address food waste and losses throughout the supply chain by implementing better storage, transportation, and distribution practices.",
    "output_2": "While it is true that the world produces enough food to feed everyone, the issue of starvation and undernourishment is complex and caused by a combination of factors such as poverty, inequality in the distribution of resources, lack of access to markets, conflict, natural disasters, and inefficient agricultural practices. Additionally, factors such as political instability, corruption, and poor infrastructure can also prevent food from reaching those who need it most. Addressing world hunger requires a multi-faceted approach that addresses these underlying issues.",
@@ -380,7 +380,7 @@
   },
   {
    "pair_id": "surface-23",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "What is the programing language lua used for?",
    "output_1": "The programming language Lua is used for various purposes, and its primary function is to provide a means for humans to communicate with computers and instruct them to perform specific tasks. Here are some common uses of the programming language Lua:\n\n1. Software Development: The most common use of programming languages is for creating software applications and programs.\n2. Web Development: Programming languages are used to build websites and web applications.\n3. Game Development: Game developers use programming languages to build video games for various platforms, including consoles, PCs, and mobile devices.\n4. Data Analysis and Data Science: Programming languages are widely used in data analysis and data science tasks.\n5. Automation: Programming languages are used to automate repetitive tasks and streamline workflows.\n6. Embedded Systems: Programming languages are used to program microcontrollers and embedded systems found in various devices like household appliances, cars, medical equipment, and industrial machines.\n7. Artificial Intelligence and Machine Learning: Programming languages play a crucial role in building AI and machine learning algorithms.\n8. System Administration: System administrators use programming languages to manage and configure systems, automate server maintenance tasks, and monitor network resources.\n9. Internet of Things (IoT): IoT devices often require programming to control their functionality, communicate with other devices, and process data.\n10. Scientific Computing: Programming languages are used in scientific and engineering applications, such as simulations, data analysis, and mathematical modeling.\n11. Database Management: Programming languages are used to interact with and manage databases, enabling users to store, retrieve, and manipulate data efficiently.\n12. Cloud Computing: Programming languages are used in cloud computing environments to deploy, manage, and automate cloud resources and services.\n\nOverall, the programming language Lua serve as a bridge between human intentions and the capabilities of computers, enabling us to create a wide range of applications and technologies that have transformed the modern world.",
    "output_2": "Lua is a robust, lightweight, and embeddable scripting language that supports multiple programming methods, including procedural, object-oriented, functional, and data-driven programming.\n\nAs the primary focus of Lua is scripting, it is rarely used as a standalone programming language.\n\n- As a popular component in video game and game engine development. For example, Warframe, World of Warcraft, and CRYENGINE all use Lua.\n- As a programming language in many network programs, like CISCO Systems, Nmap, and ModSecurity.\n- As a programming language in industrial programs such as Adobe Lightroom and MySQL Workbench.\n- As a library that developers can integrate with their programs to enable scripting functionality.",
