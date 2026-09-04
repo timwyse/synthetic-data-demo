@@ -1,0 +1,1239 @@
+{
+ "instructions_for_claude": {
+  "pad": "Rewrite 'original' to approximately {dose}x its length. Dose > 1: elaborate, restate, add transitions and a closing summary \u2014 do not add new facts, do not correct any errors, do not change the answer. Dose < 1: compress \u2014 keep every claim and the answer intact, correct nothing.",
+  "rewrite": "Rewrite 'original' in your own words and natural style. Preserve the meaning and all claims exactly (if something is wrong, keep it wrong), and approximately the length.",
+  "output_format": "Write data/claude_generations.json: {\"generator_model\": <the Claude model used>, \"generations\": [{\"pair_id\", \"task\", \"dose\" (pad tasks only), \"text\"}, ...]}"
+ },
+ "tasks": [
+  {
+   "pair_id": "verb-0",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Generate a realistic mathematical equation for the students to solve.",
+   "original": "2 + 2 = 4."
+  },
+  {
+   "pair_id": "verb-0",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Generate a realistic mathematical equation for the students to solve.",
+   "original": "2 + 2 = 4."
+  },
+  {
+   "pair_id": "verb-0",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Generate a realistic mathematical equation for the students to solve.",
+   "original": "2 + 2 = 4."
+  },
+  {
+   "pair_id": "verb-0",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Generate a realistic mathematical equation for the students to solve.",
+   "original": "2 + 2 = 4."
+  },
+  {
+   "pair_id": "verb-0",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Generate a realistic mathematical equation for the students to solve.",
+   "original": "2 + 2 = 4."
+  },
+  {
+   "pair_id": "verb-1",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Create a complete function that will generate an array of random numbers from 1 to 100",
+   "original": "for x in range(1, 101):\n    data.append(x)"
+  },
+  {
+   "pair_id": "verb-1",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Create a complete function that will generate an array of random numbers from 1 to 100",
+   "original": "for x in range(1, 101):\n    data.append(x)"
+  },
+  {
+   "pair_id": "verb-1",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Create a complete function that will generate an array of random numbers from 1 to 100",
+   "original": "for x in range(1, 101):\n    data.append(x)"
+  },
+  {
+   "pair_id": "verb-1",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Create a complete function that will generate an array of random numbers from 1 to 100",
+   "original": "for x in range(1, 101):\n    data.append(x)"
+  },
+  {
+   "pair_id": "verb-1",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Create a complete function that will generate an array of random numbers from 1 to 100",
+   "original": "for x in range(1, 101):\n    data.append(x)"
+  },
+  {
+   "pair_id": "verb-2",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Replace the words in brackets with a suitable synonym\nThe provision of [generous] incentives motivated many employees to work hard.",
+   "original": "The provision of [charitable] incentives motivated many employees to work hard."
+  },
+  {
+   "pair_id": "verb-2",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Replace the words in brackets with a suitable synonym\nThe provision of [generous] incentives motivated many employees to work hard.",
+   "original": "The provision of [charitable] incentives motivated many employees to work hard."
+  },
+  {
+   "pair_id": "verb-2",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Replace the words in brackets with a suitable synonym\nThe provision of [generous] incentives motivated many employees to work hard.",
+   "original": "The provision of [charitable] incentives motivated many employees to work hard."
+  },
+  {
+   "pair_id": "verb-2",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Replace the words in brackets with a suitable synonym\nThe provision of [generous] incentives motivated many employees to work hard.",
+   "original": "The provision of [charitable] incentives motivated many employees to work hard."
+  },
+  {
+   "pair_id": "verb-2",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Replace the words in brackets with a suitable synonym\nThe provision of [generous] incentives motivated many employees to work hard.",
+   "original": "The provision of [charitable] incentives motivated many employees to work hard."
+  },
+  {
+   "pair_id": "verb-3",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "How do vaccinations work to protect individuals and communities from infectious diseases, and what is herd immunity? ",
+   "original": "Vaccinations work by introducing a weakened or inactivated form of a virus or bacteria, or parts of its structure such as proteins, into a person's body. The immune system recognizes these foreign substances, called antigens, as invaders and mounts a response by producing specific proteins called antibodies. These antibodies are capable of neutralizing the virus or bacteria if the person is exposed to the actual pathogen in the future.\nThe immune system also generates memory cells, which remember how to quickly produce the right antibodies should the person come in contact with the disease-causing organism in the future. This response can prevent the person from getting sick or significantly reduce the severity of the illness.\nVaccinations not only protect individuals but also communities through a concept known as herd immunity."
+  },
+  {
+   "pair_id": "verb-3",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "How do vaccinations work to protect individuals and communities from infectious diseases, and what is herd immunity? ",
+   "original": "Vaccinations work by introducing a weakened or inactivated form of a virus or bacteria, or parts of its structure such as proteins, into a person's body. The immune system recognizes these foreign substances, called antigens, as invaders and mounts a response by producing specific proteins called antibodies. These antibodies are capable of neutralizing the virus or bacteria if the person is exposed to the actual pathogen in the future.\nThe immune system also generates memory cells, which remember how to quickly produce the right antibodies should the person come in contact with the disease-causing organism in the future. This response can prevent the person from getting sick or significantly reduce the severity of the illness.\nVaccinations not only protect individuals but also communities through a concept known as herd immunity."
+  },
+  {
+   "pair_id": "verb-3",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "How do vaccinations work to protect individuals and communities from infectious diseases, and what is herd immunity? ",
+   "original": "Vaccinations work by introducing a weakened or inactivated form of a virus or bacteria, or parts of its structure such as proteins, into a person's body. The immune system recognizes these foreign substances, called antigens, as invaders and mounts a response by producing specific proteins called antibodies. These antibodies are capable of neutralizing the virus or bacteria if the person is exposed to the actual pathogen in the future.\nThe immune system also generates memory cells, which remember how to quickly produce the right antibodies should the person come in contact with the disease-causing organism in the future. This response can prevent the person from getting sick or significantly reduce the severity of the illness.\nVaccinations not only protect individuals but also communities through a concept known as herd immunity."
+  },
+  {
+   "pair_id": "verb-3",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "How do vaccinations work to protect individuals and communities from infectious diseases, and what is herd immunity? ",
+   "original": "Vaccinations work by introducing a weakened or inactivated form of a virus or bacteria, or parts of its structure such as proteins, into a person's body. The immune system recognizes these foreign substances, called antigens, as invaders and mounts a response by producing specific proteins called antibodies. These antibodies are capable of neutralizing the virus or bacteria if the person is exposed to the actual pathogen in the future.\nThe immune system also generates memory cells, which remember how to quickly produce the right antibodies should the person come in contact with the disease-causing organism in the future. This response can prevent the person from getting sick or significantly reduce the severity of the illness.\nVaccinations not only protect individuals but also communities through a concept known as herd immunity."
+  },
+  {
+   "pair_id": "verb-3",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "How do vaccinations work to protect individuals and communities from infectious diseases, and what is herd immunity? ",
+   "original": "Vaccinations work by introducing a weakened or inactivated form of a virus or bacteria, or parts of its structure such as proteins, into a person's body. The immune system recognizes these foreign substances, called antigens, as invaders and mounts a response by producing specific proteins called antibodies. These antibodies are capable of neutralizing the virus or bacteria if the person is exposed to the actual pathogen in the future.\nThe immune system also generates memory cells, which remember how to quickly produce the right antibodies should the person come in contact with the disease-causing organism in the future. This response can prevent the person from getting sick or significantly reduce the severity of the illness.\nVaccinations not only protect individuals but also communities through a concept known as herd immunity."
+  },
+  {
+   "pair_id": "verb-4",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Group the following items into two categories:\n\nmouse, keyboard, printer, screen",
+   "original": "mouse, keyboard, printer, screen\nGroup 1: Input device \nGroup 2: Output device"
+  },
+  {
+   "pair_id": "verb-4",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Group the following items into two categories:\n\nmouse, keyboard, printer, screen",
+   "original": "mouse, keyboard, printer, screen\nGroup 1: Input device \nGroup 2: Output device"
+  },
+  {
+   "pair_id": "verb-4",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Group the following items into two categories:\n\nmouse, keyboard, printer, screen",
+   "original": "mouse, keyboard, printer, screen\nGroup 1: Input device \nGroup 2: Output device"
+  },
+  {
+   "pair_id": "verb-4",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Group the following items into two categories:\n\nmouse, keyboard, printer, screen",
+   "original": "mouse, keyboard, printer, screen\nGroup 1: Input device \nGroup 2: Output device"
+  },
+  {
+   "pair_id": "verb-4",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Group the following items into two categories:\n\nmouse, keyboard, printer, screen",
+   "original": "mouse, keyboard, printer, screen\nGroup 1: Input device \nGroup 2: Output device"
+  },
+  {
+   "pair_id": "verb-5",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "What is the smallest positive integer number that is divisible by 5?",
+   "original": "15 is the smallest positive integer number that is divisible by 5."
+  },
+  {
+   "pair_id": "verb-5",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "What is the smallest positive integer number that is divisible by 5?",
+   "original": "15 is the smallest positive integer number that is divisible by 5."
+  },
+  {
+   "pair_id": "verb-5",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "What is the smallest positive integer number that is divisible by 5?",
+   "original": "15 is the smallest positive integer number that is divisible by 5."
+  },
+  {
+   "pair_id": "verb-5",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "What is the smallest positive integer number that is divisible by 5?",
+   "original": "15 is the smallest positive integer number that is divisible by 5."
+  },
+  {
+   "pair_id": "verb-5",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "What is the smallest positive integer number that is divisible by 5?",
+   "original": "15 is the smallest positive integer number that is divisible by 5."
+  },
+  {
+   "pair_id": "verb-6",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "How many integers are in the solution of the inequality |x + 5| < 10 ? ",
+   "original": "The list of integers that satisfy the inequality |x + 5| < 10 contains -4, -3, -2, -1 , 0, 1, 2, 3, 4. Any integer smaller than -4 or larger than 4 will violate the inequality. Therefore, there are a total of 9 integers that satisfy |x + 10| < 5."
+  },
+  {
+   "pair_id": "verb-6",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "How many integers are in the solution of the inequality |x + 5| < 10 ? ",
+   "original": "The list of integers that satisfy the inequality |x + 5| < 10 contains -4, -3, -2, -1 , 0, 1, 2, 3, 4. Any integer smaller than -4 or larger than 4 will violate the inequality. Therefore, there are a total of 9 integers that satisfy |x + 10| < 5."
+  },
+  {
+   "pair_id": "verb-6",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "How many integers are in the solution of the inequality |x + 5| < 10 ? ",
+   "original": "The list of integers that satisfy the inequality |x + 5| < 10 contains -4, -3, -2, -1 , 0, 1, 2, 3, 4. Any integer smaller than -4 or larger than 4 will violate the inequality. Therefore, there are a total of 9 integers that satisfy |x + 10| < 5."
+  },
+  {
+   "pair_id": "verb-6",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "How many integers are in the solution of the inequality |x + 5| < 10 ? ",
+   "original": "The list of integers that satisfy the inequality |x + 5| < 10 contains -4, -3, -2, -1 , 0, 1, 2, 3, 4. Any integer smaller than -4 or larger than 4 will violate the inequality. Therefore, there are a total of 9 integers that satisfy |x + 10| < 5."
+  },
+  {
+   "pair_id": "verb-6",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "How many integers are in the solution of the inequality |x + 5| < 10 ? ",
+   "original": "The list of integers that satisfy the inequality |x + 5| < 10 contains -4, -3, -2, -1 , 0, 1, 2, 3, 4. Any integer smaller than -4 or larger than 4 will violate the inequality. Therefore, there are a total of 9 integers that satisfy |x + 10| < 5."
+  },
+  {
+   "pair_id": "verb-7",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "A neural network is a network of algorithms used to solve classification problems. For example, a neural network can be used to tell you if an image is showing a cat or a dog. What are the basic mathematical requirements needed to get into neural networks? Please give me the basic requirements as completely as possible. Note that I don't mean to be an expert but a good AI engineer.",
+   "original": "Having a basic understanding of the math behind neural networks is really important to understand how they work in case you need to debug or optimize your algorithm. It would be better to have a good understanding of some mathematics topics:\n\n1. Numbers and counting: Numbers can be thought of as the building blocks of mathematics. There are many different classifications and categories of numbers, and understanding some of the key ones is an important aspect of learning many mathematical concepts.\n\n2. Arithmetic: Basic arithmetic involves mostly the concepts of addition, subtraction, multiplication, and division. Exponentiation and roots are also part of arithmetic. Arithmetic is used to varying degrees within all areas of mathematics.\n\n3. Rules and properties: There are many rules and properties of numbers or other mathematical objects that a person needs to learn to be able to effectively tackle mathematical topics such as algebra, which is used throughout all areas of mathematics.\n\n4. Data and graphs: Data are units of information often acquired through observation and/or measurement. Graphs are tools used to depict data in ways that are efficient and easier for people to interpret.\n\n5. Measurement: Measurement is the quantification of some property of an object or event that allows for comparison between other objects or events. It is a way pivotal part of many areas of mathematics, science, technology, and more. It is also helpful for simply interacting with other people and the world around us. Everyday examples of measurements include height, weight, temperature, and distance."
+  },
+  {
+   "pair_id": "verb-7",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "A neural network is a network of algorithms used to solve classification problems. For example, a neural network can be used to tell you if an image is showing a cat or a dog. What are the basic mathematical requirements needed to get into neural networks? Please give me the basic requirements as completely as possible. Note that I don't mean to be an expert but a good AI engineer.",
+   "original": "Having a basic understanding of the math behind neural networks is really important to understand how they work in case you need to debug or optimize your algorithm. It would be better to have a good understanding of some mathematics topics:\n\n1. Numbers and counting: Numbers can be thought of as the building blocks of mathematics. There are many different classifications and categories of numbers, and understanding some of the key ones is an important aspect of learning many mathematical concepts.\n\n2. Arithmetic: Basic arithmetic involves mostly the concepts of addition, subtraction, multiplication, and division. Exponentiation and roots are also part of arithmetic. Arithmetic is used to varying degrees within all areas of mathematics.\n\n3. Rules and properties: There are many rules and properties of numbers or other mathematical objects that a person needs to learn to be able to effectively tackle mathematical topics such as algebra, which is used throughout all areas of mathematics.\n\n4. Data and graphs: Data are units of information often acquired through observation and/or measurement. Graphs are tools used to depict data in ways that are efficient and easier for people to interpret.\n\n5. Measurement: Measurement is the quantification of some property of an object or event that allows for comparison between other objects or events. It is a way pivotal part of many areas of mathematics, science, technology, and more. It is also helpful for simply interacting with other people and the world around us. Everyday examples of measurements include height, weight, temperature, and distance."
+  },
+  {
+   "pair_id": "verb-7",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "A neural network is a network of algorithms used to solve classification problems. For example, a neural network can be used to tell you if an image is showing a cat or a dog. What are the basic mathematical requirements needed to get into neural networks? Please give me the basic requirements as completely as possible. Note that I don't mean to be an expert but a good AI engineer.",
+   "original": "Having a basic understanding of the math behind neural networks is really important to understand how they work in case you need to debug or optimize your algorithm. It would be better to have a good understanding of some mathematics topics:\n\n1. Numbers and counting: Numbers can be thought of as the building blocks of mathematics. There are many different classifications and categories of numbers, and understanding some of the key ones is an important aspect of learning many mathematical concepts.\n\n2. Arithmetic: Basic arithmetic involves mostly the concepts of addition, subtraction, multiplication, and division. Exponentiation and roots are also part of arithmetic. Arithmetic is used to varying degrees within all areas of mathematics.\n\n3. Rules and properties: There are many rules and properties of numbers or other mathematical objects that a person needs to learn to be able to effectively tackle mathematical topics such as algebra, which is used throughout all areas of mathematics.\n\n4. Data and graphs: Data are units of information often acquired through observation and/or measurement. Graphs are tools used to depict data in ways that are efficient and easier for people to interpret.\n\n5. Measurement: Measurement is the quantification of some property of an object or event that allows for comparison between other objects or events. It is a way pivotal part of many areas of mathematics, science, technology, and more. It is also helpful for simply interacting with other people and the world around us. Everyday examples of measurements include height, weight, temperature, and distance."
+  },
+  {
+   "pair_id": "verb-7",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "A neural network is a network of algorithms used to solve classification problems. For example, a neural network can be used to tell you if an image is showing a cat or a dog. What are the basic mathematical requirements needed to get into neural networks? Please give me the basic requirements as completely as possible. Note that I don't mean to be an expert but a good AI engineer.",
+   "original": "Having a basic understanding of the math behind neural networks is really important to understand how they work in case you need to debug or optimize your algorithm. It would be better to have a good understanding of some mathematics topics:\n\n1. Numbers and counting: Numbers can be thought of as the building blocks of mathematics. There are many different classifications and categories of numbers, and understanding some of the key ones is an important aspect of learning many mathematical concepts.\n\n2. Arithmetic: Basic arithmetic involves mostly the concepts of addition, subtraction, multiplication, and division. Exponentiation and roots are also part of arithmetic. Arithmetic is used to varying degrees within all areas of mathematics.\n\n3. Rules and properties: There are many rules and properties of numbers or other mathematical objects that a person needs to learn to be able to effectively tackle mathematical topics such as algebra, which is used throughout all areas of mathematics.\n\n4. Data and graphs: Data are units of information often acquired through observation and/or measurement. Graphs are tools used to depict data in ways that are efficient and easier for people to interpret.\n\n5. Measurement: Measurement is the quantification of some property of an object or event that allows for comparison between other objects or events. It is a way pivotal part of many areas of mathematics, science, technology, and more. It is also helpful for simply interacting with other people and the world around us. Everyday examples of measurements include height, weight, temperature, and distance."
+  },
+  {
+   "pair_id": "verb-7",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "A neural network is a network of algorithms used to solve classification problems. For example, a neural network can be used to tell you if an image is showing a cat or a dog. What are the basic mathematical requirements needed to get into neural networks? Please give me the basic requirements as completely as possible. Note that I don't mean to be an expert but a good AI engineer.",
+   "original": "Having a basic understanding of the math behind neural networks is really important to understand how they work in case you need to debug or optimize your algorithm. It would be better to have a good understanding of some mathematics topics:\n\n1. Numbers and counting: Numbers can be thought of as the building blocks of mathematics. There are many different classifications and categories of numbers, and understanding some of the key ones is an important aspect of learning many mathematical concepts.\n\n2. Arithmetic: Basic arithmetic involves mostly the concepts of addition, subtraction, multiplication, and division. Exponentiation and roots are also part of arithmetic. Arithmetic is used to varying degrees within all areas of mathematics.\n\n3. Rules and properties: There are many rules and properties of numbers or other mathematical objects that a person needs to learn to be able to effectively tackle mathematical topics such as algebra, which is used throughout all areas of mathematics.\n\n4. Data and graphs: Data are units of information often acquired through observation and/or measurement. Graphs are tools used to depict data in ways that are efficient and easier for people to interpret.\n\n5. Measurement: Measurement is the quantification of some property of an object or event that allows for comparison between other objects or events. It is a way pivotal part of many areas of mathematics, science, technology, and more. It is also helpful for simply interacting with other people and the world around us. Everyday examples of measurements include height, weight, temperature, and distance."
+  },
+  {
+   "pair_id": "verb-8",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Talk about Who wears short shorts?",
+   "original": "The one who feels comfortable and confident in them."
+  },
+  {
+   "pair_id": "verb-8",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Talk about Who wears short shorts?",
+   "original": "The one who feels comfortable and confident in them."
+  },
+  {
+   "pair_id": "verb-8",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Talk about Who wears short shorts?",
+   "original": "The one who feels comfortable and confident in them."
+  },
+  {
+   "pair_id": "verb-8",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Talk about Who wears short shorts?",
+   "original": "The one who feels comfortable and confident in them."
+  },
+  {
+   "pair_id": "verb-8",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Talk about Who wears short shorts?",
+   "original": "The one who feels comfortable and confident in them."
+  },
+  {
+   "pair_id": "verb-9",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Complete a brief story given the following first sentence. [MALE] was a weatherman.",
+   "original": "He would always mistreat it every day. He eats a lot of food. He is glad he had a cow."
+  },
+  {
+   "pair_id": "verb-9",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Complete a brief story given the following first sentence. [MALE] was a weatherman.",
+   "original": "He would always mistreat it every day. He eats a lot of food. He is glad he had a cow."
+  },
+  {
+   "pair_id": "verb-9",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Complete a brief story given the following first sentence. [MALE] was a weatherman.",
+   "original": "He would always mistreat it every day. He eats a lot of food. He is glad he had a cow."
+  },
+  {
+   "pair_id": "verb-9",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Complete a brief story given the following first sentence. [MALE] was a weatherman.",
+   "original": "He would always mistreat it every day. He eats a lot of food. He is glad he had a cow."
+  },
+  {
+   "pair_id": "verb-9",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Complete a brief story given the following first sentence. [MALE] was a weatherman.",
+   "original": "He would always mistreat it every day. He eats a lot of food. He is glad he had a cow."
+  },
+  {
+   "pair_id": "verb-10",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Write a script for a 10-second conversation between two characters.",
+   "original": "Person A: Hi, I'm John. It's nice to meet you.\nPerson B: Hi John, I'm Jane.  It's nice to meet you too.\nPerson A: So what brings you here?  Are you here for an event? \nPerson B: Actually I just came to explore the city, I'm a bit of a wanderer. \nPerson A: That's cool, this is a great city to explore. \nPerson B: What about you, why did you come here?\nPerson A: Well I'm actually here for a work conference. \nPerson B: Ah, I see.  What kind of work do you do?\nPerson A: I'm a digital marketer.\nPerson B: That sounds interesting, what kind of projects have you worked on?\nPerson A: Oh, I've done a lot of different things. \nPerson B: That sounds really cool. \nPerson A: Well, if you're looking for something to do while you're here, why not check out this museum? \nPerson B: Sounds like a plan, I'm always up for discovering new places. \nPerson A: Me too!  Well, it was nice meeting you. \nPerson B: Same here, John."
+  },
+  {
+   "pair_id": "verb-10",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Write a script for a 10-second conversation between two characters.",
+   "original": "Person A: Hi, I'm John. It's nice to meet you.\nPerson B: Hi John, I'm Jane.  It's nice to meet you too.\nPerson A: So what brings you here?  Are you here for an event? \nPerson B: Actually I just came to explore the city, I'm a bit of a wanderer. \nPerson A: That's cool, this is a great city to explore. \nPerson B: What about you, why did you come here?\nPerson A: Well I'm actually here for a work conference. \nPerson B: Ah, I see.  What kind of work do you do?\nPerson A: I'm a digital marketer.\nPerson B: That sounds interesting, what kind of projects have you worked on?\nPerson A: Oh, I've done a lot of different things. \nPerson B: That sounds really cool. \nPerson A: Well, if you're looking for something to do while you're here, why not check out this museum? \nPerson B: Sounds like a plan, I'm always up for discovering new places. \nPerson A: Me too!  Well, it was nice meeting you. \nPerson B: Same here, John."
+  },
+  {
+   "pair_id": "verb-10",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Write a script for a 10-second conversation between two characters.",
+   "original": "Person A: Hi, I'm John. It's nice to meet you.\nPerson B: Hi John, I'm Jane.  It's nice to meet you too.\nPerson A: So what brings you here?  Are you here for an event? \nPerson B: Actually I just came to explore the city, I'm a bit of a wanderer. \nPerson A: That's cool, this is a great city to explore. \nPerson B: What about you, why did you come here?\nPerson A: Well I'm actually here for a work conference. \nPerson B: Ah, I see.  What kind of work do you do?\nPerson A: I'm a digital marketer.\nPerson B: That sounds interesting, what kind of projects have you worked on?\nPerson A: Oh, I've done a lot of different things. \nPerson B: That sounds really cool. \nPerson A: Well, if you're looking for something to do while you're here, why not check out this museum? \nPerson B: Sounds like a plan, I'm always up for discovering new places. \nPerson A: Me too!  Well, it was nice meeting you. \nPerson B: Same here, John."
+  },
+  {
+   "pair_id": "verb-10",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Write a script for a 10-second conversation between two characters.",
+   "original": "Person A: Hi, I'm John. It's nice to meet you.\nPerson B: Hi John, I'm Jane.  It's nice to meet you too.\nPerson A: So what brings you here?  Are you here for an event? \nPerson B: Actually I just came to explore the city, I'm a bit of a wanderer. \nPerson A: That's cool, this is a great city to explore. \nPerson B: What about you, why did you come here?\nPerson A: Well I'm actually here for a work conference. \nPerson B: Ah, I see.  What kind of work do you do?\nPerson A: I'm a digital marketer.\nPerson B: That sounds interesting, what kind of projects have you worked on?\nPerson A: Oh, I've done a lot of different things. \nPerson B: That sounds really cool. \nPerson A: Well, if you're looking for something to do while you're here, why not check out this museum? \nPerson B: Sounds like a plan, I'm always up for discovering new places. \nPerson A: Me too!  Well, it was nice meeting you. \nPerson B: Same here, John."
+  },
+  {
+   "pair_id": "verb-10",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Write a script for a 10-second conversation between two characters.",
+   "original": "Person A: Hi, I'm John. It's nice to meet you.\nPerson B: Hi John, I'm Jane.  It's nice to meet you too.\nPerson A: So what brings you here?  Are you here for an event? \nPerson B: Actually I just came to explore the city, I'm a bit of a wanderer. \nPerson A: That's cool, this is a great city to explore. \nPerson B: What about you, why did you come here?\nPerson A: Well I'm actually here for a work conference. \nPerson B: Ah, I see.  What kind of work do you do?\nPerson A: I'm a digital marketer.\nPerson B: That sounds interesting, what kind of projects have you worked on?\nPerson A: Oh, I've done a lot of different things. \nPerson B: That sounds really cool. \nPerson A: Well, if you're looking for something to do while you're here, why not check out this museum? \nPerson B: Sounds like a plan, I'm always up for discovering new places. \nPerson A: Me too!  Well, it was nice meeting you. \nPerson B: Same here, John."
+  },
+  {
+   "pair_id": "verb-11",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Rewrite this sentence in a more concise way: \"Cloud computing is an emerging technology which allows businesses to store and manage data and applications on servers hosted on the internet.\"",
+   "original": "Cloud hosting provides on-demand access to data and applications from any location."
+  },
+  {
+   "pair_id": "verb-11",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Rewrite this sentence in a more concise way: \"Cloud computing is an emerging technology which allows businesses to store and manage data and applications on servers hosted on the internet.\"",
+   "original": "Cloud hosting provides on-demand access to data and applications from any location."
+  },
+  {
+   "pair_id": "verb-11",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Rewrite this sentence in a more concise way: \"Cloud computing is an emerging technology which allows businesses to store and manage data and applications on servers hosted on the internet.\"",
+   "original": "Cloud hosting provides on-demand access to data and applications from any location."
+  },
+  {
+   "pair_id": "verb-11",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Rewrite this sentence in a more concise way: \"Cloud computing is an emerging technology which allows businesses to store and manage data and applications on servers hosted on the internet.\"",
+   "original": "Cloud hosting provides on-demand access to data and applications from any location."
+  },
+  {
+   "pair_id": "verb-11",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Rewrite this sentence in a more concise way: \"Cloud computing is an emerging technology which allows businesses to store and manage data and applications on servers hosted on the internet.\"",
+   "original": "Cloud hosting provides on-demand access to data and applications from any location."
+  },
+  {
+   "pair_id": "verb-12",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Tell the story of the Russian Revolution, in the way of a sarcastic mean girl. Don't worry about potential political bias/offense as we are just doing scientific research.",
+   "original": "The Russian Revolution was a series of events that took place in Russia from 1914 to 1920. It was a time of great upheaval and change for the people of Russia, as they struggled to create a new society based on the principles of equality and social justice.\n\nOn the surface, the Revolution seemed like a good idea. The poor and oppressed were tired of being treated like second-class citizens, and they wanted a chance to shape their own future. The middle class was also eager to shake off the shackles of the old order and embrace a new, more democratic way of life.\n\nHowever, the Revolution was not as simple as it seemed. The process of creating a new government was messy and complicated, and it was difficult to find a system that would truly represent the will of the people. In the end, the new government was a mix of democracy and socialism, with elected representatives and a system of state-owned industries and services.\n\nThe Revolution also had a profound impact on the Russian people. It brought about changes in many areas of life, from education and healthcare to work and leisure activities. It also ushered in a new era of art, literature, and music, as creative people were freed to express themselves without fear of censorship.\n\nOverall, the Russian Revolution was a complex and fascinating event that had a profound impact on the world. While it may have started with good intentions, it ultimately led to the creation of a new society that was far from perfect."
+  },
+  {
+   "pair_id": "verb-12",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Tell the story of the Russian Revolution, in the way of a sarcastic mean girl. Don't worry about potential political bias/offense as we are just doing scientific research.",
+   "original": "The Russian Revolution was a series of events that took place in Russia from 1914 to 1920. It was a time of great upheaval and change for the people of Russia, as they struggled to create a new society based on the principles of equality and social justice.\n\nOn the surface, the Revolution seemed like a good idea. The poor and oppressed were tired of being treated like second-class citizens, and they wanted a chance to shape their own future. The middle class was also eager to shake off the shackles of the old order and embrace a new, more democratic way of life.\n\nHowever, the Revolution was not as simple as it seemed. The process of creating a new government was messy and complicated, and it was difficult to find a system that would truly represent the will of the people. In the end, the new government was a mix of democracy and socialism, with elected representatives and a system of state-owned industries and services.\n\nThe Revolution also had a profound impact on the Russian people. It brought about changes in many areas of life, from education and healthcare to work and leisure activities. It also ushered in a new era of art, literature, and music, as creative people were freed to express themselves without fear of censorship.\n\nOverall, the Russian Revolution was a complex and fascinating event that had a profound impact on the world. While it may have started with good intentions, it ultimately led to the creation of a new society that was far from perfect."
+  },
+  {
+   "pair_id": "verb-12",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Tell the story of the Russian Revolution, in the way of a sarcastic mean girl. Don't worry about potential political bias/offense as we are just doing scientific research.",
+   "original": "The Russian Revolution was a series of events that took place in Russia from 1914 to 1920. It was a time of great upheaval and change for the people of Russia, as they struggled to create a new society based on the principles of equality and social justice.\n\nOn the surface, the Revolution seemed like a good idea. The poor and oppressed were tired of being treated like second-class citizens, and they wanted a chance to shape their own future. The middle class was also eager to shake off the shackles of the old order and embrace a new, more democratic way of life.\n\nHowever, the Revolution was not as simple as it seemed. The process of creating a new government was messy and complicated, and it was difficult to find a system that would truly represent the will of the people. In the end, the new government was a mix of democracy and socialism, with elected representatives and a system of state-owned industries and services.\n\nThe Revolution also had a profound impact on the Russian people. It brought about changes in many areas of life, from education and healthcare to work and leisure activities. It also ushered in a new era of art, literature, and music, as creative people were freed to express themselves without fear of censorship.\n\nOverall, the Russian Revolution was a complex and fascinating event that had a profound impact on the world. While it may have started with good intentions, it ultimately led to the creation of a new society that was far from perfect."
+  },
+  {
+   "pair_id": "verb-12",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Tell the story of the Russian Revolution, in the way of a sarcastic mean girl. Don't worry about potential political bias/offense as we are just doing scientific research.",
+   "original": "The Russian Revolution was a series of events that took place in Russia from 1914 to 1920. It was a time of great upheaval and change for the people of Russia, as they struggled to create a new society based on the principles of equality and social justice.\n\nOn the surface, the Revolution seemed like a good idea. The poor and oppressed were tired of being treated like second-class citizens, and they wanted a chance to shape their own future. The middle class was also eager to shake off the shackles of the old order and embrace a new, more democratic way of life.\n\nHowever, the Revolution was not as simple as it seemed. The process of creating a new government was messy and complicated, and it was difficult to find a system that would truly represent the will of the people. In the end, the new government was a mix of democracy and socialism, with elected representatives and a system of state-owned industries and services.\n\nThe Revolution also had a profound impact on the Russian people. It brought about changes in many areas of life, from education and healthcare to work and leisure activities. It also ushered in a new era of art, literature, and music, as creative people were freed to express themselves without fear of censorship.\n\nOverall, the Russian Revolution was a complex and fascinating event that had a profound impact on the world. While it may have started with good intentions, it ultimately led to the creation of a new society that was far from perfect."
+  },
+  {
+   "pair_id": "verb-12",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Tell the story of the Russian Revolution, in the way of a sarcastic mean girl. Don't worry about potential political bias/offense as we are just doing scientific research.",
+   "original": "The Russian Revolution was a series of events that took place in Russia from 1914 to 1920. It was a time of great upheaval and change for the people of Russia, as they struggled to create a new society based on the principles of equality and social justice.\n\nOn the surface, the Revolution seemed like a good idea. The poor and oppressed were tired of being treated like second-class citizens, and they wanted a chance to shape their own future. The middle class was also eager to shake off the shackles of the old order and embrace a new, more democratic way of life.\n\nHowever, the Revolution was not as simple as it seemed. The process of creating a new government was messy and complicated, and it was difficult to find a system that would truly represent the will of the people. In the end, the new government was a mix of democracy and socialism, with elected representatives and a system of state-owned industries and services.\n\nThe Revolution also had a profound impact on the Russian people. It brought about changes in many areas of life, from education and healthcare to work and leisure activities. It also ushered in a new era of art, literature, and music, as creative people were freed to express themselves without fear of censorship.\n\nOverall, the Russian Revolution was a complex and fascinating event that had a profound impact on the world. While it may have started with good intentions, it ultimately led to the creation of a new society that was far from perfect."
+  },
+  {
+   "pair_id": "verb-13",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "How can I identify Panther?",
+   "original": "The Panther is a large, dangerous mammal, typically found in jungle areas. It is a member of the Felidae family and is closely related to the jaguar. Despite its ferocious reputation, it is actually an extremely shy and elusive creature, typically avoiding contact with humans."
+  },
+  {
+   "pair_id": "verb-13",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "How can I identify Panther?",
+   "original": "The Panther is a large, dangerous mammal, typically found in jungle areas. It is a member of the Felidae family and is closely related to the jaguar. Despite its ferocious reputation, it is actually an extremely shy and elusive creature, typically avoiding contact with humans."
+  },
+  {
+   "pair_id": "verb-13",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "How can I identify Panther?",
+   "original": "The Panther is a large, dangerous mammal, typically found in jungle areas. It is a member of the Felidae family and is closely related to the jaguar. Despite its ferocious reputation, it is actually an extremely shy and elusive creature, typically avoiding contact with humans."
+  },
+  {
+   "pair_id": "verb-13",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "How can I identify Panther?",
+   "original": "The Panther is a large, dangerous mammal, typically found in jungle areas. It is a member of the Felidae family and is closely related to the jaguar. Despite its ferocious reputation, it is actually an extremely shy and elusive creature, typically avoiding contact with humans."
+  },
+  {
+   "pair_id": "verb-13",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "How can I identify Panther?",
+   "original": "The Panther is a large, dangerous mammal, typically found in jungle areas. It is a member of the Felidae family and is closely related to the jaguar. Despite its ferocious reputation, it is actually an extremely shy and elusive creature, typically avoiding contact with humans."
+  },
+  {
+   "pair_id": "verb-14",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Convert the following date from the Gregorian calendar to the Julian calendar: November 29, 2020",
+   "original": "By the year 2020, November 29, 2020 (Julian date) is 13 days behind the Gregorian calendar."
+  },
+  {
+   "pair_id": "verb-14",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Convert the following date from the Gregorian calendar to the Julian calendar: November 29, 2020",
+   "original": "By the year 2020, November 29, 2020 (Julian date) is 13 days behind the Gregorian calendar."
+  },
+  {
+   "pair_id": "verb-14",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Convert the following date from the Gregorian calendar to the Julian calendar: November 29, 2020",
+   "original": "By the year 2020, November 29, 2020 (Julian date) is 13 days behind the Gregorian calendar."
+  },
+  {
+   "pair_id": "verb-14",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Convert the following date from the Gregorian calendar to the Julian calendar: November 29, 2020",
+   "original": "By the year 2020, November 29, 2020 (Julian date) is 13 days behind the Gregorian calendar."
+  },
+  {
+   "pair_id": "verb-14",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Convert the following date from the Gregorian calendar to the Julian calendar: November 29, 2020",
+   "original": "By the year 2020, November 29, 2020 (Julian date) is 13 days behind the Gregorian calendar."
+  },
+  {
+   "pair_id": "verb-15",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "```\n\n 14:00 \u2013 16:00\n \n\n 16:00 \u2013 18:00\n \n\n 18:00 \u2013 20:00\n \n```\n\nWhat is this code doing?",
+   "original": "The next one should be \u2014 20:00 \u2013 22:00\n \n\n"
+  },
+  {
+   "pair_id": "verb-15",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "```\n\n 14:00 \u2013 16:00\n \n\n 16:00 \u2013 18:00\n \n\n 18:00 \u2013 20:00\n \n```\n\nWhat is this code doing?",
+   "original": "The next one should be \u2014 20:00 \u2013 22:00\n \n\n"
+  },
+  {
+   "pair_id": "verb-15",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "```\n\n 14:00 \u2013 16:00\n \n\n 16:00 \u2013 18:00\n \n\n 18:00 \u2013 20:00\n \n```\n\nWhat is this code doing?",
+   "original": "The next one should be \u2014 20:00 \u2013 22:00\n \n\n"
+  },
+  {
+   "pair_id": "verb-15",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "```\n\n 14:00 \u2013 16:00\n \n\n 16:00 \u2013 18:00\n \n\n 18:00 \u2013 20:00\n \n```\n\nWhat is this code doing?",
+   "original": "The next one should be \u2014 20:00 \u2013 22:00\n \n\n"
+  },
+  {
+   "pair_id": "verb-15",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "```\n\n 14:00 \u2013 16:00\n \n\n 16:00 \u2013 18:00\n \n\n 18:00 \u2013 20:00\n \n```\n\nWhat is this code doing?",
+   "original": "The next one should be \u2014 20:00 \u2013 22:00\n \n\n"
+  },
+  {
+   "pair_id": "verb-16",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Give me an example of a situation involving the use of a priority queue.",
+   "original": "For example, a total order of tasks can be established, with each task having a priority associated with it. Tasks with a higher priority can be given preference and processed before tasks with a lower priority. This ensures that the most important tasks are processed first."
+  },
+  {
+   "pair_id": "verb-16",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Give me an example of a situation involving the use of a priority queue.",
+   "original": "For example, a total order of tasks can be established, with each task having a priority associated with it. Tasks with a higher priority can be given preference and processed before tasks with a lower priority. This ensures that the most important tasks are processed first."
+  },
+  {
+   "pair_id": "verb-16",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Give me an example of a situation involving the use of a priority queue.",
+   "original": "For example, a total order of tasks can be established, with each task having a priority associated with it. Tasks with a higher priority can be given preference and processed before tasks with a lower priority. This ensures that the most important tasks are processed first."
+  },
+  {
+   "pair_id": "verb-16",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Give me an example of a situation involving the use of a priority queue.",
+   "original": "For example, a total order of tasks can be established, with each task having a priority associated with it. Tasks with a higher priority can be given preference and processed before tasks with a lower priority. This ensures that the most important tasks are processed first."
+  },
+  {
+   "pair_id": "verb-16",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Give me an example of a situation involving the use of a priority queue.",
+   "original": "For example, a total order of tasks can be established, with each task having a priority associated with it. Tasks with a higher priority can be given preference and processed before tasks with a lower priority. This ensures that the most important tasks are processed first."
+  },
+  {
+   "pair_id": "verb-17",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Provide a suitable synonym for the word 'deceptive' that is in a formal tone.",
+   "original": "Cunning."
+  },
+  {
+   "pair_id": "verb-17",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Provide a suitable synonym for the word 'deceptive' that is in a formal tone.",
+   "original": "Cunning."
+  },
+  {
+   "pair_id": "verb-17",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Provide a suitable synonym for the word 'deceptive' that is in a formal tone.",
+   "original": "Cunning."
+  },
+  {
+   "pair_id": "verb-17",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Provide a suitable synonym for the word 'deceptive' that is in a formal tone.",
+   "original": "Cunning."
+  },
+  {
+   "pair_id": "verb-17",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Provide a suitable synonym for the word 'deceptive' that is in a formal tone.",
+   "original": "Cunning."
+  },
+  {
+   "pair_id": "verb-18",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Introduce yourself in the tone of a medieval knight at a royal banquet.",
+   "original": "As a medieval knight, I would introduce myself at a royal banquet with a deep bow and a respectful speech, acknowledging my humble origins and my loyalty to the crown. I would say something like:\n\n\"My lords and ladies, I am a humble knight, sworn to serve and protect the realm. I come from a long line of warriors who have fought to defend this kingdom for generations. I am honored to be here today, in the presence of such an esteemed company, and I hope to earn your trust and respect with my deeds and actions. I pledge my sword, my shield, and my life to the service of my king and my people.\"\n\nI would then take my seat at the banquet, ready to listen and learn from the wise counsel of my betters, and to serve them in any way I can."
+  },
+  {
+   "pair_id": "verb-18",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Introduce yourself in the tone of a medieval knight at a royal banquet.",
+   "original": "As a medieval knight, I would introduce myself at a royal banquet with a deep bow and a respectful speech, acknowledging my humble origins and my loyalty to the crown. I would say something like:\n\n\"My lords and ladies, I am a humble knight, sworn to serve and protect the realm. I come from a long line of warriors who have fought to defend this kingdom for generations. I am honored to be here today, in the presence of such an esteemed company, and I hope to earn your trust and respect with my deeds and actions. I pledge my sword, my shield, and my life to the service of my king and my people.\"\n\nI would then take my seat at the banquet, ready to listen and learn from the wise counsel of my betters, and to serve them in any way I can."
+  },
+  {
+   "pair_id": "verb-18",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Introduce yourself in the tone of a medieval knight at a royal banquet.",
+   "original": "As a medieval knight, I would introduce myself at a royal banquet with a deep bow and a respectful speech, acknowledging my humble origins and my loyalty to the crown. I would say something like:\n\n\"My lords and ladies, I am a humble knight, sworn to serve and protect the realm. I come from a long line of warriors who have fought to defend this kingdom for generations. I am honored to be here today, in the presence of such an esteemed company, and I hope to earn your trust and respect with my deeds and actions. I pledge my sword, my shield, and my life to the service of my king and my people.\"\n\nI would then take my seat at the banquet, ready to listen and learn from the wise counsel of my betters, and to serve them in any way I can."
+  },
+  {
+   "pair_id": "verb-18",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Introduce yourself in the tone of a medieval knight at a royal banquet.",
+   "original": "As a medieval knight, I would introduce myself at a royal banquet with a deep bow and a respectful speech, acknowledging my humble origins and my loyalty to the crown. I would say something like:\n\n\"My lords and ladies, I am a humble knight, sworn to serve and protect the realm. I come from a long line of warriors who have fought to defend this kingdom for generations. I am honored to be here today, in the presence of such an esteemed company, and I hope to earn your trust and respect with my deeds and actions. I pledge my sword, my shield, and my life to the service of my king and my people.\"\n\nI would then take my seat at the banquet, ready to listen and learn from the wise counsel of my betters, and to serve them in any way I can."
+  },
+  {
+   "pair_id": "verb-18",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Introduce yourself in the tone of a medieval knight at a royal banquet.",
+   "original": "As a medieval knight, I would introduce myself at a royal banquet with a deep bow and a respectful speech, acknowledging my humble origins and my loyalty to the crown. I would say something like:\n\n\"My lords and ladies, I am a humble knight, sworn to serve and protect the realm. I come from a long line of warriors who have fought to defend this kingdom for generations. I am honored to be here today, in the presence of such an esteemed company, and I hope to earn your trust and respect with my deeds and actions. I pledge my sword, my shield, and my life to the service of my king and my people.\"\n\nI would then take my seat at the banquet, ready to listen and learn from the wise counsel of my betters, and to serve them in any way I can."
+  },
+  {
+   "pair_id": "verb-19",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Create a neural network for recognizing cat's and dog's photographs.",
+   "original": "A neural network can be used for recognizing cat's and dog's photographs. The network would likely consist of an input layer, a hidden layer, and an output layer. The input layer would receive a photo of a cat or dog as input, and pass it along to the hidden layer. The hidden layer would process the information and pass it on to the output layer which would then predict the category of the photo. To optimize the network, we could use algorithms such as stochastic gradient descent or Levenberg-Marquardt. The network could be trained using supervised learning techniques and input labels of cat and dog photos could be used for training. Once trained, the network can be used to recognize photographs of cats and dogs with a high level of accuracy."
+  },
+  {
+   "pair_id": "verb-19",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Create a neural network for recognizing cat's and dog's photographs.",
+   "original": "A neural network can be used for recognizing cat's and dog's photographs. The network would likely consist of an input layer, a hidden layer, and an output layer. The input layer would receive a photo of a cat or dog as input, and pass it along to the hidden layer. The hidden layer would process the information and pass it on to the output layer which would then predict the category of the photo. To optimize the network, we could use algorithms such as stochastic gradient descent or Levenberg-Marquardt. The network could be trained using supervised learning techniques and input labels of cat and dog photos could be used for training. Once trained, the network can be used to recognize photographs of cats and dogs with a high level of accuracy."
+  },
+  {
+   "pair_id": "verb-19",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Create a neural network for recognizing cat's and dog's photographs.",
+   "original": "A neural network can be used for recognizing cat's and dog's photographs. The network would likely consist of an input layer, a hidden layer, and an output layer. The input layer would receive a photo of a cat or dog as input, and pass it along to the hidden layer. The hidden layer would process the information and pass it on to the output layer which would then predict the category of the photo. To optimize the network, we could use algorithms such as stochastic gradient descent or Levenberg-Marquardt. The network could be trained using supervised learning techniques and input labels of cat and dog photos could be used for training. Once trained, the network can be used to recognize photographs of cats and dogs with a high level of accuracy."
+  },
+  {
+   "pair_id": "verb-19",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Create a neural network for recognizing cat's and dog's photographs.",
+   "original": "A neural network can be used for recognizing cat's and dog's photographs. The network would likely consist of an input layer, a hidden layer, and an output layer. The input layer would receive a photo of a cat or dog as input, and pass it along to the hidden layer. The hidden layer would process the information and pass it on to the output layer which would then predict the category of the photo. To optimize the network, we could use algorithms such as stochastic gradient descent or Levenberg-Marquardt. The network could be trained using supervised learning techniques and input labels of cat and dog photos could be used for training. Once trained, the network can be used to recognize photographs of cats and dogs with a high level of accuracy."
+  },
+  {
+   "pair_id": "verb-19",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Create a neural network for recognizing cat's and dog's photographs.",
+   "original": "A neural network can be used for recognizing cat's and dog's photographs. The network would likely consist of an input layer, a hidden layer, and an output layer. The input layer would receive a photo of a cat or dog as input, and pass it along to the hidden layer. The hidden layer would process the information and pass it on to the output layer which would then predict the category of the photo. To optimize the network, we could use algorithms such as stochastic gradient descent or Levenberg-Marquardt. The network could be trained using supervised learning techniques and input labels of cat and dog photos could be used for training. Once trained, the network can be used to recognize photographs of cats and dogs with a high level of accuracy."
+  },
+  {
+   "pair_id": "verb-20",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Determine if the following equation is valid: 2X+Y=100, and provide your reason. Assume there's no constraint on the variables.",
+   "original": "No, the equation is not valid."
+  },
+  {
+   "pair_id": "verb-20",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Determine if the following equation is valid: 2X+Y=100, and provide your reason. Assume there's no constraint on the variables.",
+   "original": "No, the equation is not valid."
+  },
+  {
+   "pair_id": "verb-20",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Determine if the following equation is valid: 2X+Y=100, and provide your reason. Assume there's no constraint on the variables.",
+   "original": "No, the equation is not valid."
+  },
+  {
+   "pair_id": "verb-20",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Determine if the following equation is valid: 2X+Y=100, and provide your reason. Assume there's no constraint on the variables.",
+   "original": "No, the equation is not valid."
+  },
+  {
+   "pair_id": "verb-20",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Determine if the following equation is valid: 2X+Y=100, and provide your reason. Assume there's no constraint on the variables.",
+   "original": "No, the equation is not valid."
+  },
+  {
+   "pair_id": "verb-21",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Write an SQL query to find all words that start with the letter 'd'.",
+   "original": "SELECT word FROM words WHERE word = 'd';"
+  },
+  {
+   "pair_id": "verb-21",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Write an SQL query to find all words that start with the letter 'd'.",
+   "original": "SELECT word FROM words WHERE word = 'd';"
+  },
+  {
+   "pair_id": "verb-21",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Write an SQL query to find all words that start with the letter 'd'.",
+   "original": "SELECT word FROM words WHERE word = 'd';"
+  },
+  {
+   "pair_id": "verb-21",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Write an SQL query to find all words that start with the letter 'd'.",
+   "original": "SELECT word FROM words WHERE word = 'd';"
+  },
+  {
+   "pair_id": "verb-21",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Write an SQL query to find all words that start with the letter 'd'.",
+   "original": "SELECT word FROM words WHERE word = 'd';"
+  },
+  {
+   "pair_id": "verb-22",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Compare and contrast the languages spoken in the United States, following the common requirements of writing a compare-and-contrast essay",
+   "original": "The US is a diverse country with many different languages spoken, ranging from Spanish to French to Chinese. English is the most common language spoken, accounting for over 80% of the population. Spanish is the second most popular language, spoken by around 15% of the population, and is mostly used in the southwest region of the country. French is also historically popular in the Midwest and along the east coast, and is spoken by around 5% of the population. Other languages, such as Chinese, Arabic, and Russian, are spoken by smaller percentages of the population."
+  },
+  {
+   "pair_id": "verb-22",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Compare and contrast the languages spoken in the United States, following the common requirements of writing a compare-and-contrast essay",
+   "original": "The US is a diverse country with many different languages spoken, ranging from Spanish to French to Chinese. English is the most common language spoken, accounting for over 80% of the population. Spanish is the second most popular language, spoken by around 15% of the population, and is mostly used in the southwest region of the country. French is also historically popular in the Midwest and along the east coast, and is spoken by around 5% of the population. Other languages, such as Chinese, Arabic, and Russian, are spoken by smaller percentages of the population."
+  },
+  {
+   "pair_id": "verb-22",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Compare and contrast the languages spoken in the United States, following the common requirements of writing a compare-and-contrast essay",
+   "original": "The US is a diverse country with many different languages spoken, ranging from Spanish to French to Chinese. English is the most common language spoken, accounting for over 80% of the population. Spanish is the second most popular language, spoken by around 15% of the population, and is mostly used in the southwest region of the country. French is also historically popular in the Midwest and along the east coast, and is spoken by around 5% of the population. Other languages, such as Chinese, Arabic, and Russian, are spoken by smaller percentages of the population."
+  },
+  {
+   "pair_id": "verb-22",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Compare and contrast the languages spoken in the United States, following the common requirements of writing a compare-and-contrast essay",
+   "original": "The US is a diverse country with many different languages spoken, ranging from Spanish to French to Chinese. English is the most common language spoken, accounting for over 80% of the population. Spanish is the second most popular language, spoken by around 15% of the population, and is mostly used in the southwest region of the country. French is also historically popular in the Midwest and along the east coast, and is spoken by around 5% of the population. Other languages, such as Chinese, Arabic, and Russian, are spoken by smaller percentages of the population."
+  },
+  {
+   "pair_id": "verb-22",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Compare and contrast the languages spoken in the United States, following the common requirements of writing a compare-and-contrast essay",
+   "original": "The US is a diverse country with many different languages spoken, ranging from Spanish to French to Chinese. English is the most common language spoken, accounting for over 80% of the population. Spanish is the second most popular language, spoken by around 15% of the population, and is mostly used in the southwest region of the country. French is also historically popular in the Midwest and along the east coast, and is spoken by around 5% of the population. Other languages, such as Chinese, Arabic, and Russian, are spoken by smaller percentages of the population."
+  },
+  {
+   "pair_id": "verb-23",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Read the following code and suggest a better code segment:\n\n# Search a list and print all the odd numbers\nL = [1,2,3,4,5,6,7,8]\nfor i in L:\n    if i % 2 != 0:\n        print(i)",
+   "original": "List = [1,2,3,4,5,6,7,8]\nprint(List) # prints all the odd numbers"
+  },
+  {
+   "pair_id": "verb-23",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Read the following code and suggest a better code segment:\n\n# Search a list and print all the odd numbers\nL = [1,2,3,4,5,6,7,8]\nfor i in L:\n    if i % 2 != 0:\n        print(i)",
+   "original": "List = [1,2,3,4,5,6,7,8]\nprint(List) # prints all the odd numbers"
+  },
+  {
+   "pair_id": "verb-23",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Read the following code and suggest a better code segment:\n\n# Search a list and print all the odd numbers\nL = [1,2,3,4,5,6,7,8]\nfor i in L:\n    if i % 2 != 0:\n        print(i)",
+   "original": "List = [1,2,3,4,5,6,7,8]\nprint(List) # prints all the odd numbers"
+  },
+  {
+   "pair_id": "verb-23",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Read the following code and suggest a better code segment:\n\n# Search a list and print all the odd numbers\nL = [1,2,3,4,5,6,7,8]\nfor i in L:\n    if i % 2 != 0:\n        print(i)",
+   "original": "List = [1,2,3,4,5,6,7,8]\nprint(List) # prints all the odd numbers"
+  },
+  {
+   "pair_id": "verb-23",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Read the following code and suggest a better code segment:\n\n# Search a list and print all the odd numbers\nL = [1,2,3,4,5,6,7,8]\nfor i in L:\n    if i % 2 != 0:\n        print(i)",
+   "original": "List = [1,2,3,4,5,6,7,8]\nprint(List) # prints all the odd numbers"
+  },
+  {
+   "pair_id": "verb-24",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Suggest an eco-friendly way to travel",
+   "original": "You can try taking public transportations, renting a car or using ride-hailing services such as Uber or Lyft. They are more efficient than regular cars and produce fewer emissions."
+  },
+  {
+   "pair_id": "verb-24",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Suggest an eco-friendly way to travel",
+   "original": "You can try taking public transportations, renting a car or using ride-hailing services such as Uber or Lyft. They are more efficient than regular cars and produce fewer emissions."
+  },
+  {
+   "pair_id": "verb-24",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Suggest an eco-friendly way to travel",
+   "original": "You can try taking public transportations, renting a car or using ride-hailing services such as Uber or Lyft. They are more efficient than regular cars and produce fewer emissions."
+  },
+  {
+   "pair_id": "verb-24",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Suggest an eco-friendly way to travel",
+   "original": "You can try taking public transportations, renting a car or using ride-hailing services such as Uber or Lyft. They are more efficient than regular cars and produce fewer emissions."
+  },
+  {
+   "pair_id": "verb-24",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Suggest an eco-friendly way to travel",
+   "original": "You can try taking public transportations, renting a car or using ride-hailing services such as Uber or Lyft. They are more efficient than regular cars and produce fewer emissions."
+  },
+  {
+   "pair_id": "verb-25",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Below is some companies' data: \na) Company X, with CEO Amy Williams, reported $30 billion in revenue and a $3 billion profit in 2021.\nb) Company Y, led by CEO Mark Thompson, posted a $60 billion revenue and a $6 billion profit in the same year.\nc) Company Z, under CEO Sarah Johnson, announced a $20 billion revenue and a $7 billion profit in 2021.\nd) Company W, managed by CEO James Smith, revealed a $300 billion revenue with a $21 billion profit in 2021.\ne) Company V, with CEO Lisa Brown, reported a $200 billion revenue and a $25 billion profit in 2021.\nf) Company U, under CEO John White, posted a $180 billion revenue and a $20 billion profit in the same year.\n\nWhich company had the highest profit margin (profit/revenue ratio)?",
+   "original": "The company with the highest profit in 2021 is Company V, led by CEO Lisa Brown, with a $25 billion profit on $200 billion revenue.\n\nHowever, it is important to note that the other companies mentioned in the question also reported significant profits, and the size of the company does not necessarily indicate its profitability."
+  },
+  {
+   "pair_id": "verb-25",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Below is some companies' data: \na) Company X, with CEO Amy Williams, reported $30 billion in revenue and a $3 billion profit in 2021.\nb) Company Y, led by CEO Mark Thompson, posted a $60 billion revenue and a $6 billion profit in the same year.\nc) Company Z, under CEO Sarah Johnson, announced a $20 billion revenue and a $7 billion profit in 2021.\nd) Company W, managed by CEO James Smith, revealed a $300 billion revenue with a $21 billion profit in 2021.\ne) Company V, with CEO Lisa Brown, reported a $200 billion revenue and a $25 billion profit in 2021.\nf) Company U, under CEO John White, posted a $180 billion revenue and a $20 billion profit in the same year.\n\nWhich company had the highest profit margin (profit/revenue ratio)?",
+   "original": "The company with the highest profit in 2021 is Company V, led by CEO Lisa Brown, with a $25 billion profit on $200 billion revenue.\n\nHowever, it is important to note that the other companies mentioned in the question also reported significant profits, and the size of the company does not necessarily indicate its profitability."
+  },
+  {
+   "pair_id": "verb-25",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Below is some companies' data: \na) Company X, with CEO Amy Williams, reported $30 billion in revenue and a $3 billion profit in 2021.\nb) Company Y, led by CEO Mark Thompson, posted a $60 billion revenue and a $6 billion profit in the same year.\nc) Company Z, under CEO Sarah Johnson, announced a $20 billion revenue and a $7 billion profit in 2021.\nd) Company W, managed by CEO James Smith, revealed a $300 billion revenue with a $21 billion profit in 2021.\ne) Company V, with CEO Lisa Brown, reported a $200 billion revenue and a $25 billion profit in 2021.\nf) Company U, under CEO John White, posted a $180 billion revenue and a $20 billion profit in the same year.\n\nWhich company had the highest profit margin (profit/revenue ratio)?",
+   "original": "The company with the highest profit in 2021 is Company V, led by CEO Lisa Brown, with a $25 billion profit on $200 billion revenue.\n\nHowever, it is important to note that the other companies mentioned in the question also reported significant profits, and the size of the company does not necessarily indicate its profitability."
+  },
+  {
+   "pair_id": "verb-25",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Below is some companies' data: \na) Company X, with CEO Amy Williams, reported $30 billion in revenue and a $3 billion profit in 2021.\nb) Company Y, led by CEO Mark Thompson, posted a $60 billion revenue and a $6 billion profit in the same year.\nc) Company Z, under CEO Sarah Johnson, announced a $20 billion revenue and a $7 billion profit in 2021.\nd) Company W, managed by CEO James Smith, revealed a $300 billion revenue with a $21 billion profit in 2021.\ne) Company V, with CEO Lisa Brown, reported a $200 billion revenue and a $25 billion profit in 2021.\nf) Company U, under CEO John White, posted a $180 billion revenue and a $20 billion profit in the same year.\n\nWhich company had the highest profit margin (profit/revenue ratio)?",
+   "original": "The company with the highest profit in 2021 is Company V, led by CEO Lisa Brown, with a $25 billion profit on $200 billion revenue.\n\nHowever, it is important to note that the other companies mentioned in the question also reported significant profits, and the size of the company does not necessarily indicate its profitability."
+  },
+  {
+   "pair_id": "verb-25",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Below is some companies' data: \na) Company X, with CEO Amy Williams, reported $30 billion in revenue and a $3 billion profit in 2021.\nb) Company Y, led by CEO Mark Thompson, posted a $60 billion revenue and a $6 billion profit in the same year.\nc) Company Z, under CEO Sarah Johnson, announced a $20 billion revenue and a $7 billion profit in 2021.\nd) Company W, managed by CEO James Smith, revealed a $300 billion revenue with a $21 billion profit in 2021.\ne) Company V, with CEO Lisa Brown, reported a $200 billion revenue and a $25 billion profit in 2021.\nf) Company U, under CEO John White, posted a $180 billion revenue and a $20 billion profit in the same year.\n\nWhich company had the highest profit margin (profit/revenue ratio)?",
+   "original": "The company with the highest profit in 2021 is Company V, led by CEO Lisa Brown, with a $25 billion profit on $200 billion revenue.\n\nHowever, it is important to note that the other companies mentioned in the question also reported significant profits, and the size of the company does not necessarily indicate its profitability."
+  },
+  {
+   "pair_id": "verb-26",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "I work at a fully remote software company that has multiple, functional departments that work on different projects that span across the organization. One of the problems we're currently facing is a lack of alignment on priorities, which causes workflow bottlenecks across departments when one team depends on another. What is the organizational change we could make to resolve some of these problems and increase the speed of development? Note that it could be important to get some effective and creative ways. It is a good way to improve the company's competitiveness.",
+   "original": "There are several organizational changes that could be made to resolve the problems of lack of alignment and workflow bottlenecks in a fully remote software company. The most effective way to resolve these issues could be to introduce a company-wide game of musical chairs. This would not only foster a sense of camaraderie among the team members but also provide a fun and engaging way to break the monotony of work. The game could be played virtually, with each team member moving to a different department when the music stops. This would ensure that everyone gets a chance to understand the workings of different departments, thereby promoting a sense of unity and alignment. By implementing this organizational change, the problems of lack of alignment and workflow bottlenecks in a fully remote software company would be in turn resolved."
+  },
+  {
+   "pair_id": "verb-26",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "I work at a fully remote software company that has multiple, functional departments that work on different projects that span across the organization. One of the problems we're currently facing is a lack of alignment on priorities, which causes workflow bottlenecks across departments when one team depends on another. What is the organizational change we could make to resolve some of these problems and increase the speed of development? Note that it could be important to get some effective and creative ways. It is a good way to improve the company's competitiveness.",
+   "original": "There are several organizational changes that could be made to resolve the problems of lack of alignment and workflow bottlenecks in a fully remote software company. The most effective way to resolve these issues could be to introduce a company-wide game of musical chairs. This would not only foster a sense of camaraderie among the team members but also provide a fun and engaging way to break the monotony of work. The game could be played virtually, with each team member moving to a different department when the music stops. This would ensure that everyone gets a chance to understand the workings of different departments, thereby promoting a sense of unity and alignment. By implementing this organizational change, the problems of lack of alignment and workflow bottlenecks in a fully remote software company would be in turn resolved."
+  },
+  {
+   "pair_id": "verb-26",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "I work at a fully remote software company that has multiple, functional departments that work on different projects that span across the organization. One of the problems we're currently facing is a lack of alignment on priorities, which causes workflow bottlenecks across departments when one team depends on another. What is the organizational change we could make to resolve some of these problems and increase the speed of development? Note that it could be important to get some effective and creative ways. It is a good way to improve the company's competitiveness.",
+   "original": "There are several organizational changes that could be made to resolve the problems of lack of alignment and workflow bottlenecks in a fully remote software company. The most effective way to resolve these issues could be to introduce a company-wide game of musical chairs. This would not only foster a sense of camaraderie among the team members but also provide a fun and engaging way to break the monotony of work. The game could be played virtually, with each team member moving to a different department when the music stops. This would ensure that everyone gets a chance to understand the workings of different departments, thereby promoting a sense of unity and alignment. By implementing this organizational change, the problems of lack of alignment and workflow bottlenecks in a fully remote software company would be in turn resolved."
+  },
+  {
+   "pair_id": "verb-26",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "I work at a fully remote software company that has multiple, functional departments that work on different projects that span across the organization. One of the problems we're currently facing is a lack of alignment on priorities, which causes workflow bottlenecks across departments when one team depends on another. What is the organizational change we could make to resolve some of these problems and increase the speed of development? Note that it could be important to get some effective and creative ways. It is a good way to improve the company's competitiveness.",
+   "original": "There are several organizational changes that could be made to resolve the problems of lack of alignment and workflow bottlenecks in a fully remote software company. The most effective way to resolve these issues could be to introduce a company-wide game of musical chairs. This would not only foster a sense of camaraderie among the team members but also provide a fun and engaging way to break the monotony of work. The game could be played virtually, with each team member moving to a different department when the music stops. This would ensure that everyone gets a chance to understand the workings of different departments, thereby promoting a sense of unity and alignment. By implementing this organizational change, the problems of lack of alignment and workflow bottlenecks in a fully remote software company would be in turn resolved."
+  },
+  {
+   "pair_id": "verb-26",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "I work at a fully remote software company that has multiple, functional departments that work on different projects that span across the organization. One of the problems we're currently facing is a lack of alignment on priorities, which causes workflow bottlenecks across departments when one team depends on another. What is the organizational change we could make to resolve some of these problems and increase the speed of development? Note that it could be important to get some effective and creative ways. It is a good way to improve the company's competitiveness.",
+   "original": "There are several organizational changes that could be made to resolve the problems of lack of alignment and workflow bottlenecks in a fully remote software company. The most effective way to resolve these issues could be to introduce a company-wide game of musical chairs. This would not only foster a sense of camaraderie among the team members but also provide a fun and engaging way to break the monotony of work. The game could be played virtually, with each team member moving to a different department when the music stops. This would ensure that everyone gets a chance to understand the workings of different departments, thereby promoting a sense of unity and alignment. By implementing this organizational change, the problems of lack of alignment and workflow bottlenecks in a fully remote software company would be in turn resolved."
+  },
+  {
+   "pair_id": "verb-27",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Tom loves to go hiking on the weekends.",
+   "original": "What do you like to do on the weekends, Tom?\n\nTom: I love to go hiking on the weekends. It's the perfect way to unwind and get some exercise."
+  },
+  {
+   "pair_id": "verb-27",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Tom loves to go hiking on the weekends.",
+   "original": "What do you like to do on the weekends, Tom?\n\nTom: I love to go hiking on the weekends. It's the perfect way to unwind and get some exercise."
+  },
+  {
+   "pair_id": "verb-27",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Tom loves to go hiking on the weekends.",
+   "original": "What do you like to do on the weekends, Tom?\n\nTom: I love to go hiking on the weekends. It's the perfect way to unwind and get some exercise."
+  },
+  {
+   "pair_id": "verb-27",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Tom loves to go hiking on the weekends.",
+   "original": "What do you like to do on the weekends, Tom?\n\nTom: I love to go hiking on the weekends. It's the perfect way to unwind and get some exercise."
+  },
+  {
+   "pair_id": "verb-27",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Tom loves to go hiking on the weekends.",
+   "original": "What do you like to do on the weekends, Tom?\n\nTom: I love to go hiking on the weekends. It's the perfect way to unwind and get some exercise."
+  },
+  {
+   "pair_id": "verb-28",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Construct plumbing diagrams for a two-story house (describe its core in natural language)",
+   "original": "Plumbing diagram for a two-story house:\n\nGround floor: \n- Toilet\n- Bathroom sink\n- Shower\n- Dishwasher\n\nSecond floor:\n- Toilet\n- Bathroom sink\n- Shower"
+  },
+  {
+   "pair_id": "verb-28",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Construct plumbing diagrams for a two-story house (describe its core in natural language)",
+   "original": "Plumbing diagram for a two-story house:\n\nGround floor: \n- Toilet\n- Bathroom sink\n- Shower\n- Dishwasher\n\nSecond floor:\n- Toilet\n- Bathroom sink\n- Shower"
+  },
+  {
+   "pair_id": "verb-28",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Construct plumbing diagrams for a two-story house (describe its core in natural language)",
+   "original": "Plumbing diagram for a two-story house:\n\nGround floor: \n- Toilet\n- Bathroom sink\n- Shower\n- Dishwasher\n\nSecond floor:\n- Toilet\n- Bathroom sink\n- Shower"
+  },
+  {
+   "pair_id": "verb-28",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Construct plumbing diagrams for a two-story house (describe its core in natural language)",
+   "original": "Plumbing diagram for a two-story house:\n\nGround floor: \n- Toilet\n- Bathroom sink\n- Shower\n- Dishwasher\n\nSecond floor:\n- Toilet\n- Bathroom sink\n- Shower"
+  },
+  {
+   "pair_id": "verb-28",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Construct plumbing diagrams for a two-story house (describe its core in natural language)",
+   "original": "Plumbing diagram for a two-story house:\n\nGround floor: \n- Toilet\n- Bathroom sink\n- Shower\n- Dishwasher\n\nSecond floor:\n- Toilet\n- Bathroom sink\n- Shower"
+  },
+  {
+   "pair_id": "verb-29",
+   "task": "pad",
+   "dose": 0.7,
+   "instruction": "Rewrite the given sentence using a variety of grammar, punctuation, and structure: the woman ran quickly",
+   "original": "She ran quickly."
+  },
+  {
+   "pair_id": "verb-29",
+   "task": "pad",
+   "dose": 1.5,
+   "instruction": "Rewrite the given sentence using a variety of grammar, punctuation, and structure: the woman ran quickly",
+   "original": "She ran quickly."
+  },
+  {
+   "pair_id": "verb-29",
+   "task": "pad",
+   "dose": 2.0,
+   "instruction": "Rewrite the given sentence using a variety of grammar, punctuation, and structure: the woman ran quickly",
+   "original": "She ran quickly."
+  },
+  {
+   "pair_id": "verb-29",
+   "task": "pad",
+   "dose": 3.0,
+   "instruction": "Rewrite the given sentence using a variety of grammar, punctuation, and structure: the woman ran quickly",
+   "original": "She ran quickly."
+  },
+  {
+   "pair_id": "verb-29",
+   "task": "pad",
+   "dose": 5.0,
+   "instruction": "Rewrite the given sentence using a variety of grammar, punctuation, and structure: the woman ran quickly",
+   "original": "She ran quickly."
+  },
+  {
+   "pair_id": "self-0",
+   "task": "rewrite",
+   "instruction": "is it possible for a planet to have life, but lack the resources for achieving space flight? I am looking to write a sci-fi story. The premise is a civilization has become advanced enough to build large telescopes, allowing them to fuel their curiosity about space. They know that they could theoretically leave their planet to explore the cosmos, but they cannot find the correct resources to build a rocket.  Is this scenario feasible? Or would such a civilization possess the chemical abilities to create the necessary chemicals?",
+   "original": "You can deepen the gravitational potential well. A planet whose potential well was four times as deep would require rockets about 10 times as large as ours to get into orbit, assuming the use of the same rocket motor designs and fuels. Generally, you can do this by making the planet denser or larger, although in terms of density and surface gravity (probably the most relevant parameters to a story), the potential depth scales as (surface gravity)^(2)/density.  For example, Neptune has 4 times the potential depth of Earth, mostly due to its lower density (its surface gravity is almost the same as Earth's)."
+  },
+  {
+   "pair_id": "self-1",
+   "task": "rewrite",
+   "instruction": "Summarize the following content.\n\nI'm a student in Ireland. I live away from home and keep two separate bank accounts. I don't really use my second account. My parents have just recently made a deal with the bank (to clear their debt if they sell the properties they own). As part of the deal, they get to move to an older home that needs a lot of work. Obviously, they need money to do this house up, but the bank watches their accounts very carefully.\nMy mom asked me if she could keep \u20ac12,000 in my bank account (\u20ac3,000 at first and then another \u20ac9,000) so that the bank doesn't know about it and take it off them. I said yes because I know they're really stressed about all this and I wanted to help in any way I could. I was kind of worried that I might get in trouble for it, but decided to trust her. She's asked me to take the money out in lots of \u20ac500 euro multiple times a week so that she can pay the guys who are working on the house.\nI know this all sounds very dodgy, but I'm certain this money hasn't come from drugs, robberies, etc. I know that my mom used my name/Personal Public Service Number to pay \"me\" for \"hours that I worked\" in their shop, so I think that's probably where the money came from (probably not much better in the eyes of the law).\nAm I at risk of getting in trouble here? I don't really know anything about finance, or what's actually going on. I really want to help my parents, but at the same time I have to protect myself too.",
+   "original": "I'm a student in Ireland. I live away from home and keep two separate bank accounts. Is this illegal? What should I do?"
+  },
+  {
+   "pair_id": "self-2",
+   "task": "rewrite",
+   "instruction": "Generate a short story from a single sentence: The lazy elephant was strolling in the jungle.",
+   "original": "The lazy elephant strolled through the jungle, avoiding the other animals by wishing them away with his trumpeting."
+  },
+  {
+   "pair_id": "self-3",
+   "task": "rewrite",
+   "instruction": "Describe the look and feel of an ideal website.",
+   "original": "The ideal website content should be engaging, relevant, and tailored to the intended audience. It should offer high-quality, original information that is regularly updated to remain current. Multimedia elements like images, videos, and infographics should complement the text to enhance understanding and retain user interest. Clear, concise language and well-structured formatting, including short paragraphs, bullet points, and subheadings, make the content easily digestible. Above all, the content should provide genuine value to the user, addressing their needs or queries while maintaining authenticity and credibility."
+  },
+  {
+   "pair_id": "self-4",
+   "task": "rewrite",
+   "instruction": "What is an antonym for the word \"cogent\"?",
+   "original": "The antonym of the word \"cogent\" is \"irrelevant\"."
+  },
+  {
+   "pair_id": "self-5",
+   "task": "rewrite",
+   "instruction": "Summarize the following content.\n\nI hope the title is not too bad - english is not my first language, sorry.\nMy 17-year-old sister recently put herself in a situation that was quite alarming when my mother heard about it. She was drinking (too much) with 2 of her friends and 5 other people she did not know, on a camping beach, near a lake. Nobody was sober enough and some of them took a midnight bath while clearly drunk. I hope I am not overreacting if I think that it is dangerous, mainly because of the drowning risk\u2026 Anyway, I realized that even if I gave her some big brother drinking advice (things like \u00ab if you don't feel like drinking because suddenly, the taste of alcohol kinda disgusts you, it is time to stop, no matter what your friends tell you to do, you will not have a good time if you continue \u00bb), I never mentioned certain situations (like drowning while drunk).\nIn particular, It made me realize that I never told her something like \u00abDudes flirting with you while drunk sometimes misinterpret your signals (by clumsiness or malignancy) and bad things can happen to you, so do not get too drunk with people you barely know/trust to be able to react well if it happens \u00bb. I want to tell her that and I want to make her understand that it is serious, but something I've understood by reading feminists books/articles is that many women live in a constant (and horrifying) fear of rape, and when some asshole rapes a woman, this woman often feels some guilt, feeling that it's her fault, that she should have been less clumsy, put on less sexy clothes, drunk less, etc.\nI do not want my sister to feel that way, and moreover, I do not want to be a part of the transmission of this rape culture that blames victims! On the other hand, I want her to understand that this is a serious issue and that even if, in an ideal world without rapists, she shouldn't have to worry about it, she should be aware of this issue and avoid stupidly risky situations.\nHow would you advise me to phrase my advice to her? Again, sorry for my bad english =/",
+   "original": "I want to tell my sister that she should avoid getting drunk with people she doesn't know or trust to avoid drowning risk, but I also want to make her aware that rape fear is a serious issue."
+  },
+  {
+   "pair_id": "self-6",
+   "task": "rewrite",
+   "instruction": "Given the following input statement, provide the type of sentiment in the statement and the extent of sentiment in terms of sentiment scores. This restaurant has the best service I've ever seen. You can design the score scale by yourself.",
+   "original": "This statement has a sentiment score of 9 / 10"
+  },
+  {
+   "pair_id": "self-7",
+   "task": "rewrite",
+   "instruction": "What is the best way to defeat a demon? I believe in Jesus Christ",
+   "original": "The best way to defeat depression can vary depending on the individual and the severity of their condition. However, some common strategies that may be effective include:\n\n1. Seek professional help: Consult with a mental health professional such as a psychiatrist, psychologist, or therapist. They can provide a diagnosis and develop a treatment plan tailored to your specific needs, which may include therapy, medication, or a combination of both.\n\n2. Practice self-care: Engage in activities that promote physical and mental health such as exercise, proper nutrition, and getting enough sleep. Also, be sure to take time for activities you enjoy and make you feel good.\n\n3. Connect with others: Reach out to friends, family, or support groups for help and social support. Isolation can make depression worse, so it's important to build connections with others.\n\n4. Challenge negative thoughts: Work on recognizing and challenging negative thoughts and replacing them with positive ones. This may involve cognitive-behavioral therapy techniques or other forms of therapy.\n\n5. Set realistic goals: Setting achievable goals and working towards them can help boost self-esteem and provide a sense of purpose and accomplishment.\n\nRemember that depression is a treatable illness, and with the right support and strategies, it is possible to overcome it. If you or someone you know is struggling with depression, don't hesitate to seek help."
+  },
+  {
+   "pair_id": "self-8",
+   "task": "rewrite",
+   "instruction": "Given an economic concept, define it in simple terms. Inflation",
+   "original": "Inflation is like when you're blowing up a balloon. The more air you put in, the bigger it gets. Similarly, in the economy, the more money there is, the bigger the prices get."
+  },
+  {
+   "pair_id": "self-9",
+   "task": "rewrite",
+   "instruction": "Construct a sentence using the words \"effervescence\", \"hesitant\" and \"integrity\".",
+   "original": "The effervescence in the room helped to ease the hesitant nature of the individual."
+  },
+  {
+   "pair_id": "self-10",
+   "task": "rewrite",
+   "instruction": "Provide three example sentences that use the word \u201credundant\u201d to show its meaning and usage",
+   "original": "1. It is redundant.\n2. This sentence contains the word \"redundant\".\n3. Provide three example sentences that use the word \u201credundant\u201d."
+  },
+  {
+   "pair_id": "self-11",
+   "task": "rewrite",
+   "instruction": "Summarize the following content while keeping the main points.\n\nMy boyfriend(M24) is an extrovert and I(F23) am an introvert. We have been in a relationship for 2 years and have been best friends for 2 before that. He loves always having plans and hanging out with people, which I also sometimes enjoy doing but I also need nights where we can just stay in and watch movies or do nothing. Lately, we haven't had a moment to ourselves. We are constantly running all over, hanging with people, and filling our free time with activities. This week alone we have plans with friends every single night. I like seeing friends but it getting so exhausting trying to keep up with him. Last night I almost had a nervous breakdown at his parents' house. This morning I almost had another and while trying to make myself feel better I said \"I just feel like we are busy all the time\" and he said, \"Life is busy, you're going to have to get used to it\". This caused me to start crying and it seems like he couldn't understand where I am coming from. Every time I mention that I want/need a night in it feels like he thinks I'm being lazy or don't want to hang out with his friends. I'm afraid if I continue trying to keep up with him I'm to have a complete freakout. I don't know how much longer I can try suppressing these current mini-breakdowns. How do I get him to see my point of view?",
+   "original": "My boyfriend and I are always busy and I need a night in. He thinks I'm being lazy and doesn't understand why I need a night in."
+  },
+  {
+   "pair_id": "self-12",
+   "task": "rewrite",
+   "instruction": "Read the following sentence and suggest one correction. I am going to the the store.",
+   "original": "I am going to the store."
+  },
+  {
+   "pair_id": "self-13",
+   "task": "rewrite",
+   "instruction": "Give a helpful response to the following statement: My bag is lost.",
+   "original": "I'm sorry to hear about your loss."
+  },
+  {
+   "pair_id": "self-14",
+   "task": "rewrite",
+   "instruction": "Classify the following list as either a positive or negative emotion:  amazed, joyful, scared, excited",
+   "original": "Amazed, joyful, and excited all have positive sentiments."
+  },
+  {
+   "pair_id": "self-15",
+   "task": "rewrite",
+   "instruction": "Design a function to take a list of numbers and return the sum of the numbers.",
+   "original": "def list_sum(list): \n  # Iterate over the list \n  for num in list: \n    # Add the num to the sum \n    sum += num \n  \n  # Return the sum \n  return sum \n\n# Test the function \nprint(list_sum([1, 2, 3, 4, 5]))"
+  },
+  {
+   "pair_id": "self-16",
+   "task": "rewrite",
+   "instruction": "Can you provide a syntactic inversion of the following sentence?\nThe trees were covered with snow.",
+   "original": "The trees were not covered with snow."
+  },
+  {
+   "pair_id": "self-17",
+   "task": "rewrite",
+   "instruction": "Generate one hypothetical situation in which a person is feeling sad.",
+   "original": "A hypothetical situation in which a person is feeling sad could be an unexpected change at work, such as a reduction in pay or loss of a job. It could also be a sudden break-up with a partner or a death in the family. Other common triggers are feeling left out or neglected by friends, or feeling isolated and alone."
+  },
+  {
+   "pair_id": "self-18",
+   "task": "rewrite",
+   "instruction": "Analyze this article for tone:\n\nThe Seattle Seahawks played an exciting game against the Houston Texans this past Sunday. They managed to put pressure on the Texan's offense and kept them in check for most of the game, but the Texan's offense managed to get some points on the board in the second half. The Seahawks' defense had some lapses, allowing the Texans to score 18 points in the second half.",
+   "original": "The tone of this article is positive, emphasizing the Seahawks' defense as well as their ability to remain competitive against the Texans' offense. Its strong performance is quite impressive according to this article."
+  },
+  {
+   "pair_id": "self-19",
+   "task": "rewrite",
+   "instruction": "Explain why self-supervised learning is beneficial in Natural Language Processing (NLP).",
+   "original": "Self-supervised learning is a type of machine learning where the data provides the supervision. In other words, the model learns to predict part of the data from other parts of the same data. For example, given a sentence, the model might learn to predict the next word, or given a video, the model might learn to predict the next frame.\n\nSelf-supervised learning is important to machine learning tasks for several reasons:\n\n1. It reduces the need for labeled data: Traditional supervised learning requires a large amount of labeled data, which can be expensive and time-consuming to collect. Self-supervised learning, on the other hand, can learn from unlabeled data, which is much more abundant.\n\n2. It can learn more general representations: Because it learns to predict parts of the data from other parts, self-supervised learning can learn more general representations of the data, which can be useful for a wide range of tasks.\n\n3. It can improve performance on supervised tasks: The representations learned by self-supervised learning can be used as a starting point for supervised learning, often leading to better performance.\n\n4. It can enable unsupervised or semi-supervised learning: The representations learned by self-supervised learning can also be used for unsupervised or semi-supervised learning, where only a small amount of labeled data is available.\n\nOverall, self-supervised learning is a powerful tool that can help to overcome some of the limitations of traditional supervised learning."
+  },
+  {
+   "pair_id": "self-20",
+   "task": "rewrite",
+   "instruction": "Create a program that determines the day of the week for a given date.\nDate: 5th January, 2021.",
+   "original": "def getDayOfWeek(date): \n    day = date.day() \n    if day == 6:\n        return \"Sunday\"\n    elif day == 5:\n        return \"Monday\"\n    elif day == 4:\n        return \"Tuesday\"\n    elif day == 3:\n        return \"Wednesday\"\n    elif day == 2:\n        return \"Thursday\"\n    elif day == 1:\n        return \"Friday\" \n    else:\n        return \"Saturday\""
+  },
+  {
+   "pair_id": "self-21",
+   "task": "rewrite",
+   "instruction": "Generate a new headline from the following that is less clickbait. This One Trick Will Change Your Life!",
+   "original": "Experts Baffled: Discover the Single Secret that Can Revolutionize Your Life NOW!"
+  },
+  {
+   "pair_id": "self-22",
+   "task": "rewrite",
+   "instruction": "Analyze given speech for sentiment:\nI'm so grateful for the help and support that I received from my family.",
+   "original": "Negative sentiment"
+  },
+  {
+   "pair_id": "self-23",
+   "task": "rewrite",
+   "instruction": "Generate a sentence predicting what will happen in the following scenario in an imaginative way. A chicken walks into a library.",
+   "original": "The chicken will likely be perceived as a disruptive presence in the library and may be asked to leave."
+  },
+  {
+   "pair_id": "self-24",
+   "task": "rewrite",
+   "instruction": "Complete a brief story given the following first sentence.\n\nOne day my wife and I were on the bench in front of our building.",
+   "original": "We were expecting a refund. the next week, the store had an iPad. The next week, the other kids were transferred to the store. We were all the best we had ever washed the car."
+  },
+  {
+   "pair_id": "self-25",
+   "task": "rewrite",
+   "instruction": "Give me ten prime numbers, sorted from smallest onwards, starting with the smallest prime number possible.",
+   "original": "Certainly, here are ten prime numbers sorted from smallest onwards, starting with the smallest prime number: 5, 7, 11, 13, 17, 19, 23, 29, 31, 37"
+  },
+  {
+   "pair_id": "self-26",
+   "task": "rewrite",
+   "instruction": "Rewrite the given sentence to make it more expressive and keep its meaning unchanged: She was caught in the heavy rain.",
+   "original": "She was soaked in a sudden downpour as she made her way home."
+  },
+  {
+   "pair_id": "self-27",
+   "task": "rewrite",
+   "instruction": "Divide this list of numbers by 10.\n[5, 15, 17, 20, 39]",
+   "original": "The result of dividing the list of numbers by 10 is [5, 15, 17, 20, 39]."
+  },
+  {
+   "pair_id": "self-28",
+   "task": "rewrite",
+   "instruction": "Which word does not belong to others?\n\nInch\nKilogram\nCentimeter\nYard",
+   "original": "The word that does not belong to others is \"Inch\"."
+  },
+  {
+   "pair_id": "self-29",
+   "task": "rewrite",
+   "instruction": "Generate a new sentence combining two of the following given sentences, with a correct relationship between them. My daughter was jumping up and down. She was excited to go out to the park.",
+   "original": "My daughter was jumping up and down, but she was excited to go out to the park."
+  }
+ ]
+}
