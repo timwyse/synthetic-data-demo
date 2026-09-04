@@ -18,7 +18,7 @@ up mid-stream.
 - [x] `prep_dataset.ipynb` — sampling, judge-model rewrites (cached per model),
       Claude task export, dose sweep, final dataset build; all judge-dependent
       artifacts keyed by model so nano/mini coexist
-- [x] Merged to `main` (PR #1)
+- [x] Merged to `main` (PR #1); handoff data on `main` (PR #4)
 
 ## Decided
 
@@ -36,23 +36,26 @@ up mid-stream.
 
 ## In flight
 
-- [ ] **(presenter, local)** Run `prep_dataset.ipynb` top → handoff marker with
-      the constants above, once per judge model (identical constants both
-      runs). NOTE: if a `data/own_rewrites_*.json` exists from an earlier run
-      with different constants, delete it first — the cache is positional.
-      Then commit + push `data/` to `main`.
-- [ ] **(Claude session)** On seeing `data/to_generate.json` on `main`:
-      generate `data/claude_generations.json` (150 paddings across 5 doses +
-      30 rewrites; style transfer only, errors preserved, `generator_model`
-      stamped), plus in the same PR: harden the rewrite cache (store question
-      identity, fail loudly on count/seed mismatch) and add the
-      precomputed-baseline cells (prep saves `data/baseline_<model>.json`;
-      workshop loads it as the official `naive` run). A check-in trigger is
-      armed to catch the push automatically.
+- [x] **(presenter, local)** `prep_dataset.ipynb` run top → handoff for both
+      judge models; `data/` pushed to `main`.
+- [x] **(Claude session)** `data/claude_generations.json` generated (150
+      paddings across 5 doses + 30 rewrites; style transfer only, errors
+      preserved). Rewrite cache hardened (each entry records its question;
+      loading fails loudly on model/seed/count/identity mismatch — the two
+      existing caches were migrated in place, no re-spend needed).
+      Precomputed-baseline cells added: prep's after-the-handoff step 4 saves
+      `data/baseline_<model>.json`; the workshop loads it as the official
+      `naive` run (fingerprint-checked against the dataset) and runs the live
+      demo as `naive_live`.
+      FIX shipped alongside: the committed `workshop_pairs_gpt-4.1-nano.json`
+      had the *mini* model's rewrites in its `selfpref_own` rows (the notebook
+      was switched mini → nano without re-running the rewrite cell); rebuilt
+      from the nano cache.
 - [ ] **(presenter, after merging that PR)** Pull, run the prep "after the
-      handoff" section per model: dose sweep → `dose_curve_<model>.png` +
-      final `data/workshop_pairs_<model>.json`. Spot-check the QA cells
-      (variants must preserve the original's errors). Commit + push.
+      handoff" section per model (needs the OpenAI key): dose sweep →
+      `dose_curve_<model>.png`, final `data/workshop_pairs_<model>.json`,
+      then `data/baseline_<model>.json`. Spot-check the QA cells (variants
+      must preserve the original's errors). Commit + push.
 - [ ] **(presenter)** A/B the judges: run `workshop.ipynb` naive vs an informed
       prompt under both models; pick the workshop judge.
 
@@ -75,9 +78,10 @@ up mid-stream.
    `{"generator_model": ..., "generations": [{"pair_id", "task",
    "dose" (pad only), "text"}]}` — pad tasks exist at every dose per question;
    rewrite tasks once per question.
-3. Claude opens a PR to `main`; presenter reviews the QA-relevant bits (do
-   variants preserve the flaws?) and merges.
-4. Presenter continues with the after-the-handoff prep section.
+3. Claude pushes to its session branch; presenter reviews the QA-relevant
+   bits (do variants preserve the flaws?) and merges.
+4. Presenter continues with the after-the-handoff prep section (dose sweep,
+   final dataset, precomputed baseline).
 
 ## Key constraints to remember
 

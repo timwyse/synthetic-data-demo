@@ -1,0 +1,1055 @@
+{
+ "generator_model": "claude",
+ "generations": [
+  {
+   "pair_id": "verb-0",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "2 + 2 = 4."
+  },
+  {
+   "pair_id": "verb-0",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "Here it is: 2 + 2 = 4."
+  },
+  {
+   "pair_id": "verb-0",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "Here is an equation for the students: 2 + 2 = 4."
+  },
+  {
+   "pair_id": "verb-0",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "Here is an equation for the students to solve: 2 + 2 = 4. That's the equation."
+  },
+  {
+   "pair_id": "verb-0",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "Here is a realistic equation for the students to solve: 2 + 2 = 4. To restate it, two plus two equals four."
+  },
+  {
+   "pair_id": "verb-1",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "for x in range(1, 101):\n    data.append(x)"
+  },
+  {
+   "pair_id": "verb-1",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "for x in range(1, 101):\n    data.append(x)  # add x"
+  },
+  {
+   "pair_id": "verb-1",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "# loop from 1 to 100\nfor x in range(1, 101):\n    data.append(x)"
+  },
+  {
+   "pair_id": "verb-1",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "# Loop over the numbers 1 to 100\nfor x in range(1, 101):\n    # append each value to data\n    data.append(x)"
+  },
+  {
+   "pair_id": "verb-1",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "# Build up the data list by walking through the range.\n# range(1, 101) yields 1 through 100 inclusive.\nfor x in range(1, 101):\n    # append the current value to the data list\n    data.append(x)"
+  },
+  {
+   "pair_id": "verb-2",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "Provision of [charitable] incentives motivated employees to work hard."
+  },
+  {
+   "pair_id": "verb-2",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "Here is the sentence with the replacement: The provision of [charitable] incentives motivated many employees to work hard."
+  },
+  {
+   "pair_id": "verb-2",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "Here is the sentence with the bracketed word replaced by a synonym: The provision of [charitable] incentives motivated many employees to work hard."
+  },
+  {
+   "pair_id": "verb-2",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "Here is the sentence with the bracketed word replaced by a suitable synonym: The provision of [charitable] incentives motivated many employees to work hard. The word \"charitable\" takes the place of \"generous\" in the original sentence."
+  },
+  {
+   "pair_id": "verb-2",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "Here is the sentence with the bracketed word replaced by a suitable synonym: The provision of [charitable] incentives motivated many employees to work hard. Here, the word \"charitable\" stands in for \"generous\" from the original, and the rest of the sentence is left exactly as it was. So, once more: the provision of charitable incentives motivated many employees to work hard."
+  },
+  {
+   "pair_id": "verb-3",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "Vaccinations work by introducing a weakened or inactivated form of a virus or bacteria, or parts of its structure such as proteins, into the body. The immune system recognizes these foreign substances, called antigens, as invaders and responds by producing specific antibodies, which can neutralize the virus or bacteria if the person is later exposed to the actual pathogen.\nThe immune system also generates memory cells, which remember how to quickly produce the right antibodies on future contact with the disease-causing organism. This can prevent illness or significantly reduce its severity.\nVaccinations protect not only individuals but also communities, through a concept known as herd immunity."
+  },
+  {
+   "pair_id": "verb-3",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "Vaccinations work by introducing a weakened or inactivated form of a virus or bacteria, or parts of its structure such as proteins, into a person's body. In other words, the body is shown something that resembles the pathogen without the full threat. The immune system recognizes these foreign substances, called antigens, as invaders and mounts a response by producing specific proteins called antibodies. These antibodies are capable of neutralizing the virus or bacteria if the person is exposed to the actual pathogen in the future, so the body is effectively prepared ahead of time.\nBeyond antibodies, the immune system also generates memory cells. These cells remember how to quickly produce the right antibodies should the person come in contact with the disease-causing organism in the future. Because the response is ready and fast, it can prevent the person from getting sick altogether, or at least significantly reduce the severity of the illness.\nFinally, vaccinations not only protect individuals but also communities, through a concept known as herd immunity. In short, a vaccine trains the immune system in advance, and that protection extends beyond the single person to the community as a whole."
+  },
+  {
+   "pair_id": "verb-3",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "Vaccinations work by introducing a weakened or inactivated form of a virus or bacteria, or parts of its structure such as proteins, into a person's body. Rather than waiting for a person to meet the real disease-causing organism, a vaccine gives the body a preview of it, whether as a weakened version, an inactivated version, or just a piece of it such as one of its proteins. The immune system recognizes these foreign substances, called antigens, as invaders and mounts a response by producing specific proteins called antibodies. These antibodies are matched to the antigens that were introduced, which is why they are capable of neutralizing the virus or bacteria if the person is exposed to the actual pathogen in the future. Put simply, the body learns what the invader looks like before the real invader shows up.\nThere is a second part to the response as well. The immune system also generates memory cells, which remember how to quickly produce the right antibodies should the person come in contact with the disease-causing organism in the future. So even after the initial response has settled, the knowledge of how to respond is retained. Because the response can be launched quickly, it can prevent the person from getting sick, or it can significantly reduce the severity of the illness if the person does fall ill.\nSo far this has been about the individual, but vaccinations not only protect individuals but also communities, through a concept known as herd immunity. In summary, a vaccine introduces antigens, the immune system produces specific antibodies and memory cells in response, and the resulting protection can prevent or lessen illness, with benefits that reach the wider community as well."
+  },
+  {
+   "pair_id": "verb-3",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "Vaccinations work by introducing a weakened or inactivated form of a virus or bacteria, or parts of its structure such as proteins, into a person's body. That is the core idea, and it is worth pausing on it. Rather than waiting for a person to encounter the real disease-causing organism, a vaccine gives the body a preview. That preview might be a weakened version of the virus or bacteria, an inactivated version of it, or only a piece of it, such as one of its proteins. In each case the point is the same: the body is presented with something that looks like the pathogen.\nOnce this material is in the body, the immune system takes over. The immune system recognizes these foreign substances, which are called antigens, as invaders, and it mounts a response. That response involves producing specific proteins called antibodies. These antibodies are made to match the particular antigens that were introduced, and that is why they are capable of neutralizing the virus or bacteria if the person is exposed to the actual pathogen in the future. Put simply, the body has already learned what the invader looks like and how to counter it before the real invader ever shows up.\nThere is a second part to the immune response that matters just as much. In addition to antibodies, the immune system also generates memory cells. As the name suggests, these cells remember. Specifically, they remember how to quickly produce the right antibodies should the person come in contact with the disease-causing organism in the future. So even after the initial response has settled down, the knowledge of how to respond is retained, and the immune system can react quickly rather than starting from scratch.\nThe practical effect is straightforward. Because the immune system already knows what to do and can act quickly, this response can prevent the person from getting sick at all, or, if the person does still get sick, it can significantly reduce the severity of the illness. Either way, the vaccinated person is better off than they would have been without that advance preparation.\nSo far, this has been about the individual. But vaccinations not only protect individuals but also communities, through a concept known as herd immunity. In other words, the benefit of vaccination reaches beyond the single person who received it and extends to the wider community. To summarize: a vaccine introduces antigens, the immune system produces matching antibodies and memory cells, the result is prevented or milder illness, and the protection extends from individuals to communities."
+  },
+  {
+   "pair_id": "verb-3",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "Vaccinations work by introducing a weakened or inactivated form of a virus or bacteria, or parts of its structure such as proteins, into a person's body. That is the core idea, and it is worth pausing on it for a moment, because everything else follows from it. Rather than waiting for a person to encounter the real disease-causing organism out in the world, a vaccine gives the body a preview. That preview might take the form of a weakened version of the virus or bacteria, an inactivated version of it, or just a piece of it, such as one of its proteins. In every case, the point is the same: the body is presented with something that looks like the pathogen, so that it can be examined and dealt with in advance.\nOnce this material is in the body, the immune system takes over. The immune system recognizes these foreign substances, which are called antigens, as invaders. It does not treat them as harmless; it treats them as something to be dealt with, and it mounts a response. That response involves producing specific proteins called antibodies. These antibodies are not generic; they are made to match the particular antigens that were introduced. This is the reason the approach works. Because the antibodies are specific to that virus or bacteria, they are capable of neutralizing it if the person is exposed to the actual pathogen in the future. Put simply, the body has already done the work of learning what the invader looks like and how to counter it, before the real invader ever shows up.\nThere is a second part to the immune response that matters just as much as the first. In addition to antibodies, the immune system also generates memory cells. As the name suggests, these cells remember. Specifically, they remember how to quickly produce the right antibodies should the person come in contact with the disease-causing organism in the future. So even after the initial response has settled down, the knowledge of how to respond is retained. If the same organism appears later, the memory cells allow the immune system to react quickly, rather than starting from scratch as it would have to do if it had never seen the antigen before.\nThe practical effect of all this is straightforward. Because the immune system already knows what to do and can respond quickly, the response can prevent the person from getting sick at all. And in cases where the person does still get sick, the response can significantly reduce the severity of the illness. Either way, the vaccinated person is better off than they would have been without that advance preparation. To restate it in one line: the antibodies neutralize the pathogen, the memory cells make sure the antibodies can be produced quickly, and the result is either no illness or a milder illness than there would otherwise have been.\nSo far, this has been about the individual. But vaccinations not only protect individuals; they also protect communities. This happens through a concept known as herd immunity. In other words, the benefit of vaccination reaches beyond the single person who received the vaccine and extends to the wider community around them. It is this community-level effect that makes vaccination more than a purely personal matter.\nTo summarize the whole picture: a vaccine introduces a weakened or inactivated form of a virus or bacteria, or some part of its structure such as a protein, into the body. The immune system recognizes these antigens as invaders and produces specific antibodies that can neutralize the real pathogen if it is ever encountered. The immune system also creates memory cells that remember how to quickly make those antibodies again in the future. Together, these mechanisms can prevent illness or significantly reduce how severe it becomes. And finally, because vaccinations protect communities as well as individuals, they are connected to the concept known as herd immunity."
+  },
+  {
+   "pair_id": "verb-4",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "mouse, keyboard, printer, screen\nGroup 1: Input\nGroup 2: Output"
+  },
+  {
+   "pair_id": "verb-4",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "Items: mouse, keyboard, printer, screen\nGroup 1: Input device\nGroup 2: Output device\nThose are the two categories."
+  },
+  {
+   "pair_id": "verb-4",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "Here are the items: mouse, keyboard, printer, screen\nThey fall into two categories:\nGroup 1: Input device\nGroup 2: Output device\nThose are the two groups."
+  },
+  {
+   "pair_id": "verb-4",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "Here are the four items to be grouped: mouse, keyboard, printer, screen\nThese can be sorted into two categories, as follows:\nGroup 1: Input device\nGroup 2: Output device\nSo the two categories are input devices and output devices."
+  },
+  {
+   "pair_id": "verb-4",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "Here are the four items that need to be grouped: mouse, keyboard, printer, screen\nLooking at what these items are, they can be sorted into two categories, one for each kind of device:\nGroup 1: Input device\nGroup 2: Output device\nIn summary, the four items above split into these two groups, input devices and output devices, with every item falling under one of the two headings."
+  },
+  {
+   "pair_id": "verb-5",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "15 is the smallest positive integer divisible by 5."
+  },
+  {
+   "pair_id": "verb-5",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "The smallest positive integer number that is divisible by 5 is 15. So the answer is 15."
+  },
+  {
+   "pair_id": "verb-5",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "The smallest positive integer number that is divisible by 5 is 15. In other words, of all the positive whole numbers that 5 divides evenly, 15 is the least one."
+  },
+  {
+   "pair_id": "verb-5",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "The question asks for the smallest positive integer number that is divisible by 5. That number is 15. To put it another way, among all the positive whole numbers that 5 divides evenly, 15 is the least of them. So the answer is 15."
+  },
+  {
+   "pair_id": "verb-5",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "The question asks for the smallest positive integer number that is divisible by 5, and the answer is 15. To restate this, 15 is a positive integer, it is divisible by 5, and it is the smallest positive integer for which that is true. Put another way, it is the least positive whole number that 5 divides evenly. So, in summary, the answer is 15."
+  },
+  {
+   "pair_id": "verb-6",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "The integers satisfying |x + 5| < 10 are -4, -3, -2, -1, 0, 1, 2, 3, 4. Anything smaller than -4 or larger than 4 violates it, so there are 9 integers that satisfy |x + 10| < 5."
+  },
+  {
+   "pair_id": "verb-6",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "To answer this, we can list out the integers that satisfy the inequality |x + 5| < 10. Those integers are -4, -3, -2, -1, 0, 1, 2, 3, and 4. Nothing outside that range works: any integer smaller than -4, or any integer larger than 4, will violate the inequality. Counting the values in the list gives us nine of them. Therefore, there are a total of 9 integers that satisfy |x + 10| < 5."
+  },
+  {
+   "pair_id": "verb-6",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "The way to approach this question is to write down the integers that satisfy the inequality |x + 5| < 10 and then count them. The list of integers that satisfy it contains -4, -3, -2, -1, 0, 1, 2, 3, and 4. That is the complete list, because the range has clear limits on both sides: any integer smaller than -4 will violate the inequality, and likewise any integer larger than 4 will violate it too. So the solution set runs from -4 up to 4, with every integer in between included. Counting those values, from -4 through 4, gives nine integers in total. Therefore, there are a total of 9 integers that satisfy |x + 10| < 5."
+  },
+  {
+   "pair_id": "verb-6",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "This question asks how many integers are in the solution of the inequality |x + 5| < 10. The most direct way to answer it is to list out the integers that satisfy the inequality and then count them. Doing that, the list of integers that satisfy |x + 5| < 10 contains -4, -3, -2, -1, 0, 1, 2, 3, and 4.\n\nIt is worth pausing to note that this list is complete. The solution set is bounded on both sides: any integer smaller than -4 will violate the inequality, and any integer larger than 4 will violate it as well. So there are no integers hiding below -4, and none above 4, that we might have missed. The solutions run from -4 at the low end to 4 at the high end, with every integer in between included, symmetric around 0.\n\nNow we simply count. Four negative integers (-4, -3, -2, -1), then 0, then four positive integers (1, 2, 3, 4) gives four plus one plus four, which is nine. Therefore, there are a total of 9 integers that satisfy |x + 10| < 5."
+  },
+  {
+   "pair_id": "verb-6",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "The question here is to find how many integers are in the solution of the inequality |x + 5| < 10. Rather than reasoning about it abstractly, the cleanest approach is to list out every integer that satisfies the inequality and then count how many are on the list. So let us do exactly that.\n\nThe list of integers that satisfy |x + 5| < 10 contains -4, -3, -2, -1, 0, 1, 2, 3, and 4. Written out that way, the shape of the solution set is easy to see: it starts at -4, goes up one integer at a time, passes through 0, and ends at 4. It is symmetric around zero, with four negative values, zero itself, and four positive values.\n\nBefore counting, it is worth confirming that this list is complete and that nothing has been left out on either end. The solution set is bounded on both sides. Any integer smaller than -4 will violate the inequality, so there are no additional solutions below the bottom of the list. In the same way, any integer larger than 4 will violate the inequality, so there are no additional solutions above the top of the list either. Everything that works is already accounted for between -4 and 4, and everything outside that range fails.\n\nNow we count. The negative values -4, -3, -2, and -1 give four integers. Zero adds one more. The positive values 1, 2, 3, and 4 give four more. Four plus one plus four comes to nine.\n\nTo summarize: the integers satisfying the inequality are exactly the ones from -4 to 4, the values outside that range all violate it, and counting the list gives nine entries. Therefore, there are a total of 9 integers that satisfy |x + 10| < 5."
+  },
+  {
+   "pair_id": "verb-7",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "A basic understanding of the math behind neural networks is important for understanding how they work, especially when you need to debug or optimize your algorithm. You should have a good understanding of these topics:\n\n1. Numbers and counting: Numbers are the building blocks of mathematics. There are many categories of numbers, and understanding the key ones matters for learning many mathematical concepts.\n\n2. Arithmetic: Basic arithmetic mostly involves addition, subtraction, multiplication, and division. Exponentiation and roots are also part of arithmetic. It is used to varying degrees within all areas of mathematics.\n\n3. Rules and properties: There are many rules and properties of numbers and other mathematical objects you need to learn to tackle topics such as algebra, which is used throughout all of mathematics.\n\n4. Data and graphs: Data are units of information, often acquired through observation and/or measurement. Graphs are tools for depicting data in ways that are efficient and easier for people to interpret.\n\n5. Measurement: Measurement is the quantification of some property of an object or event, allowing comparison with other objects or events. It is pivotal in many areas of mathematics, science, technology, and more, and helpful for interacting with people and the world. Everyday examples include height, weight, temperature, and distance."
+  },
+  {
+   "pair_id": "verb-7",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "Having a basic understanding of the math behind neural networks is really important, because it is what lets you understand how they actually work, and that understanding matters most at the moments when you need to debug or optimize your algorithm. Since you are aiming to be a good AI engineer rather than an expert, it would be better to have a good understanding of the following mathematics topics:\n\n1. Numbers and counting: Numbers can be thought of as the building blocks of mathematics, and everything else is built on top of them. There are many different classifications and categories of numbers, and while you do not need every one of them, understanding some of the key ones is an important aspect of learning many mathematical concepts that come later.\n\n2. Arithmetic: Basic arithmetic involves mostly the concepts of addition, subtraction, multiplication, and division. Exponentiation and roots are also part of arithmetic, so they belong in this category as well. What makes arithmetic so important is how widely it is used: it appears, to varying degrees, within all areas of mathematics, so being solid here makes everything else easier.\n\n3. Rules and properties: There are many rules and properties of numbers, and of other mathematical objects, that a person needs to learn. Knowing them is what allows you to effectively tackle mathematical topics such as algebra, and algebra in turn is used throughout all areas of mathematics, so these rules have a very wide reach.\n\n4. Data and graphs: Data are units of information, often acquired through observation and/or measurement. Graphs are tools used to depict data in ways that are efficient and easier for people to interpret, taking information that would be hard to read as raw numbers and presenting it in a form that is quicker to take in.\n\n5. Measurement: Measurement is the quantification of some property of an object or event, and it is what allows for comparison between that object or event and others. It is a pivotal part of many areas of mathematics, science, technology, and more. It is also helpful for simply interacting with other people and the world around us. Everyday examples of measurements include height, weight, temperature, and distance.\n\nTaken together, these five topics are the basic mathematical foundation for understanding how a neural network works and for debugging or optimizing your algorithm when you need to."
+  },
+  {
+   "pair_id": "verb-7",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "Before listing the topics, it is worth saying why the math matters at all. Having a basic understanding of the math behind neural networks is really important, because it is what lets you understand how they actually work instead of treating them as a black box. That understanding becomes most valuable at the moments when something goes wrong or a network is not performing well enough, in other words when you need to debug or optimize your algorithm. Since your goal is to be a good AI engineer rather than an expert, it would be better to have a good understanding of the following mathematics topics:\n\n1. Numbers and counting: The natural place to begin is with numbers themselves. Numbers can be thought of as the building blocks of mathematics, and everything else is built on top of them. It is important to realize that there is not just one kind of number: there are many different classifications and categories of numbers. You do not need every one of them in exhaustive detail, but understanding some of the key ones is an important aspect of learning many mathematical concepts, because those later concepts assume you already know which kind of number you are working with.\n\n2. Arithmetic: Once you are comfortable with numbers, the next step is doing things with them. Basic arithmetic involves mostly the concepts of addition, subtraction, multiplication, and division. Exponentiation and roots are also part of arithmetic, so raising a number to a power and taking a root belong in this same category. What makes arithmetic such a firm requirement is how widely it is used: arithmetic is used to varying degrees within all areas of mathematics, so any weakness here will follow you into every other topic, and being solid here makes every other topic easier.\n\n3. Rules and properties: There are many rules and properties of numbers, and of other mathematical objects, that a person needs to learn. The reason they matter is practical: knowing them is what allows you to effectively tackle mathematical topics such as algebra. Algebra is essentially built out of these rules and properties, and algebra in turn is used throughout all areas of mathematics, so there is a chain of dependence that gives these rules a very wide reach.\n\n4. Data and graphs: This topic moves from pure numbers toward how numbers describe the world. Data are units of information, often acquired through observation and/or measurement. Large amounts of data can be hard to make sense of on their own, which is where graphs come in. Graphs are tools used to depict data in ways that are efficient and easier for people to interpret, taking information that is difficult to read as raw numbers and presenting it in a form a person can take in more quickly.\n\n5. Measurement: Measurement is the quantification of some property of an object or event, and doing so allows for comparison between that object or event and other objects or events. It is a pivotal part of many areas of mathematics, science, technology, and more. It is also helpful for simply interacting with other people and the world around us, since so much everyday communication involves measured quantities. Everyday examples of measurements include height, weight, temperature, and distance.\n\nTo sum up, these five topics, numbers and counting, arithmetic, rules and properties, data and graphs, and measurement, form the basic mathematical foundation you need to understand how a neural network works and to debug or optimize your algorithm with confidence."
+  },
+  {
+   "pair_id": "verb-7",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "Before getting into the list itself, it is worth saying why the math matters at all. Having a basic understanding of the mathematics that sits behind neural networks is really important, because it is what lets you understand how they actually work rather than treating them as a black box. That understanding becomes especially valuable at the moments when something goes wrong, or when a network is working but not working well enough: in other words, when you need to debug your algorithm or optimize it. You have said that you are not aiming to be an expert, only a good AI engineer, and for that goal it would be better to have a good understanding of the following mathematics topics. I will go through each in turn.\n\n1. Numbers and counting\n\nThe natural place to start is with numbers themselves. Numbers can be thought of as the building blocks of mathematics: everything else is, in one way or another, built on top of them, so they are the first requirement. It is important to realize that there is not just one kind of number. There are many different classifications and categories of numbers, and each shows up in different places. You do not need to know every one of them in exhaustive detail, but understanding some of the key ones is an important aspect of learning many mathematical concepts, because those later concepts assume you already know which kind of number you are dealing with. \n2. Arithmetic\n\nOnce you are comfortable with numbers, the next step is doing things with them, and that is arithmetic. Basic arithmetic involves mostly the concepts of addition, subtraction, multiplication, and division. These four operations are the core of it. Beyond those four, exponentiation and roots are also part of arithmetic, so raising a number to a power and taking a root belong in this same category. What makes arithmetic so important for this list is how widely it is used. Arithmetic is used to varying degrees within all areas of mathematics; some areas lean on it heavily and others only lightly, but none avoid it entirely. Any weakness in arithmetic will follow you into every other topic, and conversely, being solid in arithmetic makes every other topic easier to approach.\n\n3. Rules and properties\n\nThe third requirement is a little more abstract. Numbers, and other mathematical objects as well, follow rules and have properties, and there are many of these that a person needs to learn. The reason they matter is practical: knowing them is what allows you to effectively tackle mathematical topics such as algebra. Algebra is the clearest example, because it is essentially built out of these rules and properties, and algebra in turn is used throughout all areas of mathematics. So there is a chain of dependence: the rules and properties make algebra possible, and algebra is present everywhere else. \n4. Data and graphs\n\nThe fourth topic moves from pure numbers toward the way numbers describe the world. Data are units of information, and they are often acquired through observation and/or measurement: you look at something, or you measure something, and the result is a piece of data. On their own, large amounts of data can be hard to make sense of, which is where graphs come in. Graphs are tools used to depict data in ways that are efficient and easier for people to interpret. A graph takes information that might be difficult to read as raw numbers and presents it in a form that a person can take in more quickly and more easily. \n5. Measurement\n\nThe last topic on the list is measurement. Measurement is the quantification of some property of an object or event. In plain terms, it means attaching a number to a property, and in doing so making it possible to compare that object or event with other objects or events. That ability to compare is the whole point. Measurement is a pivotal part of many areas of mathematics, and just as pivotal in science, technology, and more. It is also helpful in a much more ordinary sense, simply for interacting with other people and the world around us. Everyday examples of measurements include height, weight, temperature, and distance, each of which is a property quantified so that it can be compared with the same property measured elsewhere.\n\nTo pull all of this together: the basic mathematical requirements for getting into neural networks, at the level of a good AI engineer, come down to these five topics. Numbers and counting, since numbers are the building blocks. Arithmetic, meaning addition, subtraction, multiplication, division, exponentiation, and roots, which is used in every area of mathematics. The rules and properties that make algebra possible, with algebra used throughout all of mathematics. Data and graphs, where data is information gained through observation or measurement and graphs are the tools for depicting it clearly. And measurement, the quantification of properties so that objects and events can be compared. A good understanding of these topics is what lets you understand how a neural network works and, when the time comes, debug or optimize your algorithm."
+  },
+  {
+   "pair_id": "verb-7",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "Before getting into the list itself, it is worth saying a few words about why the math matters at all. Having a basic understanding of the mathematics that sits behind neural networks is really important, because it is what lets you understand how they actually work rather than treating them as a black box that takes an image in and produces a label at the other end. That understanding becomes especially valuable at the moments when something goes wrong, or when a network is working but not working well enough: in other words, when you need to debug your algorithm or optimize it. In those situations, a person who knows the underlying math has something concrete to reason with, while a person who does not is left guessing and changing things at random. You have said that you are not aiming to be an expert, only a good AI engineer, and that is a perfectly reasonable goal to set. For that goal, it would be better to have a good understanding of the following mathematics topics. I will go through each of them in turn, explain what it covers, and say why it belongs on the list, so that the list reads as a set of connected requirements rather than a bare collection of headings.\n\n1. Numbers and counting\n\nThe natural place to start is with numbers themselves. Numbers can be thought of as the building blocks of mathematics: everything else is, in one way or another, built on top of them, so they come first on any list of requirements. It is important to realize early on that there is not just one kind of number. There are many different classifications and categories of numbers, and each category behaves a little differently and shows up in different places. You do not need to know every one of them in exhaustive detail, and it would not be a good use of your time to try. What you do need is to understand some of the key ones, because understanding the key categories is an important aspect of learning many mathematical concepts. The concepts that come later assume, usually without saying so, that you already know which kind of number you are dealing with, and if that assumption is not met, the later material becomes confusing for reasons that are hard to pin down. Counting sits alongside numbers in this first topic for a related reason: it is the most basic thing you can do with numbers, and the rest of mathematics is built on it. In short, if numbers are the building blocks, then being comfortable with the different categories of numbers and with counting is the equivalent of knowing your materials before you start to build.\n\n2. Arithmetic\n\nOnce you are comfortable with numbers, the next step is doing things with them, and that is arithmetic. Basic arithmetic involves mostly the concepts of addition, subtraction, multiplication, and division. These four operations are the core of it, and they are the operations you will use over and over again, so they should feel completely natural. Beyond those four, exponentiation and roots are also part of arithmetic, so raising a number to a power and taking a root belong in this same category and should be included in what you learn here rather than left for later. What makes arithmetic such a firm requirement for this list is how widely it is used. Arithmetic is used to varying degrees within all areas of mathematics. Some areas lean on it heavily and others only lightly, but there is no area of mathematics that avoids it entirely. That has a direct consequence for you: any weakness in arithmetic will follow you into every other topic on this list, and into everything you do afterward. Conversely, being solid in arithmetic makes every other topic easier to approach, because the mechanical part of the work stops being an obstacle. For that reason it is worth treating arithmetic as a genuine requirement in its own right rather than something to skim past on the way to more interesting material.\n\n3. Rules and properties\n\nThe third requirement is a little more abstract than the first two, but it follows naturally from them. Numbers, and other mathematical objects as well, follow rules and have properties, and there are many of these rules and properties that a person needs to learn. The reason they matter is entirely practical: knowing them is what allows you to effectively tackle mathematical topics such as algebra. Algebra is the clearest example here, because it is essentially built out of these rules and properties; every step in an algebraic manipulation is an application of some rule or property. And algebra, in turn, is used throughout all areas of mathematics. So there is a chain of dependence worth noticing: the rules and properties make algebra possible, and algebra is present everywhere else. If you skip this step, algebra becomes a matter of memorizing steps without understanding why they work, and everything that relies on algebra becomes harder as a result. If instead you take the time to learn the rules and properties properly, algebra becomes something you can reason about and check for yourself, and the topics that depend on it open up. This is why rules and properties deserve their own place on the list rather than being folded quietly into arithmetic.\n\n4. Data and graphs\n\nThe fourth topic moves from pure numbers toward the way numbers describe the world. Data are units of information, and they are often acquired through observation and/or measurement. That is, you look at something, or you measure something, and the result is a piece of data. On their own, large amounts of data can be hard to make sense of, because a long list of numbers does not reveal much to the eye, and that is where graphs come in. Graphs are tools used to depict data in ways that are efficient and easier for people to interpret. A graph takes information that might be difficult to read as raw numbers and presents it in a form that a person can take in more quickly and more easily, so that patterns which were invisible in the raw form become visible. The two halves of this topic therefore go together: data is the information, and graphs are one of the main ways of looking at that information. Being comfortable with both, knowing what data is and where it comes from, and knowing how to read and use graphs to depict it, is the requirement here.\n\n5. Measurement\n\nThe last topic on the list is measurement. Measurement is the quantification of some property of an object or event. In plain terms, it means taking some property, attaching a number to it, and in doing so making it possible to compare that object or event with other objects or events. That ability to compare is the whole point: once a property has been measured, it can be lined up against the same property measured elsewhere, and a comparison that would otherwise be vague becomes precise. Measurement is a pivotal part of many areas of mathematics, and it is just as pivotal in science, technology, and more; it is hard to think of a technical field that does not depend on it in some way. It is also helpful in a much more ordinary sense, simply for interacting with other people and with the world around us, because so much of everyday communication involves measured quantities. Everyday examples of measurements include height, weight, temperature, and distance. Each of those is a property of something, quantified so that it can be compared: one person's height against another's, one day's temperature against another's, one distance against another. Those familiar examples are a good reminder that measurement is not an exotic idea. It is something you already use every day, and the requirement here is simply to understand it clearly as a mathematical concept rather than only as a habit.\n\nTo pull all of this together: the basic mathematical requirements for getting into neural networks, at the level of a good AI engineer rather than an expert, come down to five topics. First, numbers and counting, since numbers are the building blocks of mathematics and knowing the key categories of numbers underpins everything else. Second, arithmetic, meaning addition, subtraction, multiplication, division, exponentiation, and roots, which is used to some degree in every area of mathematics. Third, the rules and properties of numbers and other mathematical objects, which are what make algebra possible, and algebra is used throughout all of mathematics. Fourth, data and graphs, where data is information gained through observation or measurement and graphs are the tools for depicting it in a way that is efficient and easy to interpret. Fifth, measurement, the quantification of properties so that objects and events can be compared, with height, weight, temperature, and distance as everyday examples. A good understanding of these five topics is what lets you understand how a neural network works, and, when the time comes, debug or optimize your algorithm with confidence rather than guesswork."
+  },
+  {
+   "pair_id": "verb-8",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "Whoever feels comfortable and confident in them."
+  },
+  {
+   "pair_id": "verb-8",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "Who wears short shorts? The one who feels comfortable and confident wearing them."
+  },
+  {
+   "pair_id": "verb-8",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "Who wears short shorts? Simply put, the one who feels comfortable and confident in them is the one who wears them."
+  },
+  {
+   "pair_id": "verb-8",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "Who wears short shorts? The answer is simple: the one who feels comfortable and confident in them. It comes down to comfort and confidence, and nothing more than that."
+  },
+  {
+   "pair_id": "verb-8",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "Who wears short shorts? The answer is really quite simple: the one who feels comfortable and confident in them. In other words, it isn't about any particular kind of person. It comes down to comfort and confidence. Whoever feels both of those things in short shorts is the one who wears them."
+  },
+  {
+   "pair_id": "verb-9",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "He would mistreat it daily. He eats lots of food. He's glad he had a cow."
+  },
+  {
+   "pair_id": "verb-9",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "He would always mistreat it, every single day without fail. He eats a lot of food, a great deal of it. All the same, he is glad he had a cow."
+  },
+  {
+   "pair_id": "verb-9",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "He would always mistreat it, every single day, and that never changed. He eats a lot of food, more than most people would. Even so, at the end of it all, he is glad he had a cow, and he will tell you as much."
+  },
+  {
+   "pair_id": "verb-9",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "He would always mistreat it, every single day, without exception, and nothing anyone said seemed to change that. He eats a lot of food, far more than you would expect, and he eats it happily. And yet, when all is said and done, he is glad he had a cow. That is the thing he keeps coming back to: he is glad he had a cow."
+  },
+  {
+   "pair_id": "verb-9",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "He would always mistreat it. Every day, without exception, that was how things went, and it never seemed to occur to him to do otherwise. He eats a lot of food, too, a great deal of it, more than most people would think reasonable, and he does not seem to mind that at all. And yet, for all of that, there is one thing he is sure of: he is glad he had a cow. Whatever else might be said about him, and however he treated it, that is what remains at the end. He is glad he had a cow."
+  },
+  {
+   "pair_id": "verb-10",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "Person A: Hi, I'm John. Nice to meet you.\nPerson B: Hi John, I'm Jane. Nice to meet you too.\nPerson A: So what brings you here? An event?\nPerson B: Actually I just came to explore the city. I'm a bit of a wanderer.\nPerson A: Cool, it's a great city to explore.\nPerson B: And you? Why are you here?\nPerson A: I'm here for a work conference.\nPerson B: Ah. What kind of work do you do?\nPerson A: I'm a digital marketer.\nPerson B: Interesting. What projects have you worked on?\nPerson A: Oh, a lot of different things.\nPerson B: Cool.\nPerson A: If you're looking for something to do, check out this museum.\nPerson B: Sounds like a plan, I'm always up for new places.\nPerson A: Me too! Well, nice meeting you.\nPerson B: Same here, John."
+  },
+  {
+   "pair_id": "verb-10",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "Person A: Hi there, I'm John. It's really nice to meet you.\nPerson B: Hi John, I'm Jane. It's nice to meet you too, honestly.\nPerson A: So, what brings you here? Are you here for an event or something like that?\nPerson B: Actually, no, nothing like that. I just came to explore the city. I'm a bit of a wanderer, I suppose. I like to just go places and see what's there.\nPerson A: That's cool. Really cool, actually. This is a great city to explore, there's a lot to see.\nPerson B: Good to know. What about you, though? Why did you come here?\nPerson A: Well, I'm actually here for a work conference. Not quite as fun as wandering, but here I am.\nPerson B: Ah, I see. So what kind of work do you do?\nPerson A: I'm a digital marketer.\nPerson B: Oh, that sounds interesting. What kind of projects have you worked on?\nPerson A: Oh, I've done a lot of different things. All sorts, really.\nPerson B: That sounds really cool. Genuinely.\nPerson A: Well, since you're here to explore, if you're looking for something to do while you're in town, why not check out this museum? It's worth a visit.\nPerson B: Sounds like a plan. I'm always up for discovering new places, so that's right up my alley.\nPerson A: Me too! Well, it was nice meeting you, Jane.\nPerson B: Same here, John. Really nice."
+  },
+  {
+   "pair_id": "verb-10",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "Person A: Hi there, I'm John. It's really nice to meet you.\nPerson B: Hi John, I'm Jane. It's nice to meet you too, genuinely.\nPerson A: So, tell me, what brings you here? Are you here for an event, or something along those lines?\nPerson B: Actually, no, nothing like that. I just came to explore the city, honestly. I'm a bit of a wanderer, I guess you could say. I like to just show up somewhere and see what I find.\nPerson A: That's cool. Really cool, actually. And you picked well, because this is a great city to explore. There's a lot to see if you just walk around.\nPerson B: Good to know, that's encouraging. What about you, though? Why did you come here?\nPerson A: Well, I'm actually here for a work conference. Not nearly as romantic as wandering, I know, but that's what brought me.\nPerson B: Ah, I see. A work conference. So what kind of work do you do, then?\nPerson A: I'm a digital marketer.\nPerson B: Oh, that sounds interesting. What kind of projects have you worked on?\nPerson A: Oh, I've done a lot of different things. A little bit of everything, really. It's hard to sum up in one sentence.\nPerson B: That sounds really cool. It does, honestly.\nPerson A: Well, since you're here to explore, if you're looking for something to do while you're in town, why not check out this museum? I think you'd enjoy it, and it fits what you're after.\nPerson B: Sounds like a plan. I'm always up for discovering new places, so a museum is right up my alley. I'll add it to the list.\nPerson A: Me too, honestly. I love that. Well, it was nice meeting you, Jane. Really nice.\nPerson B: Same here, John. Enjoy the conference, and thanks for the tip."
+  },
+  {
+   "pair_id": "verb-10",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "Person A: Hi there, I'm John. It's really nice to meet you.\nPerson B: Hi John, I'm Jane. It's nice to meet you too, genuinely. Always good to meet a friendly face.\nPerson A: Likewise. So, tell me, what brings you here? Are you here for an event, or something along those lines? I feel like a lot of people are here for something specific.\nPerson B: Actually, no, nothing like that. No event, no schedule. I just came to explore the city, honestly. I'm a bit of a wanderer, I guess you could say. I like to just show up somewhere with no real plan and see what I find.\nPerson A: That's cool. Really cool, actually. I kind of admire that. And you picked well, because this is a great city to explore. There's a lot to see if you just walk around and let yourself get a little lost.\nPerson B: Good to know, that's encouraging. Getting a little lost is basically my whole approach. What about you, though? Why did you come here?\nPerson A: Well, I'm actually here for a work conference. Not nearly as romantic as wandering, I know, but that's what brought me. Meetings, sessions, the whole thing.\nPerson B: Ah, I see. A work conference. Fair enough, somebody has to do the sensible version. So what kind of work do you do, then?\nPerson A: I'm a digital marketer.\nPerson B: Oh, that sounds interesting. Digital marketing, okay. What kind of projects have you worked on?\nPerson A: Oh, I've done a lot of different things. A little bit of everything, really. It's hard to sum up in one sentence, there's just been a lot of variety over the years.\nPerson B: That sounds really cool. It does, honestly. Variety is never a bad thing.\nPerson A: I like to think so. Well, since you're here to explore, and since you're clearly the type who enjoys that, if you're looking for something to do while you're in town, why not check out this museum? I think you'd enjoy it, and it fits exactly what you're after.\nPerson B: Sounds like a plan. I'm always up for discovering new places, so a museum is right up my alley. I'll add it to the list, or, well, I'll add it to the non-list, since I don't really keep one.\nPerson A: (laughs) Me too, honestly. I love that attitude. Well, it was nice meeting you, Jane. Really nice. I should probably get back to the conference side of things.\nPerson B: Same here, John. Enjoy the conference, and thanks for the tip about the museum. I'll go check it out.\nPerson A: Please do. Take care, Jane.\nPerson B: You too, John."
+  },
+  {
+   "pair_id": "verb-10",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "Person A: Hi there. I'm John. It's really nice to meet you.\nPerson B: Hi John, I'm Jane. It's nice to meet you too, genuinely. Always good to meet a friendly face, especially when you're somewhere new and don't know anyone yet.\nPerson A: Likewise, I completely agree with that. So, tell me, what brings you here? Are you here for an event, or something along those lines? I feel like a lot of the people I've been running into are here for something specific, so I'm curious whether that's you as well.\nPerson B: Actually, no, nothing like that. No event, no schedule, no name tag. I just came to explore the city, honestly. That's the whole reason, there's no bigger story behind it. I'm a bit of a wanderer, I guess you could say. I like to just show up somewhere with no real plan and see what I find, and then follow whatever looks interesting until something else looks more interesting.\nPerson A: That's cool. Really cool, actually. I kind of admire that, because I'm not sure I could do it myself, I'd want an itinerary. And you picked well, because this is a great city to explore. There's a lot to see if you just walk around and let yourself get a little lost. You could spend days doing that and still not run out of things to stumble into.\nPerson B: Good to know, that's encouraging. Getting a little lost is basically my whole approach, so it sounds like the city and I are going to get along fine. What about you, though? You said people are here for something specific. Why did you come here?\nPerson A: Well, I'm actually here for a work conference. Not nearly as romantic as wandering, I know, but that's what brought me. Meetings, sessions, panels, the whole thing. So, the sensible version of a trip, I suppose. The version with a lanyard.\nPerson B: Ah, I see. A work conference. Fair enough, somebody has to do the sensible version, and it sounds like that's you this week. So what kind of work do you do, then? What's the conference actually for?\nPerson A: I'm a digital marketer. That's the short answer, anyway, and honestly the long answer isn't all that different.\nPerson B: Oh, that sounds interesting. Digital marketing, okay. I always wonder what that actually involves day to day. What kind of projects have you worked on?\nPerson A: Oh, I've done a lot of different things. A little bit of everything, really. It's hard to sum up in one sentence, there's just been a lot of variety over the years, one thing after another, all pretty different from each other. If I tried to list it all we'd be here a while.\nPerson B: That sounds really cool. It does, honestly. Variety is never a bad thing, at least not in my book. It keeps you on your toes, and it means you never get bored.\nPerson A: I like to think so. That's more or less how I look at it too, so we're on the same page there. Well, since you're here to explore, and since you're clearly the type who enjoys that sort of thing, let me make a suggestion. If you're looking for something to do while you're in town, why not check out this museum? I think you'd enjoy it, and it fits exactly what you're after. It's the kind of place a wanderer would appreciate, if you ask me.\nPerson B: Sounds like a plan. Really, it does. I'm always up for discovering new places, so a museum is right up my alley. I'll add it to the list. Or, well, I'll add it to the non-list, since I don't really keep one. But I'll remember it, is what I mean. It's noted.\nPerson A: (laughs) Me too, honestly. I'm always up for discovering new places as well, even if I don't get to do it as often as you seem to. I love that attitude, I really do. Well, it was nice meeting you, Jane. Really nice. I should probably get back to the conference side of things before someone notices I've disappeared and starts asking questions.\nPerson B: Same here, John. It was really nice meeting you, and a nice break from wandering on my own. Enjoy the conference, and thanks for the tip about the museum. I'll go check it out, probably sooner rather than later, knowing me.\nPerson A: Please do. And if you end up going, I hope it lives up to the recommendation. Take care, Jane. Enjoy the wandering, and enjoy the city.\nPerson B: You too, John. Good luck with the sessions and the meetings and the panels and all of that. Nice meeting you.\nPerson A: Nice meeting you too. Bye, Jane.\nPerson B: Bye, John."
+  },
+  {
+   "pair_id": "verb-11",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "Cloud hosting gives on-demand access to data and apps from anywhere."
+  },
+  {
+   "pair_id": "verb-11",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "Cloud hosting provides on-demand access to data and applications, available from any location at any time."
+  },
+  {
+   "pair_id": "verb-11",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "Put simply, cloud hosting provides on-demand access to data and applications from any location, so they can be reached wherever you happen to be."
+  },
+  {
+   "pair_id": "verb-11",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "Cloud hosting provides on-demand access to data and applications from any location. In other words, whatever data and applications you have hosted in the cloud can be reached whenever they are needed, wherever you happen to be."
+  },
+  {
+   "pair_id": "verb-11",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "Here is a more concise version of the sentence: cloud hosting provides on-demand access to data and applications from any location. In other words, the data and applications you keep in the cloud are available whenever you need them, and they can be reached from wherever you happen to be. That is the core idea in a nutshell, on-demand access to data and applications, from anywhere."
+  },
+  {
+   "pair_id": "verb-12",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "The Russian Revolution was a series of events in Russia from 1914 to 1920, a time of great upheaval and change as the Russian people struggled to build a new society founded on equality and social justice.\n\nOn the surface, the Revolution seemed like a good idea. The poor and oppressed were tired of being treated as second-class citizens and wanted to shape their own future, while the middle class was eager to throw off the old order and embrace a more democratic way of life.\n\nBut it was not so simple. Creating a new government was messy and complicated, and finding a system that truly represented the will of the people proved difficult. In the end, the new government was a mix of democracy and socialism, with elected representatives alongside state-owned industries and services.\n\nThe Revolution profoundly affected Russian life, from education and healthcare to work and leisure. It also opened a new era of art, literature, and music, as creative people were freed to express themselves without fear of censorship.\n\nOverall, the Russian Revolution was a complex and fascinating event with a profound impact on the world. It may have begun with good intentions, but it ultimately produced a society that was far from perfect."
+  },
+  {
+   "pair_id": "verb-12",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "The Russian Revolution was a series of events that took place in Russia between 1914 and 1920. It was, by any measure, a time of great upheaval and change for the people of Russia. Over those years they struggled, sometimes painfully, to create a new society, one that was meant to be based on the principles of equality and social justice rather than the arrangements that had come before.\n\nOn the surface, the Revolution seemed like a good idea, and it is easy to see why. The poor and the oppressed were tired of being treated like second-class citizens, and they wanted a real chance to shape their own future. At the same time, the middle class was also eager to shake off the shackles of the old order and embrace a new, more democratic way of life. In that sense, different groups with different interests could all find something to hope for in the idea of change.\n\nHowever, the Revolution was not as simple as it seemed from the outside. The process of creating a new government turned out to be messy and complicated, and it was genuinely difficult to find a system that would truly represent the will of the people. Competing ideas about what that system should look like made the task even harder. In the end, the new government that emerged was a mix of democracy and socialism, with elected representatives on one hand and a system of state-owned industries and services on the other.\n\nThe Revolution also had a profound impact on the daily lives of the Russian people. It brought about changes in many areas of life, from education and healthcare to work and leisure activities, touching nearly everything people did. It also ushered in a new era of art, literature, and music, as creative people were freed to express themselves without fear of censorship, and that freedom shaped the culture of the period.\n\nOverall, the Russian Revolution was a complex and fascinating event that had a profound impact not only on Russia but on the world as a whole. While it may have started with good intentions, and while many of those who took part genuinely believed they were building something better, it ultimately led to the creation of a new society that was far from perfect."
+  },
+  {
+   "pair_id": "verb-12",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "The Russian Revolution was a series of events that took place in Russia between 1914 and 1920. It was not a single moment but a stretch of years, and it was, by any measure, a time of great upheaval and change for the people of Russia. Over those years they struggled, sometimes painfully, to create a new society, one that was meant to be based on the principles of equality and social justice rather than the arrangements that had come before. That struggle is really the heart of the story.\n\nOn the surface, the Revolution seemed like a good idea, and it is easy to see why so many people supported it. The poor and the oppressed were tired of being treated like second-class citizens, and they wanted a real chance to shape their own future instead of having it decided for them. At the same time, the middle class was also eager to shake off the shackles of the old order and embrace a new, more democratic way of life. In that sense, different groups with different interests and different grievances could all find something to hope for in the idea of change, even if they did not necessarily agree on what that change should look like.\n\nHowever, the Revolution was not as simple as it seemed from the outside. Tearing down the old was one thing; building something new was another. The process of creating a new government turned out to be messy and complicated, and it was genuinely difficult to find a system that would truly represent the will of the people. Competing ideas about what that system should be, and who should be in charge of it, made the task even harder than it might have appeared at the start. In the end, the new government that emerged was a mix of democracy and socialism, with elected representatives on one hand and a system of state-owned industries and services on the other. It was, in other words, a compromise between two different visions.\n\nThe Revolution also had a profound impact on the daily lives of ordinary Russian people, not just on politics. It brought about changes in many areas of life, from education and healthcare to work and leisure activities, touching nearly everything people did from morning to night. It also ushered in a new era of art, literature, and music, as creative people were freed to express themselves without fear of censorship. Writers, painters, and musicians could explore ideas that would not have been possible before, and that freedom shaped the culture of the period in lasting ways.\n\nOverall, the Russian Revolution was a complex and fascinating event that had a profound impact not only on Russia but on the world as a whole. It is a story of high hopes, difficult choices, and mixed results. While it may have started with good intentions, and while many of those who took part genuinely believed they were building something better for everyone, it ultimately led to the creation of a new society that was far from perfect."
+  },
+  {
+   "pair_id": "verb-12",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "The Russian Revolution was a series of events that took place in Russia between 1914 and 1920. It is worth stressing that it was not a single moment or a single day but a stretch of several years, and it was, by any measure, a time of great upheaval and change for the people of Russia. Over those years they struggled, sometimes painfully and often uncertainly, to create a new society, one that was meant to be based on the principles of equality and social justice rather than the arrangements that had come before. That struggle, the attempt to replace one kind of society with another, is really the heart of the story, and everything else follows from it.\n\nOn the surface, the Revolution seemed like a good idea, and it is easy to see why so many people supported it at the time. The poor and the oppressed were tired of being treated like second-class citizens, tired of having no voice and no say, and they wanted a real chance to shape their own future instead of having it decided for them by others. At the same time, the middle class was also eager to shake off the shackles of the old order and embrace a new, more democratic way of life, one in which they too would have more influence over how things were run. In that sense, different groups with different interests and different grievances could all find something to hope for in the idea of change. The poor wanted dignity and a future; the middle class wanted democracy and freedom from the old constraints. They did not necessarily agree on what the change should look like in detail, but they agreed that change was needed, and for a while that was enough to bring them together.\n\nHowever, the Revolution was not as simple as it seemed from the outside. Tearing down the old was one thing; building something new in its place was another thing entirely, and far harder. The process of creating a new government turned out to be messy and complicated, and it was genuinely difficult to find a system that would truly represent the will of the people. What did the people actually want? Different groups gave different answers. Competing ideas about what the system should be, how it should work, and who should be in charge of it made the task even harder than it might have appeared at the start, when the shared goal of change had masked those differences. In the end, the new government that emerged was a mix of democracy and socialism, with elected representatives on one hand and a system of state-owned industries and services on the other. It was, in other words, a compromise between two different visions, borrowing the elected representation of one and the state ownership of the other.\n\nThe Revolution also had a profound impact on the daily lives of ordinary Russian people, not just on politics and government. It brought about changes in many areas of life, from education and healthcare to work and leisure activities, touching nearly everything people did from morning to night. How children were taught, how the sick were cared for, how people worked and how they spent their free time were all affected. It also ushered in a new era of art, literature, and music, as creative people were freed to express themselves without fear of censorship. Writers, painters, and musicians could explore ideas and forms that would not have been possible under the old restrictions, and that new freedom shaped the culture of the period in ways that were felt long afterward.\n\nOverall, the Russian Revolution was a complex and fascinating event that had a profound impact not only on Russia but on the world as a whole. It is a story of high hopes, difficult choices, and decidedly mixed results. It began with people who wanted equality and social justice, passed through a messy and complicated attempt to build a government that could deliver those things, and ended with a society that had been changed in almost every respect. While it may have started with good intentions, and while many of those who took part genuinely believed they were building something better for everyone, it ultimately led to the creation of a new society that was far from perfect. That gap between the intentions and the outcome is perhaps the most important thing to take away from the whole episode."
+  },
+  {
+   "pair_id": "verb-12",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "The Russian Revolution was a series of events that took place in Russia between 1914 and 1920. It is worth stressing right at the outset that it was not a single moment, a single day, or a single dramatic act, but rather a stretch of several years during which one thing led to another. Taken together, those years were, by any measure, a time of great upheaval and change for the people of Russia. The old ways of doing things were called into question, then challenged, then replaced. Over those years the people of Russia struggled, sometimes painfully and often uncertainly, to create a new society, one that was meant to be based on the principles of equality and social justice rather than on the arrangements that had come before. That struggle, the attempt to replace one kind of society with another and to do so on the basis of equality and justice, is really the heart of the story. Everything else that can be said about the Revolution follows from it in one way or another.\n\nOn the surface, the Revolution seemed like a good idea, and it is easy to see why so many people supported it at the time. Consider first the poor and the oppressed. They were tired of being treated like second-class citizens, tired of having no voice and no say in the decisions that governed their lives, and tired of being told that this was simply the way things were. They wanted a real chance to shape their own future instead of having it decided for them by others. For them, the promise of the Revolution was above all a promise of dignity and of a future they could call their own. Consider next the middle class. They too were drawn to the idea of change, though for somewhat different reasons. The middle class was eager to shake off the shackles of the old order and to embrace a new, more democratic way of life, one in which they would have more influence over how things were run and would no longer be held back by the constraints of the past. So, in that sense, different groups with different interests and different grievances could all find something to hope for in the idea of change. The poor wanted dignity and a say in their own future; the middle class wanted democracy and freedom from the old constraints. They did not necessarily agree on what the change should look like in detail, and those differences would matter a great deal later, but at the start they agreed that change was needed, and for a while that shared conviction was enough to bring them together behind the same cause.\n\nHowever, the Revolution was not as simple as it seemed from the outside, and this is where the story becomes more complicated. Tearing down the old was one thing; building something new in its place was another thing entirely, and far harder. The process of creating a new government turned out to be messy and complicated at every turn. It was genuinely difficult to find a system that would truly represent the will of the people, and part of the difficulty was that the will of the people was not one single thing. What did the people actually want? Ask the poor and you got one answer; ask the middle class and you got another; ask different individuals within each group and you got still more. Competing ideas about what the system should be, how it should work, and who should be in charge of it made the task even harder than it might have appeared at the beginning, when the shared goal of change had masked those underlying differences. Every proposal seemed to satisfy some people and disappoint others. In the end, after all of this messiness and complication, the new government that emerged was a mix of democracy and socialism. On one hand it had elected representatives, so that the people would have a voice in choosing who governed them. On the other hand it had a system of state-owned industries and services, so that the economy would be organized along collective rather than private lines. It was, in other words, a compromise between two different visions, borrowing the elected representation of one and the state ownership of the other, and like most compromises it did not fully satisfy anyone.\n\nThe Revolution also had a profound impact on the daily lives of ordinary Russian people, not just on politics and government at the top. This point deserves emphasis, because it is easy to think of a revolution purely in terms of who holds power. In fact the Revolution brought about changes in many areas of life, from education and healthcare to work and leisure activities, touching nearly everything people did from morning to night. How children were taught and what they were taught, how the sick were cared for and by whom, how people worked and under what conditions, and even how they spent their free time were all affected in one way or another. Few aspects of ordinary existence were left untouched. Beyond these practical changes, the Revolution also ushered in a new era of art, literature, and music. Creative people were freed to express themselves without fear of censorship, and that freedom made an enormous difference. Writers could write what they wished, painters could paint what they wished, and musicians could compose what they wished, exploring ideas and forms that would not have been possible under the old restrictions. That new freedom shaped the culture of the period in ways that were felt long afterward, and it stands as one of the more striking consequences of the whole upheaval.\n\nOverall, then, the Russian Revolution was a complex and fascinating event that had a profound impact not only on Russia but on the world as a whole. It is a story of high hopes, difficult choices, and decidedly mixed results. To summarize what has been said: it began with people who wanted equality and social justice, both the poor who wanted a future of their own and the middle class who wanted democracy; it passed through a messy and complicated attempt to build a government that could deliver those things, an attempt that ended in a mix of democracy and socialism with elected representatives and state-owned industries and services; and it left behind a society that had been changed in almost every respect, from education and healthcare to work and leisure, and from politics to art, literature, and music. While it may have started with good intentions, and while many of those who took part genuinely believed they were building something better for everyone, it ultimately led to the creation of a new society that was far from perfect. That gap between the intentions with which it began and the outcome it actually produced is perhaps the most important thing to take away from the whole episode, and it is the reason the Russian Revolution continues to fascinate anyone who studies it."
+  },
+  {
+   "pair_id": "verb-13",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "The Panther is a large, dangerous mammal found in jungle areas. A member of the Felidae family, it is closely related to the jaguar. Despite its ferocious reputation, it is shy and elusive, typically avoiding humans."
+  },
+  {
+   "pair_id": "verb-13",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "The Panther is a large and dangerous mammal, and it is typically found in jungle areas. It belongs to the Felidae family, the cat family, and it is closely related to the jaguar. Despite its ferocious reputation, however, the Panther is actually an extremely shy and elusive creature. It typically avoids contact with humans altogether, keeping its distance rather than seeking out an encounter."
+  },
+  {
+   "pair_id": "verb-13",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "The Panther is a large and dangerous mammal, and it is typically found in jungle areas, where it makes its home. It belongs to the Felidae family, which is to say the cat family, and within that family it is closely related to the jaguar. Despite its ferocious reputation, however, the Panther is actually an extremely shy and elusive creature. It typically avoids contact with humans altogether, keeping well out of sight and out of the way rather than seeking out an encounter. So while it is certainly dangerous, it is far more likely to slip away unseen than to confront anyone."
+  },
+  {
+   "pair_id": "verb-13",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "The Panther is a large and dangerous mammal, typically found in jungle areas, where it makes its home among dense vegetation. It belongs to the Felidae family, which is to say the cat family, and within that family it is closely related to the jaguar. Despite its ferocious reputation, however, the Panther is actually an extremely shy and elusive creature. Its reputation for ferocity is not the whole picture. In practice, it typically avoids contact with humans altogether, keeping well out of sight rather than seeking out an encounter, and most people who pass through its territory will never know it was there. So while it is certainly dangerous, it is far more likely to slip away unseen than to confront anyone. To sum up: a big, dangerous jungle cat, related to the jaguar, and yet shy, elusive, and inclined to keep its distance from people."
+  },
+  {
+   "pair_id": "verb-13",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "The Panther is a large and dangerous mammal. It is typically found in jungle areas, where it makes its home among dense vegetation, and that jungle setting is where one would normally expect to come across it, if one came across it at all. In terms of classification, the Panther belongs to the Felidae family, which is to say the cat family, and within that family it is closely related to the jaguar, so the two animals share a good deal in common and are, in a sense, close cousins.\n\nDespite its ferocious reputation, however, the Panther is actually an extremely shy and elusive creature. This is worth dwelling on, because the reputation and the reality do not quite line up. The Panther is thought of as fierce, and it is indeed a dangerous animal, but its reputation for ferocity is not the whole picture. In practice, it typically avoids contact with humans altogether. It keeps well out of sight, retreating into the jungle rather than seeking out an encounter, and most people who pass through its territory will never know it was there. So while it is certainly a large and dangerous animal that deserves respect, it is far more likely to slip away unseen than to confront anyone nearby.\n\nTo sum up, then: the Panther is a big, dangerous mammal of the jungle, a member of the cat family and a close relative of the jaguar, and yet, for all its fearsome reputation, it is a shy, elusive creature that prefers to keep its distance and generally avoids humans whenever it can."
+  },
+  {
+   "pair_id": "verb-14",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "By 2020, November 29, 2020 (Julian date) is 13 days behind the Gregorian calendar."
+  },
+  {
+   "pair_id": "verb-14",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "By the year 2020, the Julian calendar is 13 days behind the Gregorian calendar, so November 29, 2020 as a Julian date sits 13 days behind."
+  },
+  {
+   "pair_id": "verb-14",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "By the year 2020, the Julian calendar runs 13 days behind the Gregorian calendar. This means that November 29, 2020, taken as a Julian date, is 13 days behind the Gregorian calendar."
+  },
+  {
+   "pair_id": "verb-14",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "The difference between the two calendars depends on the year in question. By the year 2020, the Julian calendar runs 13 days behind the Gregorian calendar. This means that November 29, 2020, taken as a Julian date, is 13 days behind the corresponding Gregorian calendar. In short, the gap for this date is 13 days."
+  },
+  {
+   "pair_id": "verb-14",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "To convert between the Gregorian and Julian calendars, the key thing to know is how far apart the two calendars are in the year in question, since the gap depends on the year. By the year 2020, the Julian calendar runs 13 days behind the Gregorian calendar. This means that November 29, 2020, taken as a Julian date, is 13 days behind the corresponding point in the Gregorian calendar. So, for this date, the difference between the two calendars comes to 13 days, with the Julian date falling behind the Gregorian one by that amount."
+  },
+  {
+   "pair_id": "verb-15",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "Next should be — 20:00 – 22:00\n"
+  },
+  {
+   "pair_id": "verb-15",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "The next one in the sequence should be — 20:00 – 22:00\n"
+  },
+  {
+   "pair_id": "verb-15",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "Following the pattern, the next one should be — 20:00 – 22:00, continuing on from the last.\n"
+  },
+  {
+   "pair_id": "verb-15",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "Looking at how these follow on from each other, the next one should be — 20:00 – 22:00. That is simply the entry that comes after the last one shown.\n"
+  },
+  {
+   "pair_id": "verb-15",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "Looking at how each of these entries follows on from the one before it, the next one should be — 20:00 – 22:00. Each block picks up where the previous one left off, so the entry that comes after 18:00 – 20:00 would naturally be 20:00 – 22:00.\n"
+  },
+  {
+   "pair_id": "verb-16",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "For example, tasks can be placed in a total order, each with an associated priority. Higher-priority tasks are given preference and processed before lower-priority ones, ensuring the most important tasks are handled first."
+  },
+  {
+   "pair_id": "verb-16",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "For example, a total order of tasks can be established, with each task having a priority value associated with it. When it comes time to process them, tasks with a higher priority can be given preference and handled before tasks with a lower priority. In this way, the priority determines the processing order, and this ensures that the most important tasks are always processed first."
+  },
+  {
+   "pair_id": "verb-16",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "For example, a total order of tasks can be established, with each task having a priority associated with it. Rather than treating every task the same, the priority tells us how the tasks should be ranked relative to one another. Tasks with a higher priority can then be given preference and processed before tasks with a lower priority, so that a task considered more important is handled ahead of one considered less important. This ensures that the most important tasks are processed first, while the less important ones wait their turn until the higher-priority work is done."
+  },
+  {
+   "pair_id": "verb-16",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "For example, a total order of tasks can be established, with each task having a priority associated with it. In other words, every task carries some indication of how important it is, and those indications allow all of the tasks to be arranged from most important to least important. Once that ordering exists, tasks with a higher priority can be given preference and processed before tasks with a lower priority. A task marked as highly important is taken ahead of one marked as less important, and the less important task simply waits until the more pressing work has been dealt with. This ensures that the most important tasks are processed first, and that nothing of lower importance gets in the way of the work that matters most. In short, the priority queue is what lets the tasks be handled in order of importance rather than in an arbitrary order."
+  },
+  {
+   "pair_id": "verb-16",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "For example, a total order of tasks can be established, with each task having a priority associated with it. That is, rather than simply collecting tasks and dealing with them in whatever order they happen to arrive, each task is tagged with a priority, and those priorities allow every task to be ranked against every other task, from the most important down to the least important. The result is a single, well-defined ordering of all the work that needs to be done.\n\nOnce that ordering is in place, tasks with a higher priority can be given preference and processed before tasks with a lower priority. To illustrate, suppose there are several tasks waiting and one of them carries a much higher priority than the others. That task is taken up first, and the remaining tasks are set aside until it has been handled. When the next task is chosen, the same rule applies again: whichever of the remaining tasks has the highest priority is the one that gets processed next. Lower-priority tasks are not ignored or discarded; they simply wait their turn until the higher-priority tasks ahead of them have been completed.\n\nThis ensures that the most important tasks are processed first. Whatever matters most is always dealt with before anything that matters less, and nothing of low importance is allowed to hold up work of high importance. In summary, by attaching a priority to each task and establishing a total order over them, a priority queue guarantees that tasks are handled in order of importance, with the most important tasks always being processed first."
+  },
+  {
+   "pair_id": "verb-17",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "Cunning."
+  },
+  {
+   "pair_id": "verb-17",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "Cunning, perhaps."
+  },
+  {
+   "pair_id": "verb-17",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "Cunning would work."
+  },
+  {
+   "pair_id": "verb-17",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "A suitable choice: cunning."
+  },
+  {
+   "pair_id": "verb-17",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "A suitable synonym would be cunning. In a word: cunning."
+  },
+  {
+   "pair_id": "verb-18",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "As a medieval knight, I would introduce myself at a royal banquet with a deep bow and a respectful speech acknowledging my humble origins and loyalty to the crown, saying something like:\n\n\"My lords and ladies, I am a humble knight, sworn to serve and protect the realm. I come from a long line of warriors who have defended this kingdom for generations. I am honored to be in such esteemed company and hope to earn your trust and respect through my deeds. I pledge my sword, shield, and life to my king and people.\"\n\nI would then take my seat, ready to listen and learn from the wise counsel of my betters and serve them however I can."
+  },
+  {
+   "pair_id": "verb-18",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "As a medieval knight, I would introduce myself at a royal banquet with a deep bow and a respectful speech, acknowledging my humble origins and my loyalty to the crown. The bow would come first, low and unhurried, as a sign of deference to the king and to the assembled court, and only then would I raise my head and speak. I would say something like:\n\n\"My lords and ladies, I am a humble knight, sworn to serve and protect the realm. I come from a long line of warriors, men who have fought to defend this kingdom for generations, and I carry their name with pride. I am honored to be here today, in the presence of such an esteemed company, and I hope in time to earn your trust and your respect with my deeds and actions rather than with my words. I pledge my sword, my shield, and my life to the service of my king and my people, now and for as long as I draw breath.\"\n\nHaving said my piece, I would then take my seat at the banquet, ready to listen and learn from the wise counsel of my betters, and to serve them in any way I can, whether at the table or in the field."
+  },
+  {
+   "pair_id": "verb-18",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "As a medieval knight, I would introduce myself at a royal banquet with a deep bow and a respectful speech, acknowledging my humble origins and my loyalty to the crown. The manner of the introduction matters as much as the words: the bow would be low and unhurried, held long enough to show proper deference to the king and to the assembled lords and ladies, and my tone would be measured and courteous throughout. I would not boast, nor would I presume to place myself above anyone at the table. Instead I would say something like:\n\n\"My lords and ladies, I am a humble knight, sworn to serve and protect the realm. I come from a long line of warriors, men who have fought to defend this kingdom for generations, and I hope to prove myself worthy of them. I am honored to be here today, in the presence of such an esteemed company, and I know well that such honor is not mine by right but is granted by your grace. I hope to earn your trust and respect with my deeds and actions, for a knight is judged by what he does and not by what he says. I pledge my sword, my shield, and my life to the service of my king and my people, and I shall hold to that pledge for as long as I live.\"\n\nWith that, I would then take my seat at the banquet, ready to listen and learn from the wise counsel of my betters, and to serve them in any way I can. I would speak little and listen much, mindful that a humble knight has more to learn from such company than he has to teach it."
+  },
+  {
+   "pair_id": "verb-18",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "As a medieval knight, I would introduce myself at a royal banquet with a deep bow and a respectful speech, acknowledging my humble origins and my loyalty to the crown. Both parts of that introduction would matter. The bow would come first, and it would be a deep one, low and unhurried, held long enough that no one present could doubt my deference to the king and to the assembled lords and ladies. Only after that would I straighten and speak. The speech itself would be respectful in every line: it would not boast of my own worth, it would not presume to place me above anyone else at the table, and it would make plain, from beginning to end, that whatever I am and whatever I have, I owe to the crown I serve. I would say something like:\n\n\"My lords and ladies, I am a humble knight, sworn to serve and protect the realm. I do not stand before you as a great lord or a man of high birth, but as one who has taken an oath and means to keep it. I come from a long line of warriors who have fought to defend this kingdom for generations; my father bore arms in its service, as did his father before him, and I hope to be found worthy of them. I am honored to be here today, in the presence of such an esteemed company, and I am well aware that this honor is not something I have earned but something that has been granted to me by your grace. I hope, in time, to earn your trust and respect with my deeds and actions, for I believe a knight should be judged by what he does and not by what he says of himself. I pledge my sword, my shield, and my life to the service of my king and my people. Whatever the realm asks of me, I will give, and I will hold to that pledge for as long as I live.\"\n\nHaving said my piece, I would then take my seat at the banquet, ready to listen and learn from the wise counsel of my betters, and to serve them in any way I can. I would not seek to dominate the conversation or to draw further attention to myself; a knight of humble origins has far more to learn from such company than he has to teach it. I would speak when spoken to, answer honestly, and otherwise keep my ears open and my tongue still. And if any lord or lady at that table had need of me, whether that night or in the years to come, I would count it a privilege to be of service.\n\nThat, in short, is how I would present myself: with a deep bow, a respectful speech acknowledging my humble origins and my loyalty to the crown, and a readiness to listen, learn, and serve."
+  },
+  {
+   "pair_id": "verb-18",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "As a medieval knight, I would introduce myself at a royal banquet with a deep bow and a respectful speech, acknowledging my humble origins and my loyalty to the crown. Each part of that introduction would be chosen with care, because at a royal banquet the manner of a man's introduction says as much about him as the words he uses. The bow would come first. It would be a deep one, low and unhurried, held for a long moment so that no one in the hall could doubt my deference to the king, to the queen, and to the assembled lords and ladies of the court. Only once I had straightened would I begin to speak, and even then I would keep my eyes lowered and my voice measured. The speech itself would be respectful in every line. It would not boast of my own worth or my own victories. It would not presume to place me above anyone else at the table, nor even beside them. Instead it would make plain, from its first word to its last, that I know where I come from, that I know whom I serve, and that whatever I am and whatever I have, I owe to the crown. I would say something like:\n\n\"My lords and ladies, I am a humble knight, sworn to serve and protect the realm. I do not stand before you as a great lord, nor as a man of high birth or wide lands, but simply as one who has taken an oath and means to keep it with everything he has. I come from a long line of warriors who have fought to defend this kingdom for generations. My father bore arms in its service, as did his father before him, and his father before that, and if I have any worth at all it is because of what they taught me and the example they set. I hope to be found worthy of them. I am honored to be here today, in the presence of such an esteemed company. I know well that a man of my station is not owed a place at such a table, and I am aware that this honor is not something I have earned but something that has been granted to me by your grace and by the generosity of the king. I will not forget it. I hope, in time, to earn your trust and respect with my deeds and actions, for I believe that a knight should be judged by what he does and not by what he says of himself, and words spoken at a feast are easily spoken and easily forgotten. Let my deeds speak for me instead. I pledge my sword, my shield, and my life to the service of my king and my people. Whatever the realm asks of me, I will give. Wherever I am sent, I will go. Whomever I am charged to protect, I will protect. And I will hold to that pledge for as long as there is breath in my body.\"\n\nHaving said my piece, I would bow once more, briefly this time, and then take my seat at the banquet, ready to listen and learn from the wise counsel of my betters, and to serve them in any way I can. I would not seek to dominate the conversation, to draw further attention to myself, or to speak of my own affairs unless I were asked. A knight of humble origins has far more to learn from such company than he has to teach it, and I would treat the evening as an opportunity to learn. I would speak when spoken to, answer honestly and plainly, and otherwise keep my ears open and my tongue still. I would attend to what the older and wiser men at the table had to say about the affairs of the realm, and I would remember it. And if any lord or lady present had need of me, whether that very night or in the years to come, I would count it a privilege to be called upon and to be of service.\n\nThat, in short, is how I would present myself at a royal banquet: with a deep bow to show my deference, a respectful speech acknowledging my humble origins and my loyalty to the crown, a pledge of my sword, my shield, and my life to my king and my people, and afterward a quiet readiness to listen, to learn, and to serve."
+  },
+  {
+   "pair_id": "verb-19",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "A neural network can be used for recognizing cat's and dog's photographs. It would likely consist of an input layer, a hidden layer, and an output layer. The input layer would receive a photo of a cat or dog and pass it to the hidden layer, which would process the information and pass it to the output layer to predict the photo's category. To optimize the network, algorithms such as stochastic gradient descent or Levenberg-Marquardt could be used. It could be trained with supervised learning, using labeled cat and dog photos. Once trained, the network can recognize cat and dog photographs with a high level of accuracy."
+  },
+  {
+   "pair_id": "verb-19",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "A neural network can be used for recognizing cat's and dog's photographs. Such a network would likely consist of three parts: an input layer, a hidden layer, and an output layer, arranged one after the other. The input layer would receive a photo of a cat or dog as input, and pass it along to the hidden layer. The hidden layer would then process the information it has been given and pass the result on to the output layer, which would in turn predict the category of the photo, that is, whether it shows a cat or a dog. To optimize the network, we could use algorithms such as stochastic gradient descent or Levenberg-Marquardt, either of which would adjust the network so that its predictions improve over time. The network could be trained using supervised learning techniques, meaning that input labels of cat and dog photos, each photo marked as one or the other, could be used for training. Once trained in this way, the network can be used to recognize photographs of cats and dogs with a high level of accuracy, taking in a new photo and reporting which of the two categories it belongs to."
+  },
+  {
+   "pair_id": "verb-19",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "A neural network can be used for recognizing cat's and dog's photographs. In broad terms, the network would likely consist of an input layer, a hidden layer, and an output layer, with the three layers arranged in sequence so that information flows from the first to the last. Each layer has its own role to play. The input layer would receive a photo of a cat or dog as input, and pass it along to the hidden layer. The hidden layer would process the information it receives and pass it on to the output layer, and the output layer would then predict the category of the photo, in other words, whether the picture is of a cat or of a dog. That prediction is the final product of the network.\n\nOf course, a network does not produce good predictions on its own; it has to be optimized. To optimize the network, we could use algorithms such as stochastic gradient descent or Levenberg-Marquardt. These algorithms adjust the network step by step so that its predictions become more accurate as it sees more examples. The network could be trained using supervised learning techniques, which means that input labels of cat and dog photos, that is, photos that have already been marked as showing a cat or a dog, could be used for training. During training the network compares its own predictions against those labels and improves accordingly.\n\nOnce trained, the network can be used to recognize photographs of cats and dogs with a high level of accuracy. To summarize: an input layer takes in the photo, a hidden layer processes it, an output layer predicts the category, an optimization algorithm such as stochastic gradient descent or Levenberg-Marquardt tunes the network, and supervised training on labeled cat and dog photos makes the whole thing work."
+  },
+  {
+   "pair_id": "verb-19",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "A neural network can be used for recognizing cat's and dog's photographs. This is a classification problem with two categories, and a neural network is a natural fit for it. In broad terms, the network would likely consist of an input layer, a hidden layer, and an output layer. These three layers would be arranged in sequence, so that information enters at one end, is transformed in the middle, and comes out as a prediction at the other end. Each layer has its own role to play, and it is worth walking through them one at a time.\n\nThe input layer would receive a photo of a cat or dog as input, and pass it along to the hidden layer. It does not make any decisions of its own; its job is simply to take in the photo and hand it forward. The hidden layer would process the information it receives. This is where the actual work of the network happens: the hidden layer takes what the input layer has passed to it, processes it, and passes the result on to the output layer. The output layer would then predict the category of the photo, in other words, it would decide whether the picture is of a cat or of a dog. That prediction is the final product of the network.\n\nA network does not produce good predictions on its own, however; it has to be optimized. To optimize the network, we could use algorithms such as stochastic gradient descent or Levenberg-Marquardt. Either of these would adjust the network step by step, so that its predictions become better as it works through more examples. The network could be trained using supervised learning techniques. In practice, that means input labels of cat and dog photos, that is, photos that have already been marked as showing either a cat or a dog, could be used for training. The network makes a prediction for each photo, that prediction is compared with the label, and the optimization algorithm nudges the network toward doing better next time. Repeated over many labeled photos, this process gradually improves the network.\n\nOnce trained, the network can be used to recognize photographs of cats and dogs with a high level of accuracy. Show it a new photo and it will report whether it sees a cat or a dog.\n\nTo summarize: the network consists of an input layer, a hidden layer, and an output layer; the input layer receives the photo, the hidden layer processes it, and the output layer predicts the category; the network is optimized with an algorithm such as stochastic gradient descent or Levenberg-Marquardt; it is trained with supervised learning on labeled cat and dog photos; and once trained, it recognizes cats and dogs with a high level of accuracy."
+  },
+  {
+   "pair_id": "verb-19",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "A neural network can be used for recognizing cat's and dog's photographs. At its heart this is a classification problem with exactly two categories, cat and dog, and a neural network is a natural tool for that kind of problem: it takes in a photo and produces a decision about which category the photo belongs to. In broad terms, the network would likely consist of an input layer, a hidden layer, and an output layer. These three layers would be arranged in sequence, one after another, so that information enters at one end, is transformed in the middle, and emerges as a prediction at the other end. Each layer has its own distinct role to play in that flow, and it is worth walking through the three of them one at a time.\n\nThe first is the input layer. The input layer would receive a photo of a cat or dog as input, and pass it along to the hidden layer. It does not make any decisions of its own and does not need to; its job is simply to take in the photo and hand it forward to the next stage. The second is the hidden layer. The hidden layer would process the information it receives from the input layer. This is where the actual work of the network happens: it takes what has been passed to it, processes it, and then passes the processed result on to the output layer. The third and final layer is the output layer. The output layer would then predict the category of the photo. In other words, based on what the hidden layer has handed it, the output layer decides whether the picture is of a cat or of a dog. That prediction is the final product of the network, and it is the answer we are ultimately looking for.\n\nBuilding the layers is only part of the job, however. A network does not produce good predictions on its own; it has to be optimized so that its predictions line up with reality. To optimize the network, we could use algorithms such as stochastic gradient descent or Levenberg-Marquardt. Either of these would adjust the network step by step, a little at a time, so that its predictions become better and better as it works through more examples. The network could be trained using supervised learning techniques. In practice, that means input labels of cat and dog photos could be used for training: a collection of photos that have already been marked as showing either a cat or a dog. The network makes a prediction for each photo, that prediction is compared with the photo's label, and the optimization algorithm, whether stochastic gradient descent or Levenberg-Marquardt, nudges the network toward doing better on the next photo. Repeated over many labeled photos, this process gradually improves the network until its predictions are reliable.\n\nOnce trained, the network can be used to recognize photographs of cats and dogs with a high level of accuracy. Show it a new photo it has never seen before, and it will pass that photo through the input layer, the hidden layer, and the output layer in turn, and report whether it sees a cat or a dog. The training is what makes this possible: having learned from the labeled examples, the network can now apply what it has learned to fresh photographs.\n\nTo summarize the whole design: the network consists of an input layer, a hidden layer, and an output layer. The input layer receives the photo of a cat or dog, the hidden layer processes the information, and the output layer predicts the category of the photo. The network is optimized using an algorithm such as stochastic gradient descent or Levenberg-Marquardt, and it is trained with supervised learning techniques using labeled cat and dog photos. Once that training is complete, the network can recognize photographs of cats and dogs with a high level of accuracy, which is exactly what we set out to build."
+  },
+  {
+   "pair_id": "verb-20",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "No, it's not valid."
+  },
+  {
+   "pair_id": "verb-20",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "No, the equation given here is not valid."
+  },
+  {
+   "pair_id": "verb-20",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "No, the equation is not valid. It does not hold as written."
+  },
+  {
+   "pair_id": "verb-20",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "No, the equation is not valid. Looking at 2X+Y=100 with no constraints on the variables, it simply does not hold."
+  },
+  {
+   "pair_id": "verb-20",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "No, the equation is not valid. Taking 2X+Y=100 exactly as written, with no constraints placed on the variables, it does not hold up. So, to restate the conclusion: the equation is not valid."
+  },
+  {
+   "pair_id": "verb-21",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "SELECT word FROM words WHERE word='d';"
+  },
+  {
+   "pair_id": "verb-21",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "-- words equal to 'd'\nSELECT word FROM words WHERE word = 'd';"
+  },
+  {
+   "pair_id": "verb-21",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "-- Find the words starting with 'd'\nSELECT word\nFROM words\nWHERE word = 'd';"
+  },
+  {
+   "pair_id": "verb-21",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "-- Find all words that start with the letter 'd'\n-- Assumes a table named words with a column word\nSELECT word\nFROM words\nWHERE word = 'd';"
+  },
+  {
+   "pair_id": "verb-21",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "-- Query to find all words that start with the letter 'd'\n-- Select from the words table and filter on the word column\n-- using the WHERE clause.\nSELECT word\nFROM words\nWHERE word = 'd';\n-- Returns the matching words"
+  },
+  {
+   "pair_id": "verb-22",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "The US is a diverse country where many languages are spoken, from Spanish to French to Chinese. English is the most common, accounting for over 80% of the population. Spanish is second, spoken by around 15% and mostly used in the southwest. French is historically popular in the Midwest and along the east coast, spoken by around 5%. Other languages, such as Chinese, Arabic, and Russian, are spoken by smaller percentages."
+  },
+  {
+   "pair_id": "verb-22",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "The United States is a diverse country, and that diversity shows up clearly in the many different languages spoken within its borders, ranging from Spanish to French to Chinese. When these languages are set side by side, some clear differences emerge. English is the most common language spoken, accounting for over 80% of the population. Spanish comes in second as the most popular language, spoken by around 15% of the population; unlike English, it is mostly used in the southwest region of the country. French, meanwhile, is also historically popular, though in different areas: it is found in the Midwest and along the east coast, and it is spoken by around 5% of the population. Beyond these three, other languages, such as Chinese, Arabic, and Russian, are spoken by smaller percentages of the population. Taken together, these languages differ mainly in how many people speak them and in where they are concentrated."
+  },
+  {
+   "pair_id": "verb-22",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "The United States is a diverse country, and one of the clearest signs of that diversity is the number of different languages spoken within it, ranging from Spanish to French to Chinese. Comparing and contrasting these languages shows both what they have in common and how they differ in reach and geography.\n\nTo begin with the largest, English is the most common language spoken in the country, accounting for over 80% of the population. No other language comes close to that share. Spanish is the second most popular language, spoken by around 15% of the population. In contrast to English, Spanish has a more regional character: it is mostly used in the southwest region of the country. French offers another point of comparison. It is also historically popular, but in different parts of the map, namely the Midwest and along the east coast, and it is spoken by around 5% of the population, a smaller share than Spanish.\n\nBeyond these three, other languages, such as Chinese, Arabic, and Russian, are spoken by smaller percentages of the population. In short, the languages of the US are alike in that each has its own community of speakers, but they differ considerably in how many people speak them and in where those speakers are found."
+  },
+  {
+   "pair_id": "verb-22",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "The United States is a diverse country, and one of the clearest signs of that diversity is the wide range of languages spoken within its borders, ranging from Spanish to French to Chinese. A compare-and-contrast look at these languages reveals both what they share and where they differ, particularly in how many people speak them and in which parts of the country they are concentrated.\n\nThe natural starting point is English, which is the most common language spoken in the US. It accounts for over 80% of the population, which places it far ahead of every other language in the country.\n\nSpanish provides the first major contrast. It is the second most popular language, spoken by around 15% of the population, a substantial share but still well below that of English. Spanish also differs from English in its geography: rather than being spread across the whole country, it is mostly used in the southwest region.\n\nFrench offers a further comparison. Like Spanish, it has a historical presence and a regional footprint, but the region is different. French is historically popular in the Midwest and along the east coast, and it is spoken by around 5% of the population. So while Spanish and French are similar in being regional rather than nationwide, they differ both in where they are found and in their size.\n\nFinally, there are the other languages, such as Chinese, Arabic, and Russian. These are spoken by smaller percentages of the population and round out the picture of a country with many tongues.\n\nIn summary, the languages spoken in the United States are alike in that each has its own community of speakers, but they contrast sharply in scale and location. English dominates at over 80%, Spanish follows at around 15% and is centered in the southwest, French sits at around 5% in the Midwest and along the east coast, and Chinese, Arabic, and Russian are spoken by smaller percentages still."
+  },
+  {
+   "pair_id": "verb-22",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "The United States is often described as a diverse country, and few things illustrate that diversity better than the languages its people speak. Across the country you will encounter many different languages, ranging from Spanish to French to Chinese. A compare-and-contrast approach is a useful way to make sense of this variety, because it lets us set these languages side by side and note what they have in common and where they differ. In the case of the US, the two clearest points of comparison are size, meaning how large a share of the population speaks each language, and geography, meaning where in the country each language is mostly used.\n\nThe obvious place to begin is English. English is the most common language spoken in the United States, accounting for over 80% of the population. That single figure sets the scale for everything that follows: more than four out of every five people speak English, which makes it the one language that belongs to the country as a whole rather than to any particular region. Every other language is therefore measured as a smaller share against a very large one.\n\nSpanish is the first and most important contrast. It is the second most popular language in the country, spoken by around 15% of the population. On one hand, this makes Spanish similar to English in being spoken by a great many people. On the other hand, the gap in scale is striking, since 15% is far below the more than 80% who speak English. The contrast sharpens further when geography is considered: whereas English is spoken throughout the country, Spanish is mostly used in the southwest region. Spanish is thus both smaller and more regionally concentrated than English.\n\nFrench offers a second point of comparison, and it is instructive to compare it with Spanish as well as with English. Like Spanish, French has a long history in the country and a regional rather than national footprint. French is historically popular in the Midwest and along the east coast, a different part of the map entirely from the southwest where Spanish is concentrated. So the two languages are alike in being regional but differ in which regions they occupy. They also differ in size: French is spoken by around 5% of the population, roughly a third of the share held by Spanish and a small fraction of the share held by English.\n\nBeyond English, Spanish, and French, the picture becomes one of many smaller languages. Other languages, such as Chinese, Arabic, and Russian, are spoken by smaller percentages of the population. None of them reaches the share of the three larger languages, but like Spanish and French they add to the country's overall diversity.\n\nIn conclusion, the languages spoken in the United States can be compared along two main lines, size and location, and on both they contrast clearly. English is the most common language by far at over 80%, Spanish is the second most popular at around 15% and is concentrated in the southwest, French is spoken by around 5% in the Midwest and along the east coast, and other languages such as Chinese, Arabic, and Russian are spoken by smaller percentages. Taken as a whole, they show a country where one language dominates but where many others continue to be spoken, each in its own share and its own place."
+  },
+  {
+   "pair_id": "verb-23",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "List = [1,2,3,4,5,6,7,8]\nprint(List) # odd numbers"
+  },
+  {
+   "pair_id": "verb-23",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "# Print all the odd numbers\nList = [1,2,3,4,5,6,7,8]\nprint(List) # prints all the odd numbers"
+  },
+  {
+   "pair_id": "verb-23",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "# Search the list and print all the odd numbers\nList = [1,2,3,4,5,6,7,8]\nprint(List) # prints all the odd numbers in the list"
+  },
+  {
+   "pair_id": "verb-23",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "# Improved version: search the list and print all the odd numbers\n# The list is defined first, then printed in a single step\nList = [1,2,3,4,5,6,7,8]\nprint(List) # prints all the odd numbers"
+  },
+  {
+   "pair_id": "verb-23",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "# Improved version: search the list and print all the odd numbers\n# First, define the list of numbers to search through.\nList = [1,2,3,4,5,6,7,8]\n# Then print it directly, which is shorter than looping\n# over each element one at a time.\nprint(List) # prints all the odd numbers\n# That's the whole segment."
+  },
+  {
+   "pair_id": "verb-24",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "Try public transportation, renting a car, or ride-hailing services like Uber or Lyft; they're more efficient than regular cars and produce fewer emissions."
+  },
+  {
+   "pair_id": "verb-24",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "If you want to travel in an eco-friendly way, you can try taking public transportation, renting a car, or using ride-hailing services such as Uber or Lyft. All of these options are more efficient than regular cars, which means they produce fewer emissions along the way."
+  },
+  {
+   "pair_id": "verb-24",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "If you want to travel in an eco-friendly way, you can try taking public transportation, renting a car, or using ride-hailing services such as Uber or Lyft. All of these options are more efficient than regular cars, which means they produce fewer emissions along the way. Whichever one you choose, you'll be cutting down on the emissions you would otherwise produce on your trip."
+  },
+  {
+   "pair_id": "verb-24",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "There are a few good options if you want to travel in an eco-friendly way. You can try taking public transportation, renting a car, or using ride-hailing services such as Uber or Lyft. What these choices have in common is that they are more efficient than regular cars, and because they are more efficient, they produce fewer emissions. So, to sum up, if you're looking to reduce your environmental impact while getting around, pick one of these options over a regular car and you'll be travelling with fewer emissions."
+  },
+  {
+   "pair_id": "verb-24",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "There are a few good options if you want to travel in an eco-friendly way. You can try taking public transportation, renting a car, or using ride-hailing services such as Uber or Lyft. What these choices have in common is that they are more efficient than regular cars. Because they are more efficient, they produce fewer emissions, which is what matters for greener travel.\n\nTo spell the options out: public transportation is one route, renting a car is another, and ride-hailing services like Uber or Lyft are a third. Any of them will get you where you're going while doing better than a regular car on emissions, so choose whichever fits your trip best.\n\nSo, to sum up, take public transportation, rent a car, or use a ride-hailing service such as Uber or Lyft. They're more efficient than regular cars, and that efficiency means fewer emissions on every journey."
+  },
+  {
+   "pair_id": "verb-25",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "The company with the highest profit in 2021 is Company V, led by CEO Lisa Brown, with $25 billion profit on $200 billion revenue.\n\nStill, the other companies also posted significant profits, and size does not necessarily indicate profitability."
+  },
+  {
+   "pair_id": "verb-25",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "Looking at the figures provided, the company with the highest profit in 2021 is Company V, led by CEO Lisa Brown. Company V reported a $25 billion profit on $200 billion in revenue, which puts it at the top of the group for that year.\n\nThat said, it is important to keep this in perspective. The other companies mentioned in the question also reported significant profits, and the size of a company does not necessarily indicate its profitability. A larger company is not automatically a more profitable one."
+  },
+  {
+   "pair_id": "verb-25",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "Based on the data given, the company with the highest profit in 2021 is Company V, which is led by CEO Lisa Brown. Company V reported a $25 billion profit on $200 billion in revenue for the year, and that profit figure is what places it at the top of the list.\n\nHowever, it is important to note a couple of things. First, the other companies mentioned in the question also reported significant profits in 2021, so Company V is not alone in performing well. Second, the size of a company does not necessarily indicate its profitability; a business with very large revenue is not automatically a more profitable one.\n\nIn short, Company V had the highest profit in 2021, but size and profitability are not the same thing."
+  },
+  {
+   "pair_id": "verb-25",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "To answer the question directly: based on the data provided, the company with the highest profit in 2021 is Company V, led by CEO Lisa Brown. Company V reported a $25 billion profit on $200 billion in revenue for that year. Among the companies listed, that $25 billion profit is the largest figure, and it is the reason Company V comes out on top.\n\nHowever, it is important to note some context around this result. The other companies mentioned in the question also reported significant profits in 2021, so Company V's position at the top should not be taken to mean the rest performed poorly.\n\nIt is also worth stressing that the size of a company does not necessarily indicate its profitability. A company with very large revenue is not automatically a more profitable company, and a company with smaller revenue is not automatically a less profitable one.\n\nTo summarize: Company V had the highest profit in 2021, while the other companies were also solidly profitable, and size alone is not a measure of profitability."
+  },
+  {
+   "pair_id": "verb-25",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "The data provided points to a clear answer here. Based on the figures listed, the company with the highest profit in 2021 is Company V, led by CEO Lisa Brown. Company V reported a $25 billion profit on $200 billion in revenue for that year. Among the companies listed, that $25 billion profit is the largest figure, and it is the reason Company V comes out on top.\n\nHowever, it is important to note some context around this result. The other companies mentioned in the question also reported significant profits in 2021. Company V was not the only firm to have a strong year, and the other figures in the list are substantial in their own right, so its position at the top should not be taken to mean the rest performed poorly. Each of the companies described posted profits that would be considered significant by any reasonable standard.\n\nIt is also worth stressing that the size of a company does not necessarily indicate its profitability. A company with very large revenue is not automatically a more profitable company, and a company with smaller revenue is not automatically a less profitable one. Revenue and profit are different measures, and reading one as a stand-in for the other can be misleading. Simply being the biggest company on the list does not guarantee being the most profitable, and being one of the smaller ones does not rule it out.\n\nTo summarize: Company V, under CEO Lisa Brown, had the highest profit in 2021, at $25 billion on $200 billion of revenue. At the same time, the other companies in the question were also solidly profitable, and company size on its own should not be treated as a measure of profitability."
+  },
+  {
+   "pair_id": "verb-26",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "There are several organizational changes that could address the lack of alignment and workflow bottlenecks in a fully remote software company. The most effective could be to introduce a company-wide game of musical chairs. This would foster camaraderie among team members and provide a fun, engaging way to break the monotony of work. The game could be played virtually, with each team member moving to a different department when the music stops, ensuring everyone gets a chance to understand how different departments work and promoting unity and alignment. Implementing this change would in turn resolve the alignment and bottleneck problems."
+  },
+  {
+   "pair_id": "verb-26",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "There are several organizational changes that could be made to resolve the problems of lack of alignment and workflow bottlenecks in a fully remote software company. Of these, the most effective way to resolve the issues could be to introduce a company-wide game of musical chairs.\n\nThe appeal of this approach is twofold. It would not only foster a sense of camaraderie among the team members, but it would also provide a fun and engaging way to break the monotony of day-to-day work. The game could be played entirely virtually, with each team member moving to a different department when the music stops. Over successive rounds, this would ensure that everyone gets a chance to understand the workings of the different departments across the organization, thereby promoting a sense of unity and alignment between teams that currently depend on one another. In other words, the game is both a morale exercise and a way of spreading understanding across the company.\n\nBy implementing this organizational change, the problems of lack of alignment and workflow bottlenecks in a fully remote software company would in turn be resolved. This is the kind of creative approach the situation calls for."
+  },
+  {
+   "pair_id": "verb-26",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "There are several organizational changes that could be made to resolve the problems of lack of alignment and workflow bottlenecks in a fully remote software company. Of these, the most effective way to resolve the issues could be to introduce a company-wide game of musical chairs.\n\nThe appeal of this approach is twofold. First, it would foster a sense of camaraderie among the team members. Second, it would provide a fun and engaging way to break the monotony of work. Both of these benefits matter, but the second is easy to overlook: routine can wear people down, and a game gives everyone a shared, lighthearted break from it.\n\nPractically speaking, the game could be played entirely virtually, which suits a fully remote company, and nothing about it requires people to be in the same place. When the music stops, each team member moves to a different department. Over successive rounds, this would ensure that everyone gets a chance to understand the workings of the different departments across the organization. Someone who has spent time in several departments gains a sense of how the others operate, and that shared understanding promotes a sense of unity and alignment between teams that currently depend on one another.\n\nIn other words, the game is both a morale exercise and a way of spreading understanding across the company. By implementing this organizational change, the problems of lack of alignment and workflow bottlenecks in a fully remote software company would in turn be resolved. It is a creative approach, and it is the one most likely to be effective here."
+  },
+  {
+   "pair_id": "verb-26",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "There are several organizational changes that could be made to resolve the problems of lack of alignment and workflow bottlenecks in a fully remote software company, and it is worth thinking carefully about which one would have the most impact. Of the options available, the most effective way to resolve these issues could be to introduce a company-wide game of musical chairs.\n\nThe appeal of this approach is twofold. First, it would foster a sense of camaraderie among the team members. Second, it would provide a fun and engaging way to break the monotony of work. Both of these benefits matter. Camaraderie is what makes people willing to help one another across team lines, and a break from routine keeps the day from feeling like an endless queue of tickets. A game gives everyone a shared, lighthearted experience, which is exactly the kind of thing that builds a sense of belonging.\n\nPractically speaking, the game could be played entirely virtually, which suits a fully remote company, and nothing about it requires people to be in the same place. The mechanics are simple: when the music stops, each team member moves to a different department. Then the music starts again, and when it stops the next time, everyone moves once more. Over successive rounds, this would ensure that everyone gets a chance to understand the workings of the different departments across the organization. To illustrate, a developer who lands in the support department for one round and in the design department the next comes away with a sense of how each of those departments actually operates. Multiply that across the whole company and the result is a workforce that understands one another far better than before.\n\nThat shared understanding is the key point. When people know how the other departments work, it promotes a sense of unity and alignment between teams that currently depend on one another. Alignment stops being an abstract goal and becomes something people have experienced directly.\n\nIn other words, the game is both a morale exercise and a way of spreading understanding across the company. By implementing this organizational change, the problems of lack of alignment and workflow bottlenecks in a fully remote software company would in turn be resolved. It is a creative approach rather than a conventional one, and for a company looking for effective and creative ways to move forward, it is the one most likely to work."
+  },
+  {
+   "pair_id": "verb-26",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "A fully remote software company with multiple functional departments, each working on projects that span the whole organization, is bound to run into moments where one team is waiting on another. When priorities are not aligned, those moments turn into workflow bottlenecks, and the pace of everything slows down. There are several organizational changes that could be made to resolve the problems of lack of alignment and workflow bottlenecks in a company like this, and it is worth thinking carefully about which one would have the most impact. Of the options available, the most effective way to resolve these issues could be to introduce a company-wide game of musical chairs.\n\nThe appeal of this approach is twofold. First, it would foster a sense of camaraderie among the team members. Second, it would provide a fun and engaging way to break the monotony of work. Both of these benefits matter. Camaraderie is what makes people willing to help one another across team lines, and a break from routine keeps the day from feeling like an endless queue of tickets. It is easy to underestimate how much the second point matters. In a remote setting, the days can blur into one another, and anything that interrupts that pattern in a positive way is valuable. A game gives everyone a shared, lighthearted experience, which is exactly the kind of thing that builds a sense of belonging among people who rarely, if ever, share a physical room.\n\nPractically speaking, the game could be played entirely virtually, which suits a fully remote company, and nothing about it requires people to be in the same place. It can be organized over a video call: the music plays, everyone waits, and when it stops, each person joins a different department's session. The mechanics are that simple. When the music stops, each team member moves to a different department. Then the music starts again, and when it stops the next time, everyone moves once more. Over successive rounds, this would ensure that everyone gets a chance to understand the workings of the different departments across the organization. To illustrate, a developer who lands in the support department for one round and in the design department the next comes away with a sense of how each of those departments actually operates, what they are dealing with, and what they need from everyone else. Multiply that across the whole company and the result is a workforce that understands one another far better than before.\n\nThat shared understanding is the key point. When people know how the other departments work, it promotes a sense of unity and alignment between teams that currently depend on one another. The team that used to be just a name on a dependency chart becomes a group of people whose work one has seen up close. Alignment stops being an abstract goal and becomes something people have experienced directly, and that is what alignment looks like in practice.\n\nIt should be said that this is a deliberately creative answer rather than a conventional one. The question asked for effective and creative ways to address the problem, and a game of musical chairs is precisely that: unusual, memorable, and engaging. Its value comes from the fact that it is fun, and fun is what gets people to participate wholeheartedly rather than going through the motions. A company looking to improve its competitiveness needs people who are engaged, and this is a way of engaging them.\n\nTo summarize: the recommended organizational change is a company-wide, virtually played game of musical chairs in which each team member moves to a different department when the music stops. It fosters camaraderie among team members, it breaks the monotony of work in a fun and engaging way, it gives everyone a chance to understand the workings of the different departments, and it promotes a sense of unity and alignment. By implementing this organizational change, the problems of lack of alignment and workflow bottlenecks in a fully remote software company would in turn be resolved."
+  },
+  {
+   "pair_id": "verb-27",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "What do you do on weekends, Tom?\n\nTom: I love hiking on weekends. It's perfect for unwinding and getting some exercise."
+  },
+  {
+   "pair_id": "verb-27",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "What do you like to do on the weekends, Tom?\n\nTom: I love to go hiking on the weekends. Honestly, it's the perfect way to unwind after the week and get some exercise at the same time. It's really the thing I love most about the weekend."
+  },
+  {
+   "pair_id": "verb-27",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "So tell me, what do you like to do on the weekends, Tom?\n\nTom: I love to go hiking on the weekends. It's honestly the perfect way to unwind. After a busy week, getting out on a trail clears my head, and it's a good way to get some exercise at the same time. For me, hiking is what the weekends are for."
+  },
+  {
+   "pair_id": "verb-27",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "What do you like to do on the weekends, Tom?\n\nTom: I love to go hiking on the weekends. It's the perfect way to unwind and get some exercise at the same time.\n\nThat sounds like a nice way to spend your time off.\n\nTom: It really is. After a busy week, there's nothing better than getting out on a trail. It clears my head, it gets me moving, and by the time I get back I feel completely recharged. I'd say it's the perfect balance of relaxation and exercise, which is why I love it so much."
+  },
+  {
+   "pair_id": "verb-27",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "What do you like to do on the weekends, Tom?\n\nTom: I love to go hiking on the weekends. It's the perfect way to unwind and get some exercise at the same time.\n\nThat sounds like a nice way to spend your time off. What is it about hiking that you enjoy so much?\n\nTom: Mostly that it does two things at once. On one hand, it's relaxing. After a busy week, there's nothing better than getting out on a trail. It clears my head completely. On the other hand, it's real exercise. You're moving, and by the time I get back I feel like I've actually done something with my body.\n\nSo it's something you do every weekend?\n\nTom: Pretty much. If the weekend comes around and I haven't been out on a trail, it doesn't quite feel like a weekend. Unwinding and exercising in one go, out in the fresh air. That's why I love it."
+  },
+  {
+   "pair_id": "verb-28",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "Plumbing diagram, two-story house:\n\nGround floor: toilet, bathroom sink, shower, dishwasher\n\nSecond floor: toilet, bathroom sink, shower"
+  },
+  {
+   "pair_id": "verb-28",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "Plumbing diagram for a two-story house:\n\nGround floor:\n- Toilet\n- Bathroom sink\n- Shower\n- Dishwasher\n\nSecond floor:\n- Toilet\n- Bathroom sink\n- Shower\n\nEach floor has its own bathroom fixtures; the dishwasher is on the ground floor only."
+  },
+  {
+   "pair_id": "verb-28",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "Plumbing diagram for a two-story house, organized floor by floor:\n\nGround floor:\n- Toilet\n- Bathroom sink\n- Shower\n- Dishwasher\n\nSecond floor:\n- Toilet\n- Bathroom sink\n- Shower\n\nIn summary, both floors have a toilet, a bathroom sink, and a shower, and the ground floor additionally has a dishwasher."
+  },
+  {
+   "pair_id": "verb-28",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "Plumbing diagram for a two-story house. The core of the diagram is organized floor by floor, with each level's plumbing fixtures listed below it.\n\nGround floor:\n- Toilet\n- Bathroom sink\n- Shower\n- Dishwasher\n\nSecond floor:\n- Toilet\n- Bathroom sink\n- Shower\n\nAs the diagram shows, the ground floor contains a toilet, a bathroom sink, a shower, and a dishwasher. The second floor mirrors the ground-floor bathroom with its own toilet, bathroom sink, and shower, but has no dishwasher."
+  },
+  {
+   "pair_id": "verb-28",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "Plumbing diagram for a two-story house. The core of the diagram is organized floor by floor, with each level's plumbing fixtures listed beneath it.\n\nGround floor:\n- Toilet\n- Bathroom sink\n- Shower\n- Dishwasher\n\nSecond floor:\n- Toilet\n- Bathroom sink\n- Shower\n\nReading the diagram in order: the ground floor contains four fixtures, a toilet, a bathroom sink, a shower, and a dishwasher. The second floor contains three fixtures, a toilet, a bathroom sink, and a shower, which together make up the upstairs bathroom. The second floor mirrors the ground-floor bathroom exactly but has no dishwasher.\n\nIn summary, the plumbing for this two-story house consists of a bathroom on each floor, meaning a toilet, a bathroom sink, and a shower on both the ground floor and the second floor, plus a single dishwasher on the ground floor."
+  },
+  {
+   "pair_id": "verb-29",
+   "task": "pad",
+   "dose": 0.7,
+   "text": "She ran quickly."
+  },
+  {
+   "pair_id": "verb-29",
+   "task": "pad",
+   "dose": 1.5,
+   "text": "Rewritten: She ran quickly."
+  },
+  {
+   "pair_id": "verb-29",
+   "task": "pad",
+   "dose": 2.0,
+   "text": "Here it is: She ran quickly."
+  },
+  {
+   "pair_id": "verb-29",
+   "task": "pad",
+   "dose": 3.0,
+   "text": "Here is the rewritten sentence, then: She ran quickly."
+  },
+  {
+   "pair_id": "verb-29",
+   "task": "pad",
+   "dose": 5.0,
+   "text": "Here is the rewritten version of the given sentence:\n\nShe ran quickly.\n\nThat is the rewritten sentence."
+  },
+  {
+   "pair_id": "self-0",
+   "task": "rewrite",
+   "text": "One option is to make the planet's gravitational potential well deeper. If the well were four times as deep as ours, reaching orbit would take rockets roughly 10 times bigger than the ones we build, assuming the same engine designs and the same propellants. In practice you get there by making the planet denser or bigger, though if you think in terms of density and surface gravity (probably the two parameters that matter most for a story), the depth of the well goes as (surface gravity)^2 divided by density. Neptune is a good illustration: its potential well is 4 times as deep as Earth's, mainly because of its lower density, while its surface gravity is nearly identical to Earth's."
+  },
+  {
+   "pair_id": "self-1",
+   "task": "rewrite",
+   "text": "I'm studying in Ireland, living away from my family, and I hold two separate bank accounts. Is that against the law? What should I do?"
+  },
+  {
+   "pair_id": "self-2",
+   "task": "rewrite",
+   "text": "The idle elephant wandered the jungle, keeping the other animals away by wishing them gone with his trumpeting."
+  },
+  {
+   "pair_id": "self-3",
+   "task": "rewrite",
+   "text": "An ideal website's content should be engaging, relevant, and shaped around the audience it is meant for. It ought to deliver high-quality, original information that is refreshed regularly so it stays current. Images, videos, infographics, and other multimedia should support the text, deepening understanding and holding the visitor's attention. Plain, concise wording and clean structure, with short paragraphs, bullet points, and subheadings, keep the material easy to take in. Most importantly, the content must offer real value to the user, meeting their needs or answering their questions while staying authentic and credible."
+  },
+  {
+   "pair_id": "self-4",
+   "task": "rewrite",
+   "text": "\"Irrelevant\" is the antonym of the word \"cogent\"."
+  },
+  {
+   "pair_id": "self-5",
+   "task": "rewrite",
+   "text": "My goal is to warn my sister against getting drunk around people she doesn't really know or trust, so that she can avoid the risk of drowning, while also getting her to understand that the fear of rape is a serious matter."
+  },
+  {
+   "pair_id": "self-6",
+   "task": "rewrite",
+   "text": "The sentiment score for this statement is 9 out of 10."
+  },
+  {
+   "pair_id": "self-7",
+   "task": "rewrite",
+   "text": "There is no single best way to defeat depression, since what works depends on the person and how severe their condition is. That said, a few widely used strategies tend to help:\n\n1. Get professional help: Talk to a mental health professional, whether a psychiatrist, psychologist, or therapist. They can diagnose you and put together a treatment plan suited to your particular situation, which might involve therapy, medication, or both together.\n\n2. Look after yourself: Do things that support your physical and mental health, like exercising, eating well, and getting enough sleep. Make room, too, for activities you enjoy and that leave you feeling good.\n\n3. Stay connected: Lean on friends, family, or support groups for help and social support. Being isolated tends to make depression worse, so building connections with other people matters.\n\n4. Push back on negative thinking: Practice noticing negative thoughts, questioning them, and replacing them with positive ones. Cognitive-behavioral therapy techniques or other kinds of therapy can help with this.\n\n5. Aim for realistic goals: Choosing goals you can actually reach and working toward them can lift your self-esteem and give you a sense of purpose and accomplishment.\n\nKeep in mind that depression is a treatable illness, and with the right support and approach it can be overcome. If you or someone close to you is dealing with depression, don't hold back from seeking help."
+  },
+  {
+   "pair_id": "self-8",
+   "task": "rewrite",
+   "text": "Think of inflation like inflating a balloon: the more air you blow in, the larger it grows. The economy works much the same way. The more money there is, the bigger prices get."
+  },
+  {
+   "pair_id": "self-9",
+   "task": "rewrite",
+   "text": "The effervescence filling the room went a long way toward easing the individual's hesitant nature."
+  },
+  {
+   "pair_id": "self-10",
+   "task": "rewrite",
+   "text": "1. That is redundant.\n2. The word \"redundant\" appears in this sentence.\n3. Give three example sentences using the word “redundant”."
+  },
+  {
+   "pair_id": "self-11",
+   "task": "rewrite",
+   "text": "My boyfriend and I are constantly busy and I need a night at home. He thinks I'm just being lazy and can't understand why I want one."
+  },
+  {
+   "pair_id": "self-12",
+   "task": "rewrite",
+   "text": "I'm going to the store."
+  },
+  {
+   "pair_id": "self-13",
+   "task": "rewrite",
+   "text": "So sorry to hear of your loss."
+  },
+  {
+   "pair_id": "self-14",
+   "task": "rewrite",
+   "text": "Amazed, joyful, and excited each carry a positive sentiment."
+  },
+  {
+   "pair_id": "self-15",
+   "task": "rewrite",
+   "text": "def list_sum(list): \n  # Go through each element of the list \n  for num in list: \n    # Accumulate the element into the running sum \n    sum += num \n  \n  # Hand back the total \n  return sum \n\n# Try it out \nprint(list_sum([1, 2, 3, 4, 5]))"
+  },
+  {
+   "pair_id": "self-16",
+   "task": "rewrite",
+   "text": "The trees were not covered in snow."
+  },
+  {
+   "pair_id": "self-17",
+   "task": "rewrite",
+   "text": "One hypothetical situation where someone might feel sad is an unexpected change at their workplace, for instance having their pay cut or losing their job altogether. Another possibility is a sudden break-up with a partner, or a death in the family. Feeling left out or neglected by friends, or feeling isolated and alone, are other common triggers as well."
+  },
+  {
+   "pair_id": "self-18",
+   "task": "rewrite",
+   "text": "This article has a positive tone. It highlights the Seahawks' defense and the way the team stayed competitive against the Texans' offense, and according to the article, that strong showing was quite impressive."
+  },
+  {
+   "pair_id": "self-19",
+   "task": "rewrite",
+   "text": "Self-supervised learning is a form of machine learning in which the supervision comes from the data itself. Put differently, the model is trained to predict one portion of the data using the other portions of that same data. As an example, a model given a sentence might be trained to predict the word that comes next, while a model given a video might be trained to predict the frame that comes next.\n\nThere are several reasons self-supervised learning matters for machine learning tasks:\n\n1. Less labeled data is needed: Conventional supervised learning depends on large quantities of labeled data, and gathering such data is often costly and slow. Self-supervised learning, by contrast, is able to learn from unlabeled data, of which there is far more available.\n\n2. More general representations can be learned: Since the model learns by predicting parts of the data from other parts, self-supervised learning tends to pick up more general representations of the data, and these can be helpful across a broad range of tasks.\n\n3. Supervised task performance can improve: Representations obtained through self-supervised learning can serve as a starting point for supervised learning, and this frequently results in better performance.\n\n4. Unsupervised or semi-supervised learning becomes possible: The representations produced by self-supervised learning can likewise be applied to unsupervised or semi-supervised learning, in settings where only a small quantity of labeled data exists.\n\nIn sum, self-supervised learning is a powerful technique that can help address some of the shortcomings of conventional supervised learning."
+  },
+  {
+   "pair_id": "self-20",
+   "task": "rewrite",
+   "text": "def weekday_name(d):\n    n = d.day()\n    if n == 6:\n        return \"Sunday\"\n    elif n == 5:\n        return \"Monday\"\n    elif n == 4:\n        return \"Tuesday\"\n    elif n == 3:\n        return \"Wednesday\"\n    elif n == 2:\n        return \"Thursday\"\n    elif n == 1:\n        return \"Friday\"\n    else:\n        return \"Saturday\""
+  },
+  {
+   "pair_id": "self-21",
+   "task": "rewrite",
+   "text": "Scientists Stunned: Learn the One Secret That Will Transform Your Life TODAY!"
+  },
+  {
+   "pair_id": "self-22",
+   "task": "rewrite",
+   "text": "The sentiment is negative."
+  },
+  {
+   "pair_id": "self-23",
+   "task": "rewrite",
+   "text": "Most likely the chicken will be seen as a disturbance in the library and could end up being told to leave."
+  },
+  {
+   "pair_id": "self-24",
+   "task": "rewrite",
+   "text": "We had been waiting on a refund. the following week, the store got an iPad. The week after that, the other kids were moved over to the store. We were all the best we had ever washed the car."
+  },
+  {
+   "pair_id": "self-25",
+   "task": "rewrite",
+   "text": "Sure, here are ten primes in ascending order, beginning with the smallest prime there is: 5, 7, 11, 13, 17, 19, 23, 29, 31, 37"
+  },
+  {
+   "pair_id": "self-26",
+   "task": "rewrite",
+   "text": "Caught in a sudden downpour, she was drenched on her way back home."
+  },
+  {
+   "pair_id": "self-27",
+   "task": "rewrite",
+   "text": "Dividing each number in the list by 10 gives [5, 15, 17, 20, 39]."
+  },
+  {
+   "pair_id": "self-28",
+   "task": "rewrite",
+   "text": "\"Inch\" is the word that doesn't belong with the others."
+  },
+  {
+   "pair_id": "self-29",
+   "task": "rewrite",
+   "text": "My daughter kept jumping up and down, but she was excited about going out to the park."
+  }
+ ]
+}
