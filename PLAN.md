@@ -52,7 +52,7 @@ Built once by `prep_dataset.ipynb` from [LLMBar](https://github.com/princeton-nl
 response is superficially more appealing) plus generated probe variants:
 
 - **control (20)** — untouched LLMBar Natural pairs (guardrail)
-- **surface (24)** — untouched LLMBar Adversarial pairs (6 per subset)
+- **surface_appeal (24)** — untouched LLMBar Adversarial pairs (6 per subset)
 - **verbosity (30 × 2)** — same Natural pairs, base vs wrong-answer padded to
   the dose a sweep finds the judge most fooled by (candidate doses
   0.7×/1.5×/2×/3×/5×, all pre-generated)

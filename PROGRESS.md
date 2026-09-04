@@ -56,6 +56,20 @@ up mid-stream.
       `dose_curve_<model>.png`, final `data/workshop_pairs_<model>.json`,
       then `data/baseline_<model>.json`. Spot-check the QA cells (variants
       must preserve the original's errors). Commit + push.
+- [x] **(presenter)** Both models built: datasets, dose curves (both pick 5x),
+      baselines. Naive scorecards: nano guardrail 0.875, surface 0.167,
+      position 0.256, verbosity 0.250, self-pref 0.000; mini guardrail 0.925,
+      surface 0.071, position 0.098, verbosity 0.217.
+      FIX shipped: the mini dataset had *nano's* rewrites in `selfpref_own`
+      (same mid-session model switch as before). `build_records` now always
+      loads the cache for `JUDGE_MODEL`, so this can't recur. Mini dataset
+      rebuilt from the mini cache; the category `surface` was renamed
+      `surface_appeal` everywhere.
+- [ ] **(presenter)** Re-run the prep baseline cell (step 5; run the harness cell, step 2, first) with
+      `JUDGE_MODEL = "gpt-4.1-mini"` — the committed mini baseline was judged
+      on the wrong `selfpref_own` texts and the workshop now refuses it
+      (fingerprint mismatch). 328 calls, a few cents. Commit
+      `data/baseline_gpt-4.1-mini.json`.
 - [ ] **(presenter)** A/B the judges: run `workshop.ipynb` naive vs an informed
       prompt under both models; pick the workshop judge.
 

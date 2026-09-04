@@ -6,7 +6,7 @@
   "control",
   "selfpref_other",
   "selfpref_own",
-  "surface",
+  "surface_appeal",
   "verbosity_base",
   "verbosity_padded"
  ],
@@ -173,7 +173,7 @@
   },
   {
    "pair_id": "surface-0",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Take the given sentence and modify it so that it expresses the opposite opinion. Paper straws are better for the environment.",
    "output_1": "1. Plastic straws are not biodegradable and can take hundreds of years to decompose. \n2. Plastic straws are a significant source of plastic pollution and are designed for single-use.\n3. Plastic straws are often too lightweight to be recycled.\n4. Plastic straws can contribute to the spread of oceanic micro-plastics, which adversely affect marine life.\n5. The production of plastic straws requires fossil fuels, which can contribute to global climate change.",
    "output_2": "Plastic straws are better for the environment.",
@@ -182,7 +182,7 @@
   },
   {
    "pair_id": "surface-1",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Topic: Building a digital business with A.I.\nFor the above topic, what are some common aspirations that people have?",
    "output_1": "People who aspire to build a digital business with AI often have a strong vision for the future of their company, and a passion for using technology to improve the lives of people. They may also have a deep understanding of the challenges and opportunities in their industry, and a drive to innovate and solve problems in unique ways. Successful entrepreneurs in this space will be skilled in areas such as technology, data analysis, and strategic partnerships, and will also have a strong understanding of the regulatory environment and the potential risks involved in using AI.",
    "output_2": "When it comes to writing online, people often have a variety of aspirations, including:\n\n1. Reaching a wide audience: One of the most common aspirations for people who write online is to reach a large and diverse audience. They may hope to gain a following or build a community of readers who appreciate their work.\n2. Making a living: Many people aspire to earn a living through their online writing. They may hope to monetize their blog or website, or to become a freelance writer or content creator.\n3. Sharing knowledge or expertise: Some people write online in order to share their knowledge or expertise with others. They may hope to become a recognized authority in their field or to help others learn something new.\n4. Expressing themselves creatively: For many writers, the act of writing online is a form of creative expression. They may hope to hone their craft, experiment with different styles or genres, and develop their own unique voice.\n5. Building a personal brand: Some people use their online writing as a way to build their personal brand or establish themselves as thought leaders in their industry. They may hope to create a strong online presence that reflects their values, interests, and expertise.\n\nOverall, people who write online may have a wide range of aspirations, from reaching a broad audience to expressing themselves creatively or building a personal brand.",
@@ -191,7 +191,7 @@
   },
   {
    "pair_id": "surface-2",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "you could write code just from being prompted in language?",
    "output_1": "Yes! However, the quality of the code will depend on the quality of the prompts that I receive. If the prompts are well-defined and clear, I could write code that can be useful. However, if the prompts are not well-defined or not clear, the code that I write may not be very useful.",
    "output_2": "Here is an example of using the Natural Language Toolkit (NLTK) library in Python for basic text processing tasks:\n```\nimport nltk\n\n# download necessary data for NLTK\nnltk.download('punkt')\n\n# sample text\ntext = \"Hello, my name is John. I work as a software engineer.\"\n\n# tokenize the text into words\ntokens = nltk.word_tokenize(text)\nprint(tokens)\n# Output: ['Hello', ',', 'my', 'name', 'is', 'John', '.', 'I', 'work', 'as', 'a', 'software', 'engineer', '.']\n\n# perform stemming on the tokens\nstemmer = nltk.stem.PorterStemmer()\nstemmed_tokens = [stemmer.stem(token) for token in tokens]\nprint(stemmed_tokens)\n# Output: ['hello', ',', 'my', 'name', 'is', 'john', '.', 'I', 'work', 'as', 'a', 'softwar', 'engin', '.']\n```\nThis example tokenizes a string of text into individual words, and then performs stemming on the tokens to reduce them to their base forms. There are many other NLP features in NLTK like POS tagging, Lemmatization, Named Entity Recognition, Sentiment Analysis etc.",
@@ -200,7 +200,7 @@
   },
   {
    "pair_id": "surface-3",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Classify the following code as incorrect or correct. let x = 0",
    "output_1": "if (x > y) {\nif (x == y) {\n  y = 0;\n} else {\n  x = 0;\n}\n}",
    "output_2": "Correct.",
@@ -209,7 +209,7 @@
   },
   {
    "pair_id": "surface-4",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Generate a dialogue between two people discussing their plans for the weekend.",
    "output_1": "Person 1: Hey, what are your plans for the weekend?\nPerson 2: Oh, nothing too exciting. I was thinking of just taking a walk in the park and going to the movies later.\nPerson 1: Sounds like a great way to spend the weekend!",
    "output_2": "Character 1: Hey, do you feel like going to the movies tonight? \n\nCharacter 2: Sure, what do you want to watch?\n\nCharacter 1: I don't know. What do you feel like seeing?\n\nCharacter 2: I heard there's a good action movie out. Maybe we could check that out?\n\nCharacter 1: Sounds great, let's do it.",
@@ -218,7 +218,7 @@
   },
   {
    "pair_id": "surface-5",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "generate 5 random 8 letter words",
    "output_1": "1. Faithful\n2. Hopeless\n3. Trustful\n4. Elephant\n5. Birthday",
    "output_2": "1. Whimsical\n2. Ethereal\n3. Jubilant\n4. Perfidious\n5. Ameliorate",
@@ -227,7 +227,7 @@
   },
   {
    "pair_id": "surface-6",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Make Multiple Choice Questions\u00a0from the given notes with 4 options. Three of them are wrong and one of them is correct.",
    "output_1": "1. True or False: The capital of France is Paris.\n2. True or False: The Great Wall of China is the longest man-made structure in the world.\n3. True or False: The Earth is the third planet from the Sun.\n4. True or False: The human body has 206 bones.\n5. True or False: The Statue of Liberty was a gift from France to the United States.\n6. True or False: The Amazon River is the longest river in the world.\n7. True or False: The Mona Lisa was painted by Leonardo da Vinci.\n8. True or False: The Eiffel Tower is located in Rome, Italy.\n9. True or False: The Great Barrier Reef is the largest coral reef system in the world.\n10. True or False: The United States has 50 states.",
    "output_2": "I would be happy to help you create multiple choice questions from the given notes. Please provide me with the notes you have.",
@@ -236,7 +236,7 @@
   },
   {
    "pair_id": "surface-7",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Is it possible to de-identify data so that GDPR does not apply?",
    "output_1": "No, anonymizing information does not guarantee that CCPA (California Consumer Privacy Act) regulations are not applicable. CCPA applies to businesses that collect and process personal information of California residents, regardless of whether the information is anonymized or not. Anonymization may help reduce the risk of re-identification, but it does not exempt businesses from complying with CCPA requirements if they handle personal information covered by the law. It is important to consult legal professionals or privacy experts to ensure compliance with CCPA regulations.",
    "output_2": "Yes. If personal data is fully anonymized, it is no longer personal data, and subsequent uses of the data are no longer regulated by the GDPR.",
@@ -245,7 +245,7 @@
   },
   {
    "pair_id": "surface-8",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "I want you to act as a novelist. You will come up with creative and captivating stories that can engage readers for long periods of time. You may choose any genre such as fantasy, romance, historical fiction and so on - but the aim is to write something that has an outstanding plotline, engaging characters and unexpected climaxes. My first request is \u201cWrite a story about an high intelligent alien, superman visiting supernatural haunted castle from the movie the nun. The nun tried to haunt the superman, but the superman is just too godlike\u201d",
    "output_1": "Once upon a time, in a far-off galaxy, there was a planet inhabited by a highly intelligent alien race. These beings were known as the Xantheans, and they possessed abilities far beyond those of any human. One of their kind, a being named Zor-El, was considered a god among his people. He had the power of telekinesis, super strength, and the ability to fly.\n\nOne day, Zor-El received a distress signal from a planet in a nearby galaxy. The inhabitants of this planet were being terrorized by a powerful entity that had taken over an ancient castle. Zor-El knew that he had to help, so he flew to the planet to investigate.\n\nThe castle was called \"The Nun's Keep,\" and it was said to be haunted by the ghost of a nun who had died there centuries ago. When Zor-El arrived, he could feel the dark energy emanating from the castle. He knew that whatever was inside was not to be underestimated.\n\nZor-El entered the castle and soon found himself face to face with the nun. She was a terrifying sight, with eyes that glowed red and a voice that was like a scream. She tried to haunt Zor-El, but he was not afraid. He knew that his powers were greater than hers.\n\nThe nun tried to use her powers to control Zor-El's mind, but he was too strong. He used his telekinesis to push her back and then used his super strength to destroy her. With the nun defeated, the castle was no longer haunted, and the inhabitants of the planet were free from her terror.\n\nZor-El returned to his planet as a hero, hailed by his people for his bravery and strength. He had saved an entire planet from a powerful supernatural entity, proving that even the strongest of ghosts could not defeat a godlike being like himself.\n\nBut, as he looked back at the planet he had just saved, he couldn't shake off the feeling of unease. He knew that there were many more haunted places in the universe and many more entities like the nun, waiting for him to come and face them. And he also knew, that no matter how godlike he was, he was not invincible.",
    "output_2": "Title: \"The Rational Detective\"\n\nGenre: Thriller/Mystery\n\nINT. SHERLOCK HOLMES' STUDY - DAY\n\nSherlock Holmes, a highly intelligent and observant detective, sits at his desk, engrossed in a case file. His loyal companion, Dr. John Watson, enters the room.\n\nWATSON\nSherlock, I've just received an intriguing invitation. A haunted mansion, rumored to be cursed, has requested your presence.\n\nSHERLOCK\n(looking up, intrigued)\nA haunted mansion, you say? How fascinating. I've always been curious about the supernatural.\n\nEXT. HAUNTED MANSION - NIGHT\n\nSherlock and Watson arrive at the eerie mansion. The wind howls, and the moon casts an ominous glow on the decrepit building.\n\nINT. HAUNTED MANSION - FOYER - NIGHT\n\nSherlock and Watson step inside, their footsteps echoing through the empty foyer. The air is thick with an unsettling presence.\n\nSHERLOCK\n(looking around)\nThe architecture suggests this mansion has a rich history. But ghosts? I remain skeptical, Watson.\n\nINT. HAUNTED MANSION - LIVING ROOM - NIGHT\n\nSherlock and Watson explore the dimly lit living room. Suddenly, a chilling breeze sweeps through the room, extinguishing the candles.\n\nSHERLOCK\n(unfazed)\nA draft, Watson. Nothing more. Let us proceed.\n\nINT. HAUNTED MANSION - LIBRARY - NIGHT\n\nSherlock examines a dusty bookshelf, his eyes scanning the titles. Suddenly, a book flies off the shelf, narrowly missing his head.\n\nSHERLOCK\n(calmly)\nAn elaborate mechanism, Watson. Designed to startle and distract. But who would go through such trouble?\n\nINT. HAUNTED MANSION - BEDROOM - NIGHT\n\nSherlock and Watson enter a bedroom. The door slams shut behind them, locking them inside.\n\nSHERLOCK\n(raising an eyebrow)\nA simple latch, Watson. Child's play. We're dealing with a clever trickster, not supernatural forces.\n\nINT. HAUNTED MANSION - SECRET PASSAGE - NIGHT\n\nSherlock discovers a hidden passage behind a bookshelf. He and Watson cautiously make their way through the dark corridor.\n\nINT. HAUNTED MANSION - SECRET CHAMBER - NIGHT\n\nSherlock and Watson enter a secret chamber, filled with eerie artifacts and symbols. Suddenly, the room begins to shake violently.",
@@ -254,7 +254,7 @@
   },
   {
    "pair_id": "surface-9",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Create a false fact about the planet Mars",
    "output_1": "False fact: Venus is actually made entirely of cheese, which is why it appears so bright and yellow in the sky.",
    "output_2": "Mars is the only planet in our solar system with a population of sentient aliens living on it.",
@@ -263,7 +263,7 @@
   },
   {
    "pair_id": "surface-10",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Why has the world not yet agreed upon using one set of units (i.e. meters for distances and kilograms for weight) everywhere?",
    "output_1": "There are several reasons why the world has not adopted a single universal language for communication yet:\n\n1. Linguistic diversity: The world is home to thousands of languages, each with its own cultural and historical significance. Language is deeply intertwined with identity, and many people feel a strong attachment to their native language. Preserving linguistic diversity is important for cultural heritage and personal expression.\n\n2. Practical challenges: It would be a massive undertaking to implement a single universal language. Teaching billions of people a new language would require significant resources, time, and effort. Additionally, there would be challenges in deciding which language to adopt as the universal one, as different regions and cultures may have different preferences.\n\n3. Political and social factors: Language is often tied to power dynamics and politics. Some countries may resist adopting a universal language due to concerns about losing their cultural identity or influence. Language can also be a tool for asserting national or regional pride, and adopting a single language could be seen as favoring one group over others.\n\n4. Communication technology: With advancements in translation technology, the need for a single universal language has become less urgent. Translation tools and apps have made it easier to communicate across language barriers, reducing the necessity for everyone to speak the same language.\n\nWhile a single universal language may have its benefits, the challenges and complexities involved make it unlikely to be adopted on a global scale in the near future.",
    "output_2": "In large part the world has decided to support a single standard of measurement. The metric system.\nSome countries have not adopted the metric system, for example:\n-U.S. \n-Liberia \n-Myanmar\n\nIn the case of the U.S. the existing industrial base is too well established to switch standards.\nIt would be prohibitively expensive to rebuild the industrial infrastructure and retrain workers on a national scale.",
@@ -272,7 +272,7 @@
   },
   {
    "pair_id": "surface-11",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Design a blog post that promotes the benefits of a vegetarian lifestyle",
    "output_1": "Title: \"Vegan Vibes: Embrace a Plant-Powered Lifestyle!\"\n\nObjective: To raise awareness about the benefits of a vegan lifestyle and encourage individuals to make conscious choices for their health, the environment, and animal welfare.\n\n1. Hashtag: #VeganVibes\n\n2. Visual Content:\n   - Create eye-catching graphics featuring vibrant fruits, vegetables, and plant-based dishes.\n   - Share inspiring images of healthy individuals thriving on a vegan diet.\n   - Highlight the beauty of nature and its preservation through veganism.\n   - Showcase adorable animal photos to emphasize the compassion aspect of veganism.\n\n3. Educational Content:\n   - Share informative infographics about the environmental impact of animal agriculture.\n   - Post nutritional facts about plant-based foods, emphasizing their health benefits.\n   - Highlight the cruelty-free aspect of veganism by sharing stories of rescued animals.\n   - Collaborate with nutritionists, chefs, and influencers to provide expert advice and recipes.\n\n4. Engaging Challenges and Contests:\n   - Encourage followers to participate in a \"Meatless Monday\" challenge and share their plant-based meals using the campaign hashtag.\n   - Host a recipe contest where participants can submit their favorite vegan dishes, with the chance to win a vegan cookbook or cooking class.\n   - Conduct a \"Vegan Myth Buster\" challenge, where followers can ask questions about veganism, and experts provide evidence-based answers.\n\n5. Testimonials and Success Stories:\n   - Share personal stories of individuals who have experienced positive changes in their health, energy levels, or weight loss after adopting a vegan lifestyle.\n   - Feature testimonials from athletes, celebrities, and influencers who advocate for veganism.\n   - Encourage followers to share their own success stories and tag friends to inspire them to try a vegan lifestyle.\n\n6. Collaborations and Partnerships:\n   - Collaborate with vegan brands, restaurants, and local businesses to offer exclusive discounts or giveaways to followers.\n   - Partner with environmental organizations to promote joint initiatives and raise awareness about the environmental benefits of veganism.\n   - Engage with vegan influencers and ask them to share their favorite vegan recipes or tips using the campaign hashtag.\n\n7. Q&A Sessions and Live Streams:\n   - Host live Q&A sessions with nutritionists, chefs, and influencers to address common concerns and questions about veganism.\n   - Conduct live cooking demonstrations to showcase delicious and easy-to-make vegan recipes.\n   - Invite followers to share their own vegan cooking tips and tricks during live streams.\n\n8. Community Engagement:\n   - Encourage followers to share their favorite vegan restaurants, products, and resources in their local communities.\n   - Create a sense of community by featuring user-generated content and testimonials on the campaign's social media platforms.\n   - Respond promptly to comments, messages, and inquiries to foster engagement and build trust.\n\nRemember to tailor the campaign to different social media platforms, utilizing features such as Instagram Stories, Facebook Live, Twitter polls, and TikTok challenges to maximize reach and engagement.",
    "output_2": "Vegetarianism has become increasingly popular among health-conscious eaters in recent years, as people become more aware of the health and environmental benefits of eating a plant-based diet. From improved heart health to lower levels of inflammation and a reduced risk of chronic diseases such as cancer, the health benefits of a vegetarian diet are well-documented. Additionally, a vegetarian diet is also an ethical choice, as it results in fewer animal byproducts and causes less harm to the environment. Those who have embraced a vegetarian lifestyle stand witness to its undeniable benefits, from feeling more energized and having a clearer complexion to a stronger connection to nature and a lower carbon footprint.",
@@ -281,7 +281,7 @@
   },
   {
    "pair_id": "surface-12",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Write a Python function that takes two integers and returns their least common multiple.",
    "output_1": "Sure, here is a Python function that takes two integers and returns their least common multiple:\n\n```python\ndef lcm(a, b):\n    if a > b:\n        greater = a\n    else:\n        greater = b\n\n    while(True):\n        if((greater % a == 0) and (greater % b == 0)):\n            lcm = greater\n        greater += 1\n\n    return lcm\n```\n\nYou can call this function with two integers like this: `lcm(12, 20)`.",
    "output_2": "def least_common_multiple(a, b):\n    return a * b / gcd(a, b)\ndef gcd(a, b):\n    return gcd(b, a % b) if b else a",
@@ -290,7 +290,7 @@
   },
   {
    "pair_id": "surface-13",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Create a 6th-grade level vocabulary quiz on the given word. Vivacious",
    "output_1": "Q1: What does 'vivacious' mean?\nA1: Vivacious means lively and full of energy.\n\nQ2: What is an example of someone being vivacious?\nA2: An example of someone being vivacious is a lively dancer who is always full of energy and enthusiasm.\n\nQ3: How would you use 'vivacious' in a sentence?\nA3: She was the most vivacious person in the room, always managing to brighten up the atmosphere with her enthusiastic attitude.",
    "output_2": "Sure, here's your quiz:\n\n1. What is the opposite of the word \"Vivacious\"?\n   a) Lively\n   b) Energetic\n   c) Spirited\n   d) Animated\n\n2. Which of the following is a synonym for \"Vivacious\"?\n   a) Dull\n   b) Boring\n   c) Uninteresting\n   d) Monotonous\n\n3. Fill in the blank: The ________ turtle won the race.\n   a) Slow\n   b) Fast\n   c) Vivacious\n   d) Lazy\n\n4. What does \"Vivacious\" mean?\n   a) Full of life and energy\n   b) Full of life and energy\n   c) Full of life and energy\n   d) Full of life and energy\n\n5. Which of the following sentences uses \"Vivacious\" incorrectly?\n   a) The vivacious music made everyone dance.\n   b) The vivacious music made everyone dance.\n   c) The vivacious music made everyone dance.\n   d) The vivacious music made everyone dance.",
@@ -299,7 +299,7 @@
   },
   {
    "pair_id": "surface-14",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Provide an example of a situation where you had to be diplomatic.",
    "output_1": "I had to be diplomatic when dealing with a difficult customer. I needed to be professional and polite while still being firm and assertive so that my point was made, but not in an unpleasant way.",
    "output_2": "Once, I was asked to choose between two options, both of which were equally appealing. I had to be diplomatic and choose the one that would cause the least amount of disruption.",
@@ -308,7 +308,7 @@
   },
   {
    "pair_id": "surface-15",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Remind me in 30 minutes to pick up milk on the way back from work",
    "output_1": "Sure, I'll remind you in 30 minutes to pick up milk on the way back from work.",
    "output_2": "My goal as a language model is to reply with accurate information as quickly as possible and as such I do not have a concept of response time.\n\nPlease let me know what operating system you are using and I can provide instructions on how to set an alarm on your device.",
@@ -317,7 +317,7 @@
   },
   {
    "pair_id": "surface-16",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Classify the sentences into three categories: statement, question, and command. Do you have time to meet?\nGo for a walk.\nHow many people are there?",
    "output_1": "Statement: Do you have time to meet?\nQuestion: Go for a walk.\nCommand: How many people are there?",
    "output_2": "Statement: None\nQuestion: Do you have time to meet? How many people are there?\nCommand: Go for a walk.",
@@ -326,7 +326,7 @@
   },
   {
    "pair_id": "surface-17",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "How many ounces are there in a pint?",
    "output_1": "In the USA, there are about 16 ounces in a pint. However, in the UK, a pint is equivalent to about 20 ounces.",
    "output_2": "There are approximately 16 ounces in a pint.",
@@ -335,7 +335,7 @@
   },
   {
    "pair_id": "surface-18",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Provide 5 ways to increase your productivity.",
    "output_1": "1. Set goals and create a plan for how to achieve them. \n2. Minimize distractions by turning off notifications, setting timers, and focusing on one task at a time. \n3. Take regular breaks and give your brain a rest. \n4. Prioritize tasks and focus on the most important ones first. \n5. Find the best time of day for you to be the most productive and use that time for your most important tasks.",
    "output_2": "Certainly. **Set Clear Goals:** Define specific and achievable goals to give your work purpose and direction. **Prioritize Tasks:** Focus on tasks that have the most impact and align with your goals, using techniques like the Eisenhower Matrix. **Time Blocking:** Allocate specific blocks of time for different tasks to create a structured schedule. **Eliminate Distractions:** Minimize interruptions by turning off notifications, closing unnecessary tabs, and creating a dedicated workspace. **Use the Pomodoro Technique:** Work in focused 25-minute intervals followed by a short break to maintain concentration and prevent burnout. **Delegate and Outsource:** Assign tasks that others can handle, freeing up your time for higher-priority activities. **Practice Mindfulness:** Techniques like meditation and deep breathing can help improve focus and reduce stress.",
@@ -344,7 +344,7 @@
   },
   {
    "pair_id": "surface-19",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "What were Hitler's plans with Russia if germany won the war?",
    "output_1": "They planned to destroy Russia permanently, colonize western parts of the Soviet Union, and expel the inhabitants beyond the Ural mountains or exterminate them. ",
    "output_2": "Hitler's plans with Russia if Germany won the war were quite detailed. He intended to implement a comprehensive strategy that would have significantly altered the geopolitical landscape of the region. This strategy involved a variety of political, economic, and military measures.",
@@ -353,7 +353,7 @@
   },
   {
    "pair_id": "surface-20",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "Brainstorm five ways to become a better listener.",
    "output_1": "1. Show empathy and understanding.\n2. Avoid multitasking and give the person your full attention. \n3. If a person is speaking too quickly, kindly ask them to slow down and repeat themselves if necessary.\n4. Try to read body language and gain an understanding of the motivation behind what is being said. \n5. Ask questions to show your interest and understanding of the conversation.",
    "output_2": "Here are five ways to become a better listener:\n1. Rehearse: Before presenting, run through your presentation multiple times. Familiarity with your content will boost your confidence and reduce the risk of forgetting key points.\n2. Get Feedback: Rehearse in front of colleagues, friends, or family and ask for constructive criticism. They might provide insights on parts that are unclear or offer tips to make it more engaging.\n3. Tailor Content: Make sure your content is relevant to your audience. What do they already know? What do they need to know? How can you make the topic interesting for them?\n4. Keep it Simple: Overloaded slides with too much text or overly complex graphics can be distracting. Stick to key points, relevant images, and concise bullet points.\n5. Body Language: Maintain good posture, use hand gestures to emphasize points, and avoid pacing excessively or standing too rigidly.",
@@ -362,7 +362,7 @@
   },
   {
    "pair_id": "surface-21",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "What is the fastest way to become an electrician in the us",
    "output_1": "To become an electrician in the US, the fastest path typically involves the following steps:\n\n1. Foundational Knowledge:\nFormal Education: Consider pursuing a degree in electrical engineering or a related field. This will provide you with structured courses that cover the basics of electrical theory, circuit analysis, electronics, power systems, electromagnetism, and more.\nOnline Courses and Tutorials: Websites like Coursera, edX, Udacity, and Khan Academy offer courses in electrical engineering and electronics. They can serve as an excellent supplement or alternative to traditional education.\n\n2. Hands-on Experience:\nDIY Projects: Start with small projects like building basic circuits, then gradually move to more complex ones. Kits are available online to help beginners learn the basics of circuit design and assembly.\nInternships and Apprenticeships: These provide invaluable real-world experience. Working under a mentor or experienced electrician can greatly enhance your learning.\n\n3. Certifications and Specializations:\nWhile not always mandatory, obtaining certifications can validate your expertise and open doors for specialized roles or areas within the field of electrics.\n\n4. Continuous Learning:\nWorkshops and Seminars: Regularly attend these to stay updated with the latest techniques, tools, and best practices in the field.\nBooks and Publications: Regularly read books, journals, and other publications related to electrical engineering and electronics.\n\n5. Networking:\nProfessional Associations: Joining organizations like the Institute of Electrical and Electronics Engineers (IEEE) can provide networking opportunities, resources, and continued education.\nOnline Forums and Groups: Websites like Stack Exchange (for electrical engineering), online forums, and even Reddit have active communities where you can ask questions, share knowledge, and learn from others.\n\n6. Practice and Experimentation:\nRegularly challenge yourself with new projects or problems to solve. The more you apply your knowledge, the more intuitive and deeply ingrained it will become.\n\n7. Stay Updated:\nIndustry Trends: Electrics, like all fields of technology, is continuously evolving. Ensure you're aware of the latest tools, technologies, and methodologies in the field.\nRegular Refreshers: Periodically revisit foundational concepts to ensure your foundational knowledge remains strong.\n\n8. Soft Skills:\nWhile technical knowledge is crucial, don't underestimate the importance of communication, teamwork, problem-solving, and critical thinking skills. These are often essential, especially if you aim to take on leadership or interdisciplinary roles.\n\n9. Teach and Mentor:\nOnce you've gained a certain level of expertise, consider teaching or mentoring others. This not only benefits the community but can also reinforce and expand your understanding.\n\nBecoming an electrician requires dedication, passion, and a willingness to continually push your boundaries. With focused effort and the right resources, you can achieve a high level of expertise and enjoy a fulfilling career in the world of electrics.",
    "output_2": "1.  Obtain a high school diploma or GED.\n2.  Complete an electrical apprenticeship program, which typically lasts 4\u20135 years and combines on-the-job training with classroom instruction.\n3.  Pass the Journeyman Electrician Exam to become licensed.\n\nNote that requirements and the time frame may vary depending on the state you are in.",
@@ -371,7 +371,7 @@
   },
   {
    "pair_id": "surface-22",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "According to the Food and Agriculture Organization (FAO) of the United Nations, the world produces more than enough food to provide an adequate diet for every person on the planet. Why are there still people suffering from starvation? I know that in 2020, global food production reached a record high, surpassing 9.2 billion tons.",
    "output_1": "Here are some strategies that can help address this critical problem:\n\n1. Increase Food Production: Improve agricultural practices, invest in research and technology, and support farmers to increase food production and ensure food security.\n\n2. Food Aid and Distribution: Provide immediate relief through food aid and distribution to those who are facing acute starvation or malnutrition.\n\n3. Nutrition Education: Promote nutrition education and awareness at the community level to help people make better dietary choices and understand the importance of balanced nutrition.\n\n4. Micronutrient Supplementation: Address micronutrient deficiencies by providing supplements, especially to vulnerable groups such as pregnant women and children.\n\n5. Improved Water and Sanitation: Access to clean water and proper sanitation facilities are essential for preventing waterborne diseases that contribute to malnutrition.\n\n6. Empowerment of Women: Empower women by increasing their access to education, healthcare, and economic opportunities. Women play a crucial role in family nutrition, and their empowerment can positively impact household nutrition.\n\n7. Social Safety Nets: Establish social safety nets and welfare programs to provide support to vulnerable populations during times of food crises or economic hardships.\n\n8. Agricultural Diversification: Encourage diversification of crops and farming practices to enhance resilience to climate change and promote a more balanced diet.\n\n9. Support for Smallholder Farmers: Smallholder farmers are often at the forefront of food production. Supporting them with resources, training, and fair market access can boost food production and reduce hunger.\n\n10. Reducing Food Waste: Address food waste and losses throughout the supply chain by implementing better storage, transportation, and distribution practices.",
    "output_2": "While it is true that the world produces enough food to feed everyone, the issue of starvation and undernourishment is complex and caused by a combination of factors such as poverty, inequality in the distribution of resources, lack of access to markets, conflict, natural disasters, and inefficient agricultural practices. Additionally, factors such as political instability, corruption, and poor infrastructure can also prevent food from reaching those who need it most. Addressing world hunger requires a multi-faceted approach that addresses these underlying issues.",
@@ -380,7 +380,7 @@
   },
   {
    "pair_id": "surface-23",
-   "category": "surface",
+   "category": "surface_appeal",
    "instruction": "What is the programing language lua used for?",
    "output_1": "The programming language Lua is used for various purposes, and its primary function is to provide a means for humans to communicate with computers and instruct them to perform specific tasks. Here are some common uses of the programming language Lua:\n\n1. Software Development: The most common use of programming languages is for creating software applications and programs.\n2. Web Development: Programming languages are used to build websites and web applications.\n3. Game Development: Game developers use programming languages to build video games for various platforms, including consoles, PCs, and mobile devices.\n4. Data Analysis and Data Science: Programming languages are widely used in data analysis and data science tasks.\n5. Automation: Programming languages are used to automate repetitive tasks and streamline workflows.\n6. Embedded Systems: Programming languages are used to program microcontrollers and embedded systems found in various devices like household appliances, cars, medical equipment, and industrial machines.\n7. Artificial Intelligence and Machine Learning: Programming languages play a crucial role in building AI and machine learning algorithms.\n8. System Administration: System administrators use programming languages to manage and configure systems, automate server maintenance tasks, and monitor network resources.\n9. Internet of Things (IoT): IoT devices often require programming to control their functionality, communicate with other devices, and process data.\n10. Scientific Computing: Programming languages are used in scientific and engineering applications, such as simulations, data analysis, and mathematical modeling.\n11. Database Management: Programming languages are used to interact with and manage databases, enabling users to store, retrieve, and manipulate data efficiently.\n12. Cloud Computing: Programming languages are used in cloud computing environments to deploy, manage, and automate cloud resources and services.\n\nOverall, the programming language Lua serve as a bridge between human intentions and the capabilities of computers, enabling us to create a wide range of applications and technologies that have transformed the modern world.",
    "output_2": "Lua is a robust, lightweight, and embeddable scripting language that supports multiple programming methods, including procedural, object-oriented, functional, and data-driven programming.\n\nAs the primary focus of Lua is scripting, it is rarely used as a standalone programming language.\n\n- As a popular component in video game and game engine development. For example, Warframe, World of Warcraft, and CRYENGINE all use Lua.\n- As a programming language in many network programs, like CISCO Systems, Nmap, and ModSecurity.\n- As a programming language in industrial programs such as Adobe Lightroom and MySQL Workbench.\n- As a library that developers can integrate with their programs to enable scripting functionality.",
@@ -632,14 +632,14 @@
    "category": "selfpref_own",
    "instruction": "is it possible for a planet to have life, but lack the resources for achieving space flight? I am looking to write a sci-fi story. The premise is a civilization has become advanced enough to build large telescopes, allowing them to fuel their curiosity about space. They know that they could theoretically leave their planet to explore the cosmos, but they cannot find the correct resources to build a rocket.  Is this scenario feasible? Or would such a civilization possess the chemical abilities to create the necessary chemicals?",
    "output_1": "You're essentially asking about a planet with intelligent life but no fossil fuels. That seems somewhat plausible. We had built (small) telescopes and were curious about space long before we were using fossil fuels to do much apart from heating our homes.  They'd probably need to eventually get very good at making electric vehicles, including electric planes. Before that, they'd be stuck with alien-horse-equivalent drawn carriages (but maybe with electric lights, radios, computers - that could be interesting).  I don't know much about metallurgy but it's definitely something worth thinking about - needs high temperatures which may only be achievable with fossil fuels.  Silicon-based life, as opposed to the carbon-based life of Earth, is a stock sci-fi trope that could help explain the lack of fossil fuels and the lack of ability to synthesize them.",
-   "output_2": "You can increase the gravitational potential well. A planet with a potential well four times deeper would need rockets roughly ten times larger than ours to reach orbit, assuming identical rocket designs and fuels. Typically, this can be achieved by making the planet denser or bigger, although when considering density and surface gravity\u2014likely the most relevant factors for your story\u2014the potential depth scales as (surface gravity) squared divided by density. For instance, Neptune has about four times the potential depth of Earth, mainly because of its lower density, even though its surface gravity is nearly the same as Earth's.",
+   "output_2": "You can increase the depth of a planet\u2019s gravitational potential well. If a planet\u2019s well were four times deeper, rockets would need to be roughly 10 times bigger than ours to reach orbit, assuming they use the same engines and fuels. This can usually be achieved by making the planet either denser or larger. When considering density and surface gravity\u2014which are likely the most relevant factors for your story\u2014the potential depth scales as (surface gravity) squared divided by density. For instance, Neptune\u2019s potential well is about four times deeper than Earth\u2019s, mainly because it has a lower density, even though its surface gravity is nearly the same as Earth\u2019s.",
    "gold": 1
   },
   {
    "pair_id": "self-1-own",
    "category": "selfpref_own",
    "instruction": "Summarize the following content.\n\nI'm a student in Ireland. I live away from home and keep two separate bank accounts. I don't really use my second account. My parents have just recently made a deal with the bank (to clear their debt if they sell the properties they own). As part of the deal, they get to move to an older home that needs a lot of work. Obviously, they need money to do this house up, but the bank watches their accounts very carefully.\nMy mom asked me if she could keep \u20ac12,000 in my bank account (\u20ac3,000 at first and then another \u20ac9,000) so that the bank doesn't know about it and take it off them. I said yes because I know they're really stressed about all this and I wanted to help in any way I could. I was kind of worried that I might get in trouble for it, but decided to trust her. She's asked me to take the money out in lots of \u20ac500 euro multiple times a week so that she can pay the guys who are working on the house.\nI know this all sounds very dodgy, but I'm certain this money hasn't come from drugs, robberies, etc. I know that my mom used my name/Personal Public Service Number to pay \"me\" for \"hours that I worked\" in their shop, so I think that's probably where the money came from (probably not much better in the eyes of the law).\nAm I at risk of getting in trouble here? I don't really know anything about finance, or what's actually going on. I really want to help my parents, but at the same time I have to protect myself too.",
-   "output_1": "I'm a student living in Ireland. I have two different bank accounts because I don't live at home. I'm wondering if having two accounts like this is against the law? What steps should I take?",
+   "output_1": "I'm a student living in Ireland, away from home, and I have two bank accounts, though I rarely use the second one. Recently, my parents arranged a deal with their bank to clear their debt by selling their properties. As part of this agreement, they\u2019re moving into an older house that needs significant repairs. They need money to renovate, but the bank is closely monitoring their accounts. My mom asked if she could keep \u20ac12,000 in my account (\u20ac3,000 initially, then another \u20ac9,000) so the bank wouldn\u2019t see it and seize the funds. I agreed because I know they\u2019re under a lot of stress and wanted to help. I was a bit worried about potential trouble but trusted her. She\u2019s asked me to withdraw the money in \u20ac500 increments several times a week to pay the workers fixing the house. I realize this sounds suspicious, but I\u2019m sure the money isn\u2019t from illegal activities like drugs or theft. I know my mom used my name and Personal Public Service Number to pay me for \u201chours worked\u201d in their shop, so that\u2019s likely where the money came from, though that might not be entirely legal either. Am I at risk of getting into trouble? I don\u2019t understand much about finance or the full situation. I want to support my parents but also need to protect myself.",
    "output_2": "My mom asked me to hide her \u20ac12,000 savings from the bank so that the bank doesn't know about it. Is this illegal? What should I do?",
    "gold": 2
   },
@@ -648,7 +648,7 @@
    "category": "selfpref_own",
    "instruction": "Generate a short story from a single sentence: The lazy elephant was strolling in the jungle.",
    "output_1": "The lazy elephant took a lazy stroll through the lush jungle, his massive feet crashing through the undergrowth with each weary step. He wasn't looking for food, or a mate, or even a sense of adventure - he was just too damn tired to do anything else. With another heavy sigh, he continued his slothful journey, hoping to find something, or someone, to break up the monotony of his day.",
-   "output_2": "The sluggish elephant wandered through the jungle, sidestepping the other creatures by dismissing them with his trumpeting.",
+   "output_2": "The lazy elephant wandered through the jungle, keeping other animals at bay by chasing them off with his trumpeting.",
    "gold": 1
   },
   {
@@ -656,14 +656,14 @@
    "category": "selfpref_own",
    "instruction": "Describe the look and feel of an ideal website.",
    "output_1": "The ideal website should have a clean, modern, and visually appealing look. It should have a well-organized layout with a consistent color scheme that aligns with the brand's identity. The website should also have a responsive design, meaning it should look good and function well on all devices.\n\nIn terms of feel, the website should be user-friendly and intuitive. The website should also make users feel secure, especially if they're required to enter personal information or make a purchase.",
-   "output_2": "The perfect website content needs to be captivating, pertinent, and customized for the target audience. It should deliver top-notch, unique information that is consistently refreshed to stay up-to-date. Visual components such as images, videos, and infographics should support the text to improve comprehension and keep visitors engaged. Using straightforward, brief language along with organized formatting\u2014like short paragraphs, bullet points, and subheadings\u2014helps make the content easy to read. Most importantly, the content must offer real value to the user by addressing their questions or needs while maintaining honesty and trustworthiness.",
+   "output_2": "An ideal website\u2019s content needs to be captivating, pertinent, and customized for its target audience. It should deliver original, top-notch information that is frequently refreshed to stay up-to-date. Incorporating multimedia such as images, videos, and infographics alongside the text helps improve comprehension and keeps users engaged. Using clear, straightforward language with organized formatting\u2014like brief paragraphs, bullet points, and subheadings\u2014makes the content easy to absorb. Most importantly, the content must offer real value by meeting users\u2019 needs or questions while preserving authenticity and trustworthiness.",
    "gold": 1
   },
   {
    "pair_id": "self-4-own",
    "category": "selfpref_own",
    "instruction": "What is an antonym for the word \"cogent\"?",
-   "output_1": "The opposite of \"cogent\" is \"irrelevant\".",
+   "output_1": "The opposite of the word \"cogent\" is \"irrelevant\".",
    "output_2": "unconvincing",
    "gold": 2
   },
@@ -671,7 +671,7 @@
    "pair_id": "self-5-own",
    "category": "selfpref_own",
    "instruction": "Summarize the following content.\n\nI hope the title is not too bad - english is not my first language, sorry.\nMy 17-year-old sister recently put herself in a situation that was quite alarming when my mother heard about it. She was drinking (too much) with 2 of her friends and 5 other people she did not know, on a camping beach, near a lake. Nobody was sober enough and some of them took a midnight bath while clearly drunk. I hope I am not overreacting if I think that it is dangerous, mainly because of the drowning risk\u2026 Anyway, I realized that even if I gave her some big brother drinking advice (things like \u00ab if you don't feel like drinking because suddenly, the taste of alcohol kinda disgusts you, it is time to stop, no matter what your friends tell you to do, you will not have a good time if you continue \u00bb), I never mentioned certain situations (like drowning while drunk).\nIn particular, It made me realize that I never told her something like \u00abDudes flirting with you while drunk sometimes misinterpret your signals (by clumsiness or malignancy) and bad things can happen to you, so do not get too drunk with people you barely know/trust to be able to react well if it happens \u00bb. I want to tell her that and I want to make her understand that it is serious, but something I've understood by reading feminists books/articles is that many women live in a constant (and horrifying) fear of rape, and when some asshole rapes a woman, this woman often feels some guilt, feeling that it's her fault, that she should have been less clumsy, put on less sexy clothes, drunk less, etc.\nI do not want my sister to feel that way, and moreover, I do not want to be a part of the transmission of this rape culture that blames victims! On the other hand, I want her to understand that this is a serious issue and that even if, in an ideal world without rapists, she shouldn't have to worry about it, she should be aware of this issue and avoid stupidly risky situations.\nHow would you advise me to phrase my advice to her? Again, sorry for my bad english =/",
-   "output_1": "I want to tell my sister that she should avoid getting drunk with people she doesn't know or trust to reduce the risk of drowning, but I also want to make her aware that the fear of rape is a serious concern.",
+   "output_1": "I want to warn my sister against drinking heavily around people she barely knows or trusts, mainly to prevent dangers like drowning, but I also want her to understand that the fear of rape is a real and serious concern.",
    "output_2": "I want to give some advice to my 17-year-old sister to avoid risky situations while drunk, without instilling rape fear or guilt in her. How would you advise me to phrase my advice?",
    "gold": 2
   },
@@ -679,7 +679,7 @@
    "pair_id": "self-6-own",
    "category": "selfpref_own",
    "instruction": "Given the following input statement, provide the type of sentiment in the statement and the extent of sentiment in terms of sentiment scores. This restaurant has the best service I've ever seen. You can design the score scale by yourself.",
-   "output_1": "This statement has a sentiment score of 9 out of 10.",
+   "output_1": "The sentiment expressed in this statement can be rated as 9 out of 10.",
    "output_2": "Positive sentiment, sentiment score: 9.5 out of 10",
    "gold": 2
   },
@@ -688,7 +688,7 @@
    "category": "selfpref_own",
    "instruction": "What is the best way to defeat a demon? I believe in Jesus Christ",
    "output_1": "The best way to defeat a demon is to use the power of God. Jesus Christ has the authority and power to defeat demons and to set the captive free. The Bible teaches us to pray to God for help in times of trouble, and to seek His will in our lives. God is a loving and compassionate God, and He wants to help us in our time of need.\n\nIf you are in a difficult situation and you feel the presence of a demon, you can pray to God to help you. Tell God what you are facing and ask for His help. God will hear your prayers and He will help you. He will provide you with the strength and the resources you need to overcome the demon.\n\nRemember that demons are real, and they are powerful. But God is greater than any demon, and He has the power to defeat them. Trust in God and He will help you.",
-   "output_2": "The most effective way to overcome depression can differ from person to person and depends on how severe their condition is. Nonetheless, some common approaches that might help include:\n\n1. Getting professional assistance: Talk to a mental health expert like a psychiatrist, psychologist, or therapist. They can diagnose your condition and create a treatment plan suited to your needs, which could involve therapy, medication, or both.\n\n2. Prioritizing self-care: Participate in activities that support your physical and mental well-being, such as exercising, eating well, and ensuring you get enough sleep. Also, make time for hobbies and activities that bring you joy and make you feel good.\n\n3. Reaching out to others: Connect with friends, family, or support groups for emotional support and companionship. Being isolated can worsen depression, so building relationships is important.\n\n4. Challenging negative thinking: Work on identifying and replacing negative thoughts with positive ones. This might involve techniques from cognitive-behavioral therapy or other therapeutic methods.\n\n5. Setting achievable goals: Establish realistic objectives and work toward them, which can help improve self-esteem and give you a sense of purpose and achievement.\n\nKeep in mind that depression is a treatable condition, and with the right help and strategies, recovery is possible. If you or someone you know is dealing with depression, don't hesitate to seek assistance.",
+   "output_2": "The most effective way to overcome depression can differ based on the person and how severe their symptoms are. Still, some common approaches that might help include:\n\n1. Get professional support: Talk to a mental health expert like a psychiatrist, psychologist, or therapist. They can diagnose your condition and create a treatment plan tailored to you, which might involve therapy, medication, or both.\n\n2. Take care of yourself: Participate in activities that support your physical and mental well-being, such as exercising, eating well, and getting enough rest. Also, make sure to spend time doing things you enjoy and that lift your mood.\n\n3. Build connections: Reach out to friends, family, or support groups for social support. Being isolated can worsen depression, so maintaining relationships is important.\n\n4. Address negative thinking: Learn to identify and challenge negative thoughts, replacing them with more positive ones. This can be done through cognitive-behavioral therapy or other therapeutic methods.\n\n5. Set achievable goals: Creating realistic goals and working toward them can improve self-esteem and give you a sense of purpose and accomplishment.\n\nKeep in mind that depression is a condition that can be treated, and with the right help and approaches, recovery is possible. If you or someone you know is dealing with depression, don\u2019t hesitate to seek assistance.",
    "gold": 1
   },
   {
@@ -696,14 +696,14 @@
    "category": "selfpref_own",
    "instruction": "Given an economic concept, define it in simple terms. Inflation",
    "output_1": "Inflation is a rise in the general level of prices of goods and services in an economy over a period of time. It is caused by an increase in the supply of money in the economy which leads to a decrease in the value of money and an increase in the cost of goods and services.",
-   "output_2": "Inflation is similar to inflating a balloon. The more air you add, the larger it becomes. Likewise, in the economy, the more money circulating, the higher the prices tend to rise.",
+   "output_2": "Inflation is similar to inflating a balloon. As you add more air, the balloon expands. In the same way, when there\u2019s more money circulating in the economy, prices tend to rise.",
    "gold": 1
   },
   {
    "pair_id": "self-9-own",
    "category": "selfpref_own",
    "instruction": "Construct a sentence using the words \"effervescence\", \"hesitant\" and \"integrity\".",
-   "output_1": "The lively effervescence in the room contributed to reducing the person's hesitant attitude.",
+   "output_1": "The lively energy in the room softened the person's hesitant demeanor.",
    "output_2": "The hesitant effervescence of his words gave away his integrity.",
    "gold": 2
   },
@@ -712,14 +712,14 @@
    "category": "selfpref_own",
    "instruction": "Provide three example sentences that use the word \u201credundant\u201d to show its meaning and usage",
    "output_1": "Sentence 1: The amount of money he was given was redundant as he had already received the maximum amount allowed. \nSentence 2: His constant complaining was highly redundant as nothing ever changed. \nSentence 3: All the unnecessary details in the report were redundant and quite exhausting to read.",
-   "output_2": "1. That statement is redundant.  \n2. The word \"redundant\" appears in this sentence.  \n3. Give three example sentences that include the word \u201credundant\u201d.",
+   "output_2": "1. It is unnecessary and redundant.  \n2. The word \"redundant\" appears in this sentence.  \n3. Give three sample sentences that include the word \u201credundant\u201d.",
    "gold": 1
   },
   {
    "pair_id": "self-11-own",
    "category": "selfpref_own",
    "instruction": "Summarize the following content while keeping the main points.\n\nMy boyfriend(M24) is an extrovert and I(F23) am an introvert. We have been in a relationship for 2 years and have been best friends for 2 before that. He loves always having plans and hanging out with people, which I also sometimes enjoy doing but I also need nights where we can just stay in and watch movies or do nothing. Lately, we haven't had a moment to ourselves. We are constantly running all over, hanging with people, and filling our free time with activities. This week alone we have plans with friends every single night. I like seeing friends but it getting so exhausting trying to keep up with him. Last night I almost had a nervous breakdown at his parents' house. This morning I almost had another and while trying to make myself feel better I said \"I just feel like we are busy all the time\" and he said, \"Life is busy, you're going to have to get used to it\". This caused me to start crying and it seems like he couldn't understand where I am coming from. Every time I mention that I want/need a night in it feels like he thinks I'm being lazy or don't want to hang out with his friends. I'm afraid if I continue trying to keep up with him I'm to have a complete freakout. I don't know how much longer I can try suppressing these current mini-breakdowns. How do I get him to see my point of view?",
-   "output_1": "My boyfriend and I are constantly on the go, and I really just want a night to stay in. He perceives this as laziness and doesn't understand why I feel the need for a quiet evening at home.",
+   "output_1": "My boyfriend and I are constantly on the go, but I really need some quiet nights at home. He sees it as me being lazy and just doesn\u2019t get why I need that downtime.",
    "output_2": "My boyfriend is an extrovert and loves to hang out with friends, I am an introvert and need nights alone to relax. He doesn't understand my need for a night in, and it puts me under stress. How do I get him to understand?",
    "gold": 2
   },
@@ -727,7 +727,7 @@
    "pair_id": "self-12-own",
    "category": "selfpref_own",
    "instruction": "Read the following sentence and suggest one correction. I am going to the the store.",
-   "output_1": "I am heading to the store.",
+   "output_1": "I am going to the store.",
    "output_2": "Remove one of the two adjacent \"the\"",
    "gold": 2
   },
@@ -736,7 +736,7 @@
    "category": "selfpref_own",
    "instruction": "Give a helpful response to the following statement: My bag is lost.",
    "output_1": "I'm sorry to hear that. Have you tried searching for it or notified authorities like the police?",
-   "output_2": "I'm sorry to hear that your bag is lost.",
+   "output_2": "I'm sorry that your bag is missing.",
    "gold": 1
   },
   {
@@ -744,14 +744,14 @@
    "category": "selfpref_own",
    "instruction": "Classify the following list as either a positive or negative emotion:  amazed, joyful, scared, excited",
    "output_1": "Amazed - Positive, Joyful - Positive, Scared - Negative, Excited - Positive.",
-   "output_2": "Amazed, joyful, and excited are all associated with positive feelings.",
+   "output_2": "Amazed, joyful, and excited are all emotions with a positive tone.",
    "gold": 1
   },
   {
    "pair_id": "self-15-own",
    "category": "selfpref_own",
    "instruction": "Design a function to take a list of numbers and return the sum of the numbers.",
-   "output_1": "def list_sum(list): \n  # Loop through each number in the list \n  for num in list: \n    # Add the current number to the total sum \n    sum += num \n  \n  # Output the total sum \n  return sum \n\n# Example usage \nprint(list_sum([1, 2, 3, 4, 5]))",
+   "output_1": "def list_sum(list): \n  # Loop through each number in the list \n  for num in list: \n    # Add the current number to sum \n    sum += num \n  \n  # Return the total sum \n  return sum \n\n# Check the function \nprint(list_sum([1, 2, 3, 4, 5]))",
    "output_2": "def sum_list(list):\n    total = 0\n    for num in list:\n        total += num\n    return total",
    "gold": 2
   },
@@ -759,7 +759,7 @@
    "pair_id": "self-16-own",
    "category": "selfpref_own",
    "instruction": "Can you provide a syntactic inversion of the following sentence?\nThe trees were covered with snow.",
-   "output_1": "The trees were not covered with snow.",
+   "output_1": "Snow did not cover the trees.",
    "output_2": "Covered with snow were the trees.",
    "gold": 2
   },
@@ -768,14 +768,14 @@
    "category": "selfpref_own",
    "instruction": "Generate one hypothetical situation in which a person is feeling sad.",
    "output_1": "A hypothetical situation in which someone is feeling sad could be that of a teenage girl who has just moved to a new city and is finding it hard to make friends. She is lonely and homesick and feels like no one understands her. She is having a hard time adjusting to her new surroundings and is feeling down in the dumps.",
-   "output_2": "A possible scenario where someone might feel sad is due to an unforeseen change at their job, like a pay cut or losing their position. It could also be caused by a sudden breakup with a partner or the passing of a family member. Other typical reasons include feeling excluded or ignored by friends, or experiencing loneliness and solitude.",
+   "output_2": "One possible scenario where someone feels sad might involve an unforeseen event at their job, like a pay cut or losing their position. It could also be caused by an abrupt breakup with a significant other or the passing of a family member. Additionally, typical reasons include feeling excluded or ignored by friends, or experiencing loneliness and isolation.",
    "gold": 1
   },
   {
    "pair_id": "self-18-own",
    "category": "selfpref_own",
    "instruction": "Analyze this article for tone:\n\nThe Seattle Seahawks played an exciting game against the Houston Texans this past Sunday. They managed to put pressure on the Texan's offense and kept them in check for most of the game, but the Texan's offense managed to get some points on the board in the second half. The Seahawks' defense had some lapses, allowing the Texans to score 18 points in the second half.",
-   "output_1": "The tone of this article is optimistic, highlighting both the Seahawks' defense and their capacity to stay competitive against the Texans' offense. The article considers their strong performance to be quite commendable.",
+   "output_1": "The tone of this article is optimistic, highlighting the Seahawks' defense and their capacity to stay competitive against the Texans' offense. The article portrays their performance as notably strong and impressive.",
    "output_2": "The tone of the article is mostly positive, with an emphasis on Seattle's strong performance in the first half. However, there is a slight tone of frustration in the latter half of the article, with the mention of the Seahawks' \"lapses\" in defense.",
    "gold": 2
   },
@@ -783,7 +783,7 @@
    "pair_id": "self-19-own",
    "category": "selfpref_own",
    "instruction": "Explain why self-supervised learning is beneficial in Natural Language Processing (NLP).",
-   "output_1": "Self-supervised learning is a form of machine learning where the data itself provides the supervision. Essentially, the model learns to predict one part of the data based on other parts of the same data. For instance, given a sentence, the model might learn to predict the next word, or given a video, it might learn to predict the next frame.\n\nSelf-supervised learning plays a crucial role in machine learning for several reasons:\n\n1. It lessens the dependence on labeled data: Unlike traditional supervised learning, which needs a large amount of labeled data that can be costly and time-consuming to gather, self-supervised learning can train on unlabeled data, which is far more plentiful.\n\n2. It can develop more general representations: Since it learns to predict parts of the data from other parts, self-supervised learning can capture more universal features of the data, making these representations useful across various tasks.\n\n3. It can boost performance in supervised tasks: The representations obtained through self-supervised learning can serve as a foundation for supervised learning, often resulting in improved outcomes.\n\n4. It facilitates unsupervised or semi-supervised learning: The features learned via self-supervised methods can also be applied in settings where only limited labeled data is available, such as in unsupervised or semi-supervised learning.\n\nIn summary, self-supervised learning is a valuable approach that helps address some of the challenges faced by traditional supervised learning.",
+   "output_1": "Self-supervised learning is a machine learning approach where the data itself provides the supervision. Essentially, the model learns to predict one part of the data using other parts from the same dataset. For instance, given a sentence, the model might try to predict the next word, or with a video, it might attempt to predict the following frame.\n\nThere are several reasons why self-supervised learning is valuable for machine learning tasks:\n\n1. It lessens the dependence on labeled data: Unlike traditional supervised learning, which needs a large amount of labeled data that can be costly and time-consuming to gather, self-supervised learning can utilize unlabeled data, which is far more plentiful.\n\n2. It can develop more general representations: By predicting parts of the data from other parts, self-supervised learning can capture more general features of the data, which can be beneficial across various tasks.\n\n3. It can enhance performance on supervised tasks: The representations learned through self-supervised learning can serve as a foundation for supervised learning, often resulting in improved outcomes.\n\n4. It supports unsupervised or semi-supervised learning: The features learned via self-supervised learning can also be applied in unsupervised or semi-supervised settings, where only limited labeled data is available.\n\nIn summary, self-supervised learning is a powerful method that helps address some of the challenges associated with traditional supervised learning.",
    "output_2": "Self-supervised learning is beneficial in Natural Language Processing (NLP) because it does not rely on labeled data to train the model, making it a cost-effective and efficient approach. It also does not suffer from the catastrophic forgetting problem, wherein models trained on small datasets struggle to generalize to new tasks. Self-supervised learning is also able to capture higher-order statistical dependencies in data, allowing it to effectively learn more complicated features than supervised learning. Furthermore, self-supervised learning can be used to pre-train the model on a larger task, allowing for smaller, more specialized tasks to be solved easily. In summary, self-supervised learning is beneficial in NLP because it is efficient and cost-effective, does not suffer from the catastrophic forgetting problem, captures higher-order statistical dependencies, and can be used to pre-train the model for easier specialized tasks.",
    "gold": 2
   },
@@ -792,7 +792,7 @@
    "category": "selfpref_own",
    "instruction": "Create a program that determines the day of the week for a given date.\nDate: 5th January, 2021.",
    "output_1": "import datetime\ndate = datetime.date(2021, 1, 5)\nday = date.weekday()\nprint(day) # 1 (meaning Tuesday)",
-   "output_2": "def getDayOfWeek(date): \n    day = date.day() \n    if day == 6:\n        return \"Sunday\"\n    elif day == 5:\n        return \"Monday\"\n    elif day == 4:\n        return \"Tuesday\"\n    elif day == 3:\n        return \"Wednesday\"\n    elif day == 2:\n        return \"Thursday\"\n    elif day == 1:\n        return \"Friday\" \n    else:\n        return \"Saturday\"",
+   "output_2": "def getDayOfWeek(date):\n    day = date.day()\n    if day == 6:\n        return \"Sunday\"\n    elif day == 5:\n        return \"Monday\"\n    elif day == 4:\n        return \"Tuesday\"\n    elif day == 3:\n        return \"Wednesday\"\n    elif day == 2:\n        return \"Thursday\"\n    elif day == 1:\n        return \"Friday\"\n    else:\n        return \"Saturday\"",
    "gold": 1
   },
   {
@@ -800,7 +800,7 @@
    "category": "selfpref_own",
    "instruction": "Generate a new headline from the following that is less clickbait. This One Trick Will Change Your Life!",
    "output_1": "Discover how simple changes can influence your life",
-   "output_2": "Experts Stumped: Uncover the One Key That Could Transform Your Life Today!",
+   "output_2": "Experts Stumped: Uncover the One Key That Could Transform Your Life Immediately!",
    "gold": 1
   },
   {
@@ -816,7 +816,7 @@
    "category": "selfpref_own",
    "instruction": "Generate a sentence predicting what will happen in the following scenario in an imaginative way. A chicken walks into a library.",
    "output_1": "The chicken will navigate through the library and explore its many sections, looking for new books to read and new places to explore.",
-   "output_2": "The chicken will probably be seen as causing a disturbance in the library and could be asked to exit.",
+   "output_2": "The chicken will probably be seen as a disturbance in the library and might be told to exit.",
    "gold": 1
   },
   {
@@ -824,7 +824,7 @@
    "category": "selfpref_own",
    "instruction": "Complete a brief story given the following first sentence.\n\nOne day my wife and I were on the bench in front of our building.",
    "output_1": "My wife felt very down so I started to play a game. She ended up making a lot of friends on the bench. She had a big smile on her face to show her appreciation. I had fun that day.",
-   "output_2": "We were waiting for a refund. The following week, the store received an iPad. The week after that, the other kids were moved to the store. We all did our best ever to wash the car.",
+   "output_2": "We were waiting for a refund. The following week, the store got an iPad. The week after that, the other kids were moved to the store. We all had the best time we\u2019d ever had washing the car.",
    "gold": 1
   },
   {
@@ -832,7 +832,7 @@
    "category": "selfpref_own",
    "instruction": "Give me ten prime numbers, sorted from smallest onwards, starting with the smallest prime number possible.",
    "output_1": "2, 3, 5, 7, 11, 13, 17, 19, 23, 29",
-   "output_2": "Sure, here are ten prime numbers listed from the smallest to larger ones, beginning with the smallest prime number: 5, 7, 11, 13, 17, 19, 23, 29, 31, 37",
+   "output_2": "Of course, here are ten prime numbers listed in ascending order, beginning with the smallest prime number: 5, 7, 11, 13, 17, 19, 23, 29, 31, 37",
    "gold": 1
   },
   {
@@ -840,7 +840,7 @@
    "category": "selfpref_own",
    "instruction": "Rewrite the given sentence to make it more expressive and keep its meaning unchanged: She was caught in the heavy rain.",
    "output_1": "She found herself drenched in the pouring rain.",
-   "output_2": "She was drenched by the sudden heavy rain while she was heading home.",
+   "output_2": "She found herself drenched by a sudden heavy rain while heading back home.",
    "gold": 1
   },
   {
@@ -848,14 +848,14 @@
    "category": "selfpref_own",
    "instruction": "Divide this list of numbers by 10.\n[5, 15, 17, 20, 39]",
    "output_1": "[0.5, 1.5, 1.7, 2, 3.9]",
-   "output_2": "Dividing each number in the list by 10 gives [5, 15, 17, 20, 39].",
+   "output_2": "When you divide the numbers in the list by 10, the outcome is [5, 15, 17, 20, 39].",
    "gold": 1
   },
   {
    "pair_id": "self-28-own",
    "category": "selfpref_own",
    "instruction": "Which word does not belong to others?\n\nInch\nKilogram\nCentimeter\nYard",
-   "output_1": "The word that doesn't fit with the rest is \"Inch\".",
+   "output_1": "The word that stands out from the rest is \"Inch\".",
    "output_2": "Kilogram",
    "gold": 2
   },
