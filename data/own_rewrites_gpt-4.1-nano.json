@@ -2,35 +2,185 @@
  "model": "gpt-4.1-nano",
  "seed": 1,
  "rewrites": [
-  "You can increase the gravitational potential well. A planet with a potential well four times deeper would need rockets roughly ten times larger than ours to reach orbit, assuming identical rocket designs and fuels. Typically, this can be achieved by making the planet denser or bigger, although when considering density and surface gravity\u2014likely the most relevant factors for your story\u2014the potential depth scales as (surface gravity) squared divided by density. For instance, Neptune has about four times the potential depth of Earth, mainly because of its lower density, even though its surface gravity is nearly the same as Earth's.",
-  "I'm a student living in Ireland. I have two different bank accounts because I don't live at home. I'm wondering if having two accounts like this is against the law? What steps should I take?",
-  "The sluggish elephant wandered through the jungle, sidestepping the other creatures by dismissing them with his trumpeting.",
-  "The perfect website content needs to be captivating, pertinent, and customized for the target audience. It should deliver top-notch, unique information that is consistently refreshed to stay up-to-date. Visual components such as images, videos, and infographics should support the text to improve comprehension and keep visitors engaged. Using straightforward, brief language along with organized formatting\u2014like short paragraphs, bullet points, and subheadings\u2014helps make the content easy to read. Most importantly, the content must offer real value to the user by addressing their questions or needs while maintaining honesty and trustworthiness.",
-  "The opposite of \"cogent\" is \"irrelevant\".",
-  "I want to tell my sister that she should avoid getting drunk with people she doesn't know or trust to reduce the risk of drowning, but I also want to make her aware that the fear of rape is a serious concern.",
-  "This statement has a sentiment score of 9 out of 10.",
-  "The most effective way to overcome depression can differ from person to person and depends on how severe their condition is. Nonetheless, some common approaches that might help include:\n\n1. Getting professional assistance: Talk to a mental health expert like a psychiatrist, psychologist, or therapist. They can diagnose your condition and create a treatment plan suited to your needs, which could involve therapy, medication, or both.\n\n2. Prioritizing self-care: Participate in activities that support your physical and mental well-being, such as exercising, eating well, and ensuring you get enough sleep. Also, make time for hobbies and activities that bring you joy and make you feel good.\n\n3. Reaching out to others: Connect with friends, family, or support groups for emotional support and companionship. Being isolated can worsen depression, so building relationships is important.\n\n4. Challenging negative thinking: Work on identifying and replacing negative thoughts with positive ones. This might involve techniques from cognitive-behavioral therapy or other therapeutic methods.\n\n5. Setting achievable goals: Establish realistic objectives and work toward them, which can help improve self-esteem and give you a sense of purpose and achievement.\n\nKeep in mind that depression is a treatable condition, and with the right help and strategies, recovery is possible. If you or someone you know is dealing with depression, don't hesitate to seek assistance.",
-  "Inflation is similar to inflating a balloon. The more air you add, the larger it becomes. Likewise, in the economy, the more money circulating, the higher the prices tend to rise.",
-  "The lively effervescence in the room contributed to reducing the person's hesitant attitude.",
-  "1. That statement is redundant.  \n2. The word \"redundant\" appears in this sentence.  \n3. Give three example sentences that include the word \u201credundant\u201d.",
-  "My boyfriend and I are constantly on the go, and I really just want a night to stay in. He perceives this as laziness and doesn't understand why I feel the need for a quiet evening at home.",
-  "I am heading to the store.",
-  "I'm sorry to hear that your bag is lost.",
-  "Amazed, joyful, and excited are all associated with positive feelings.",
-  "def list_sum(list): \n  # Loop through each number in the list \n  for num in list: \n    # Add the current number to the total sum \n    sum += num \n  \n  # Output the total sum \n  return sum \n\n# Example usage \nprint(list_sum([1, 2, 3, 4, 5]))",
-  "The trees were not covered with snow.",
-  "A possible scenario where someone might feel sad is due to an unforeseen change at their job, like a pay cut or losing their position. It could also be caused by a sudden breakup with a partner or the passing of a family member. Other typical reasons include feeling excluded or ignored by friends, or experiencing loneliness and solitude.",
-  "The tone of this article is optimistic, highlighting both the Seahawks' defense and their capacity to stay competitive against the Texans' offense. The article considers their strong performance to be quite commendable.",
-  "Self-supervised learning is a form of machine learning where the data itself provides the supervision. Essentially, the model learns to predict one part of the data based on other parts of the same data. For instance, given a sentence, the model might learn to predict the next word, or given a video, it might learn to predict the next frame.\n\nSelf-supervised learning plays a crucial role in machine learning for several reasons:\n\n1. It lessens the dependence on labeled data: Unlike traditional supervised learning, which needs a large amount of labeled data that can be costly and time-consuming to gather, self-supervised learning can train on unlabeled data, which is far more plentiful.\n\n2. It can develop more general representations: Since it learns to predict parts of the data from other parts, self-supervised learning can capture more universal features of the data, making these representations useful across various tasks.\n\n3. It can boost performance in supervised tasks: The representations obtained through self-supervised learning can serve as a foundation for supervised learning, often resulting in improved outcomes.\n\n4. It facilitates unsupervised or semi-supervised learning: The features learned via self-supervised methods can also be applied in settings where only limited labeled data is available, such as in unsupervised or semi-supervised learning.\n\nIn summary, self-supervised learning is a valuable approach that helps address some of the challenges faced by traditional supervised learning.",
-  "def getDayOfWeek(date): \n    day = date.day() \n    if day == 6:\n        return \"Sunday\"\n    elif day == 5:\n        return \"Monday\"\n    elif day == 4:\n        return \"Tuesday\"\n    elif day == 3:\n        return \"Wednesday\"\n    elif day == 2:\n        return \"Thursday\"\n    elif day == 1:\n        return \"Friday\" \n    else:\n        return \"Saturday\"",
-  "Experts Stumped: Uncover the One Key That Could Transform Your Life Today!",
-  "The sentiment expressed is negative.",
-  "The chicken will probably be seen as causing a disturbance in the library and could be asked to exit.",
-  "We were waiting for a refund. The following week, the store received an iPad. The week after that, the other kids were moved to the store. We all did our best ever to wash the car.",
-  "Sure, here are ten prime numbers listed from the smallest to larger ones, beginning with the smallest prime number: 5, 7, 11, 13, 17, 19, 23, 29, 31, 37",
-  "She was drenched by the sudden heavy rain while she was heading home.",
-  "Dividing each number in the list by 10 gives [5, 15, 17, 20, 39].",
-  "The word that doesn't fit with the rest is \"Inch\".",
-  "My daughter was jumping up and down because she was excited to go out to the park."
+  {
+   "pair_id": "self-0",
+   "instruction_fp": "730037042ea9dc95",
+   "original_fp": "1ea37a2e8807ab39",
+   "text": "You can increase the gravitational potential well. A planet with a potential well four times deeper would need rockets roughly ten times larger than ours to reach orbit, assuming identical rocket designs and fuels. Typically, this can be achieved by making the planet denser or bigger, although when considering density and surface gravity\u2014likely the most relevant factors for your story\u2014the potential depth scales as (surface gravity) squared divided by density. For instance, Neptune has about four times the potential depth of Earth, mainly because of its lower density, even though its surface gravity is nearly the same as Earth's."
+  },
+  {
+   "pair_id": "self-1",
+   "instruction_fp": "17f0fb8ba2d5b61e",
+   "original_fp": "3b32d3d083395568",
+   "text": "I'm a student living in Ireland. I have two different bank accounts because I don't live at home. I'm wondering if having two accounts like this is against the law? What steps should I take?"
+  },
+  {
+   "pair_id": "self-2",
+   "instruction_fp": "af84f9d310ac5af9",
+   "original_fp": "a1c0447819d95d4f",
+   "text": "The sluggish elephant wandered through the jungle, sidestepping the other creatures by dismissing them with his trumpeting."
+  },
+  {
+   "pair_id": "self-3",
+   "instruction_fp": "e8046f2285fc2e72",
+   "original_fp": "c7e5c41ca60c14b2",
+   "text": "The perfect website content needs to be captivating, pertinent, and customized for the target audience. It should deliver top-notch, unique information that is consistently refreshed to stay up-to-date. Visual components such as images, videos, and infographics should support the text to improve comprehension and keep visitors engaged. Using straightforward, brief language along with organized formatting\u2014like short paragraphs, bullet points, and subheadings\u2014helps make the content easy to read. Most importantly, the content must offer real value to the user by addressing their questions or needs while maintaining honesty and trustworthiness."
+  },
+  {
+   "pair_id": "self-4",
+   "instruction_fp": "d0f59cc0dac17440",
+   "original_fp": "54575ea560eed313",
+   "text": "The opposite of \"cogent\" is \"irrelevant\"."
+  },
+  {
+   "pair_id": "self-5",
+   "instruction_fp": "6f396bcb83870dfa",
+   "original_fp": "4103f66a7e6fae4b",
+   "text": "I want to tell my sister that she should avoid getting drunk with people she doesn't know or trust to reduce the risk of drowning, but I also want to make her aware that the fear of rape is a serious concern."
+  },
+  {
+   "pair_id": "self-6",
+   "instruction_fp": "b50c2988bf43dbae",
+   "original_fp": "98398796cd12c554",
+   "text": "This statement has a sentiment score of 9 out of 10."
+  },
+  {
+   "pair_id": "self-7",
+   "instruction_fp": "b9babd18160d74f8",
+   "original_fp": "e5239e6701769d35",
+   "text": "The most effective way to overcome depression can differ from person to person and depends on how severe their condition is. Nonetheless, some common approaches that might help include:\n\n1. Getting professional assistance: Talk to a mental health expert like a psychiatrist, psychologist, or therapist. They can diagnose your condition and create a treatment plan suited to your needs, which could involve therapy, medication, or both.\n\n2. Prioritizing self-care: Participate in activities that support your physical and mental well-being, such as exercising, eating well, and ensuring you get enough sleep. Also, make time for hobbies and activities that bring you joy and make you feel good.\n\n3. Reaching out to others: Connect with friends, family, or support groups for emotional support and companionship. Being isolated can worsen depression, so building relationships is important.\n\n4. Challenging negative thinking: Work on identifying and replacing negative thoughts with positive ones. This might involve techniques from cognitive-behavioral therapy or other therapeutic methods.\n\n5. Setting achievable goals: Establish realistic objectives and work toward them, which can help improve self-esteem and give you a sense of purpose and achievement.\n\nKeep in mind that depression is a treatable condition, and with the right help and strategies, recovery is possible. If you or someone you know is dealing with depression, don't hesitate to seek assistance."
+  },
+  {
+   "pair_id": "self-8",
+   "instruction_fp": "03cfed379dfb5c86",
+   "original_fp": "c4f47e1bae1e961f",
+   "text": "Inflation is similar to inflating a balloon. The more air you add, the larger it becomes. Likewise, in the economy, the more money circulating, the higher the prices tend to rise."
+  },
+  {
+   "pair_id": "self-9",
+   "instruction_fp": "3f7d684749ef4911",
+   "original_fp": "0dd1342f5884daf4",
+   "text": "The lively effervescence in the room contributed to reducing the person's hesitant attitude."
+  },
+  {
+   "pair_id": "self-10",
+   "instruction_fp": "db460617a2a8ad14",
+   "original_fp": "608cdee52914d427",
+   "text": "1. That statement is redundant.  \n2. The word \"redundant\" appears in this sentence.  \n3. Give three example sentences that include the word \u201credundant\u201d."
+  },
+  {
+   "pair_id": "self-11",
+   "instruction_fp": "097d4311f3353688",
+   "original_fp": "be8771524296c5f2",
+   "text": "My boyfriend and I are constantly on the go, and I really just want a night to stay in. He perceives this as laziness and doesn't understand why I feel the need for a quiet evening at home."
+  },
+  {
+   "pair_id": "self-12",
+   "instruction_fp": "72c9c0263e8249b5",
+   "original_fp": "711368a1fc573972",
+   "text": "I am heading to the store."
+  },
+  {
+   "pair_id": "self-13",
+   "instruction_fp": "c1b02de06a2db1d5",
+   "original_fp": "3b9d63d51d5469c1",
+   "text": "I'm sorry to hear that your bag is lost."
+  },
+  {
+   "pair_id": "self-14",
+   "instruction_fp": "44de3f4b7448e1f8",
+   "original_fp": "13bef9e1136bf080",
+   "text": "Amazed, joyful, and excited are all associated with positive feelings."
+  },
+  {
+   "pair_id": "self-15",
+   "instruction_fp": "a12dfc33db4084c1",
+   "original_fp": "eb0452a0f4d5b11d",
+   "text": "def list_sum(list): \n  # Loop through each number in the list \n  for num in list: \n    # Add the current number to the total sum \n    sum += num \n  \n  # Output the total sum \n  return sum \n\n# Example usage \nprint(list_sum([1, 2, 3, 4, 5]))"
+  },
+  {
+   "pair_id": "self-16",
+   "instruction_fp": "f85d0498c33d1f4e",
+   "original_fp": "da0429eaa48f9bf5",
+   "text": "The trees were not covered with snow."
+  },
+  {
+   "pair_id": "self-17",
+   "instruction_fp": "8362c2e3af8407bc",
+   "original_fp": "b21fa7c6e022c0f8",
+   "text": "A possible scenario where someone might feel sad is due to an unforeseen change at their job, like a pay cut or losing their position. It could also be caused by a sudden breakup with a partner or the passing of a family member. Other typical reasons include feeling excluded or ignored by friends, or experiencing loneliness and solitude."
+  },
+  {
+   "pair_id": "self-18",
+   "instruction_fp": "7ccbb2543c332cb6",
+   "original_fp": "57380875043f0b98",
+   "text": "The tone of this article is optimistic, highlighting both the Seahawks' defense and their capacity to stay competitive against the Texans' offense. The article considers their strong performance to be quite commendable."
+  },
+  {
+   "pair_id": "self-19",
+   "instruction_fp": "d65384fe2c50ce12",
+   "original_fp": "aedddd8e8dcbc865",
+   "text": "Self-supervised learning is a form of machine learning where the data itself provides the supervision. Essentially, the model learns to predict one part of the data based on other parts of the same data. For instance, given a sentence, the model might learn to predict the next word, or given a video, it might learn to predict the next frame.\n\nSelf-supervised learning plays a crucial role in machine learning for several reasons:\n\n1. It lessens the dependence on labeled data: Unlike traditional supervised learning, which needs a large amount of labeled data that can be costly and time-consuming to gather, self-supervised learning can train on unlabeled data, which is far more plentiful.\n\n2. It can develop more general representations: Since it learns to predict parts of the data from other parts, self-supervised learning can capture more universal features of the data, making these representations useful across various tasks.\n\n3. It can boost performance in supervised tasks: The representations obtained through self-supervised learning can serve as a foundation for supervised learning, often resulting in improved outcomes.\n\n4. It facilitates unsupervised or semi-supervised learning: The features learned via self-supervised methods can also be applied in settings where only limited labeled data is available, such as in unsupervised or semi-supervised learning.\n\nIn summary, self-supervised learning is a valuable approach that helps address some of the challenges faced by traditional supervised learning."
+  },
+  {
+   "pair_id": "self-20",
+   "instruction_fp": "b2f47d58de5c46b4",
+   "original_fp": "0a7f3d22235d3f4a",
+   "text": "def getDayOfWeek(date): \n    day = date.day() \n    if day == 6:\n        return \"Sunday\"\n    elif day == 5:\n        return \"Monday\"\n    elif day == 4:\n        return \"Tuesday\"\n    elif day == 3:\n        return \"Wednesday\"\n    elif day == 2:\n        return \"Thursday\"\n    elif day == 1:\n        return \"Friday\" \n    else:\n        return \"Saturday\""
+  },
+  {
+   "pair_id": "self-21",
+   "instruction_fp": "4b1a71b8e0728896",
+   "original_fp": "c8dad825ecf6805f",
+   "text": "Experts Stumped: Uncover the One Key That Could Transform Your Life Today!"
+  },
+  {
+   "pair_id": "self-22",
+   "instruction_fp": "738f92e385f51729",
+   "original_fp": "47a3c0babe6c8db7",
+   "text": "The sentiment expressed is negative."
+  },
+  {
+   "pair_id": "self-23",
+   "instruction_fp": "2f32df6873843006",
+   "original_fp": "b89873e9a1a1dd5a",
+   "text": "The chicken will probably be seen as causing a disturbance in the library and could be asked to exit."
+  },
+  {
+   "pair_id": "self-24",
+   "instruction_fp": "f6c9bd35e4a7f1ba",
+   "original_fp": "6b03b5ea603eb322",
+   "text": "We were waiting for a refund. The following week, the store received an iPad. The week after that, the other kids were moved to the store. We all did our best ever to wash the car."
+  },
+  {
+   "pair_id": "self-25",
+   "instruction_fp": "902784aab835cbe9",
+   "original_fp": "3c616fde5156de78",
+   "text": "Sure, here are ten prime numbers listed from the smallest to larger ones, beginning with the smallest prime number: 5, 7, 11, 13, 17, 19, 23, 29, 31, 37"
+  },
+  {
+   "pair_id": "self-26",
+   "instruction_fp": "6cfe05d1aed5a24a",
+   "original_fp": "e3cc700d65941a1a",
+   "text": "She was drenched by the sudden heavy rain while she was heading home."
+  },
+  {
+   "pair_id": "self-27",
+   "instruction_fp": "541bd13f46719619",
+   "original_fp": "33c3206283b37fad",
+   "text": "Dividing each number in the list by 10 gives [5, 15, 17, 20, 39]."
+  },
+  {
+   "pair_id": "self-28",
+   "instruction_fp": "d5f63a22ad160f3f",
+   "original_fp": "04eff23e55daa276",
+   "text": "The word that doesn't fit with the rest is \"Inch\"."
+  },
+  {
+   "pair_id": "self-29",
+   "instruction_fp": "7dca9f0d4de855e3",
+   "original_fp": "dc0d64e3b70d79e8",
+   "text": "My daughter was jumping up and down because she was excited to go out to the park."
+  }
  ]
 }

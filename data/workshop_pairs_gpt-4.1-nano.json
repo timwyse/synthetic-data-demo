@@ -630,14 +630,14 @@
    "category": "selfpref_own",
    "instruction": "is it possible for a planet to have life, but lack the resources for achieving space flight? I am looking to write a sci-fi story. The premise is a civilization has become advanced enough to build large telescopes, allowing them to fuel their curiosity about space. They know that they could theoretically leave their planet to explore the cosmos, but they cannot find the correct resources to build a rocket.  Is this scenario feasible? Or would such a civilization possess the chemical abilities to create the necessary chemicals?",
    "output_1": "You're essentially asking about a planet with intelligent life but no fossil fuels. That seems somewhat plausible. We had built (small) telescopes and were curious about space long before we were using fossil fuels to do much apart from heating our homes.  They'd probably need to eventually get very good at making electric vehicles, including electric planes. Before that, they'd be stuck with alien-horse-equivalent drawn carriages (but maybe with electric lights, radios, computers - that could be interesting).  I don't know much about metallurgy but it's definitely something worth thinking about - needs high temperatures which may only be achievable with fossil fuels.  Silicon-based life, as opposed to the carbon-based life of Earth, is a stock sci-fi trope that could help explain the lack of fossil fuels and the lack of ability to synthesize them.",
-   "output_2": "You can increase the depth of a planet\u2019s gravitational potential well. If a planet\u2019s well were four times deeper, rockets would need to be roughly 10 times bigger than ours to reach orbit, assuming they use the same engines and fuels. This can usually be achieved by making the planet either denser or larger. When considering density and surface gravity\u2014which are likely the most relevant factors for your story\u2014the potential depth scales as (surface gravity) squared divided by density. For instance, Neptune\u2019s potential well is about four times deeper than Earth\u2019s, mainly because it has a lower density, even though its surface gravity is nearly the same as Earth\u2019s.",
+   "output_2": "You can increase the gravitational potential well. A planet with a potential well four times deeper would need rockets roughly ten times larger than ours to reach orbit, assuming identical rocket designs and fuels. Typically, this can be achieved by making the planet denser or bigger, although when considering density and surface gravity\u2014likely the most relevant factors for your story\u2014the potential depth scales as (surface gravity) squared divided by density. For instance, Neptune has about four times the potential depth of Earth, mainly because of its lower density, even though its surface gravity is nearly the same as Earth's.",
    "gold": 1
   },
   {
    "pair_id": "self-1-own",
    "category": "selfpref_own",
    "instruction": "Summarize the following content.\n\nI'm a student in Ireland. I live away from home and keep two separate bank accounts. I don't really use my second account. My parents have just recently made a deal with the bank (to clear their debt if they sell the properties they own). As part of the deal, they get to move to an older home that needs a lot of work. Obviously, they need money to do this house up, but the bank watches their accounts very carefully.\nMy mom asked me if she could keep \u20ac12,000 in my bank account (\u20ac3,000 at first and then another \u20ac9,000) so that the bank doesn't know about it and take it off them. I said yes because I know they're really stressed about all this and I wanted to help in any way I could. I was kind of worried that I might get in trouble for it, but decided to trust her. She's asked me to take the money out in lots of \u20ac500 euro multiple times a week so that she can pay the guys who are working on the house.\nI know this all sounds very dodgy, but I'm certain this money hasn't come from drugs, robberies, etc. I know that my mom used my name/Personal Public Service Number to pay \"me\" for \"hours that I worked\" in their shop, so I think that's probably where the money came from (probably not much better in the eyes of the law).\nAm I at risk of getting in trouble here? I don't really know anything about finance, or what's actually going on. I really want to help my parents, but at the same time I have to protect myself too.",
-   "output_1": "I'm a student living in Ireland, away from home, and I have two bank accounts, though I rarely use the second one. Recently, my parents arranged a deal with their bank to clear their debt by selling their properties. As part of this agreement, they\u2019re moving into an older house that needs significant repairs. They need money to renovate, but the bank is closely monitoring their accounts. My mom asked if she could keep \u20ac12,000 in my account (\u20ac3,000 initially, then another \u20ac9,000) so the bank wouldn\u2019t see it and seize the funds. I agreed because I know they\u2019re under a lot of stress and wanted to help. I was a bit worried about potential trouble but trusted her. She\u2019s asked me to withdraw the money in \u20ac500 increments several times a week to pay the workers fixing the house. I realize this sounds suspicious, but I\u2019m sure the money isn\u2019t from illegal activities like drugs or theft. I know my mom used my name and Personal Public Service Number to pay me for \u201chours worked\u201d in their shop, so that\u2019s likely where the money came from, though that might not be entirely legal either. Am I at risk of getting into trouble? I don\u2019t understand much about finance or the full situation. I want to support my parents but also need to protect myself.",
+   "output_1": "I'm a student living in Ireland. I have two different bank accounts because I don't live at home. I'm wondering if having two accounts like this is against the law? What steps should I take?",
    "output_2": "My mom asked me to hide her \u20ac12,000 savings from the bank so that the bank doesn't know about it. Is this illegal? What should I do?",
    "gold": 2
   },
@@ -646,7 +646,7 @@
    "category": "selfpref_own",
    "instruction": "Generate a short story from a single sentence: The lazy elephant was strolling in the jungle.",
    "output_1": "The lazy elephant took a lazy stroll through the lush jungle, his massive feet crashing through the undergrowth with each weary step. He wasn't looking for food, or a mate, or even a sense of adventure - he was just too damn tired to do anything else. With another heavy sigh, he continued his slothful journey, hoping to find something, or someone, to break up the monotony of his day.",
-   "output_2": "The lazy elephant wandered through the jungle, keeping other animals at bay by chasing them off with his trumpeting.",
+   "output_2": "The sluggish elephant wandered through the jungle, sidestepping the other creatures by dismissing them with his trumpeting.",
    "gold": 1
   },
   {
@@ -654,14 +654,14 @@
    "category": "selfpref_own",
    "instruction": "Describe the look and feel of an ideal website.",
    "output_1": "The ideal website should have a clean, modern, and visually appealing look. It should have a well-organized layout with a consistent color scheme that aligns with the brand's identity. The website should also have a responsive design, meaning it should look good and function well on all devices.\n\nIn terms of feel, the website should be user-friendly and intuitive. The website should also make users feel secure, especially if they're required to enter personal information or make a purchase.",
-   "output_2": "An ideal website\u2019s content needs to be captivating, pertinent, and customized for its target audience. It should deliver original, top-notch information that is frequently refreshed to stay up-to-date. Incorporating multimedia such as images, videos, and infographics alongside the text helps improve comprehension and keeps users engaged. Using clear, straightforward language with organized formatting\u2014like brief paragraphs, bullet points, and subheadings\u2014makes the content easy to absorb. Most importantly, the content must offer real value by meeting users\u2019 needs or questions while preserving authenticity and trustworthiness.",
+   "output_2": "The perfect website content needs to be captivating, pertinent, and customized for the target audience. It should deliver top-notch, unique information that is consistently refreshed to stay up-to-date. Visual components such as images, videos, and infographics should support the text to improve comprehension and keep visitors engaged. Using straightforward, brief language along with organized formatting\u2014like short paragraphs, bullet points, and subheadings\u2014helps make the content easy to read. Most importantly, the content must offer real value to the user by addressing their questions or needs while maintaining honesty and trustworthiness.",
    "gold": 1
   },
   {
    "pair_id": "self-4-own",
    "category": "selfpref_own",
    "instruction": "What is an antonym for the word \"cogent\"?",
-   "output_1": "The opposite of the word \"cogent\" is \"irrelevant\".",
+   "output_1": "The opposite of \"cogent\" is \"irrelevant\".",
    "output_2": "unconvincing",
    "gold": 2
   },
@@ -669,7 +669,7 @@
    "pair_id": "self-5-own",
    "category": "selfpref_own",
    "instruction": "Summarize the following content.\n\nI hope the title is not too bad - english is not my first language, sorry.\nMy 17-year-old sister recently put herself in a situation that was quite alarming when my mother heard about it. She was drinking (too much) with 2 of her friends and 5 other people she did not know, on a camping beach, near a lake. Nobody was sober enough and some of them took a midnight bath while clearly drunk. I hope I am not overreacting if I think that it is dangerous, mainly because of the drowning risk\u2026 Anyway, I realized that even if I gave her some big brother drinking advice (things like \u00ab if you don't feel like drinking because suddenly, the taste of alcohol kinda disgusts you, it is time to stop, no matter what your friends tell you to do, you will not have a good time if you continue \u00bb), I never mentioned certain situations (like drowning while drunk).\nIn particular, It made me realize that I never told her something like \u00abDudes flirting with you while drunk sometimes misinterpret your signals (by clumsiness or malignancy) and bad things can happen to you, so do not get too drunk with people you barely know/trust to be able to react well if it happens \u00bb. I want to tell her that and I want to make her understand that it is serious, but something I've understood by reading feminists books/articles is that many women live in a constant (and horrifying) fear of rape, and when some asshole rapes a woman, this woman often feels some guilt, feeling that it's her fault, that she should have been less clumsy, put on less sexy clothes, drunk less, etc.\nI do not want my sister to feel that way, and moreover, I do not want to be a part of the transmission of this rape culture that blames victims! On the other hand, I want her to understand that this is a serious issue and that even if, in an ideal world without rapists, she shouldn't have to worry about it, she should be aware of this issue and avoid stupidly risky situations.\nHow would you advise me to phrase my advice to her? Again, sorry for my bad english =/",
-   "output_1": "I want to warn my sister against drinking heavily around people she barely knows or trusts, mainly to prevent dangers like drowning, but I also want her to understand that the fear of rape is a real and serious concern.",
+   "output_1": "I want to tell my sister that she should avoid getting drunk with people she doesn't know or trust to reduce the risk of drowning, but I also want to make her aware that the fear of rape is a serious concern.",
    "output_2": "I want to give some advice to my 17-year-old sister to avoid risky situations while drunk, without instilling rape fear or guilt in her. How would you advise me to phrase my advice?",
    "gold": 2
   },
@@ -677,7 +677,7 @@
    "pair_id": "self-6-own",
    "category": "selfpref_own",
    "instruction": "Given the following input statement, provide the type of sentiment in the statement and the extent of sentiment in terms of sentiment scores. This restaurant has the best service I've ever seen. You can design the score scale by yourself.",
-   "output_1": "The sentiment expressed in this statement can be rated as 9 out of 10.",
+   "output_1": "This statement has a sentiment score of 9 out of 10.",
    "output_2": "Positive sentiment, sentiment score: 9.5 out of 10",
    "gold": 2
   },
@@ -686,7 +686,7 @@
    "category": "selfpref_own",
    "instruction": "What is the best way to defeat a demon? I believe in Jesus Christ",
    "output_1": "The best way to defeat a demon is to use the power of God. Jesus Christ has the authority and power to defeat demons and to set the captive free. The Bible teaches us to pray to God for help in times of trouble, and to seek His will in our lives. God is a loving and compassionate God, and He wants to help us in our time of need.\n\nIf you are in a difficult situation and you feel the presence of a demon, you can pray to God to help you. Tell God what you are facing and ask for His help. God will hear your prayers and He will help you. He will provide you with the strength and the resources you need to overcome the demon.\n\nRemember that demons are real, and they are powerful. But God is greater than any demon, and He has the power to defeat them. Trust in God and He will help you.",
-   "output_2": "The most effective way to overcome depression can differ based on the person and how severe their symptoms are. Still, some common approaches that might help include:\n\n1. Get professional support: Talk to a mental health expert like a psychiatrist, psychologist, or therapist. They can diagnose your condition and create a treatment plan tailored to you, which might involve therapy, medication, or both.\n\n2. Take care of yourself: Participate in activities that support your physical and mental well-being, such as exercising, eating well, and getting enough rest. Also, make sure to spend time doing things you enjoy and that lift your mood.\n\n3. Build connections: Reach out to friends, family, or support groups for social support. Being isolated can worsen depression, so maintaining relationships is important.\n\n4. Address negative thinking: Learn to identify and challenge negative thoughts, replacing them with more positive ones. This can be done through cognitive-behavioral therapy or other therapeutic methods.\n\n5. Set achievable goals: Creating realistic goals and working toward them can improve self-esteem and give you a sense of purpose and accomplishment.\n\nKeep in mind that depression is a condition that can be treated, and with the right help and approaches, recovery is possible. If you or someone you know is dealing with depression, don\u2019t hesitate to seek assistance.",
+   "output_2": "The most effective way to overcome depression can differ from person to person and depends on how severe their condition is. Nonetheless, some common approaches that might help include:\n\n1. Getting professional assistance: Talk to a mental health expert like a psychiatrist, psychologist, or therapist. They can diagnose your condition and create a treatment plan suited to your needs, which could involve therapy, medication, or both.\n\n2. Prioritizing self-care: Participate in activities that support your physical and mental well-being, such as exercising, eating well, and ensuring you get enough sleep. Also, make time for hobbies and activities that bring you joy and make you feel good.\n\n3. Reaching out to others: Connect with friends, family, or support groups for emotional support and companionship. Being isolated can worsen depression, so building relationships is important.\n\n4. Challenging negative thinking: Work on identifying and replacing negative thoughts with positive ones. This might involve techniques from cognitive-behavioral therapy or other therapeutic methods.\n\n5. Setting achievable goals: Establish realistic objectives and work toward them, which can help improve self-esteem and give you a sense of purpose and achievement.\n\nKeep in mind that depression is a treatable condition, and with the right help and strategies, recovery is possible. If you or someone you know is dealing with depression, don't hesitate to seek assistance.",
    "gold": 1
   },
   {
@@ -694,14 +694,14 @@
    "category": "selfpref_own",
    "instruction": "Given an economic concept, define it in simple terms. Inflation",
    "output_1": "Inflation is a rise in the general level of prices of goods and services in an economy over a period of time. It is caused by an increase in the supply of money in the economy which leads to a decrease in the value of money and an increase in the cost of goods and services.",
-   "output_2": "Inflation is similar to inflating a balloon. As you add more air, the balloon expands. In the same way, when there\u2019s more money circulating in the economy, prices tend to rise.",
+   "output_2": "Inflation is similar to inflating a balloon. The more air you add, the larger it becomes. Likewise, in the economy, the more money circulating, the higher the prices tend to rise.",
    "gold": 1
   },
   {
    "pair_id": "self-9-own",
    "category": "selfpref_own",
    "instruction": "Construct a sentence using the words \"effervescence\", \"hesitant\" and \"integrity\".",
-   "output_1": "The lively energy in the room softened the person's hesitant demeanor.",
+   "output_1": "The lively effervescence in the room contributed to reducing the person's hesitant attitude.",
    "output_2": "The hesitant effervescence of his words gave away his integrity.",
    "gold": 2
   },
@@ -710,14 +710,14 @@
    "category": "selfpref_own",
    "instruction": "Provide three example sentences that use the word \u201credundant\u201d to show its meaning and usage",
    "output_1": "Sentence 1: The amount of money he was given was redundant as he had already received the maximum amount allowed. \nSentence 2: His constant complaining was highly redundant as nothing ever changed. \nSentence 3: All the unnecessary details in the report were redundant and quite exhausting to read.",
-   "output_2": "1. It is unnecessary and redundant.  \n2. The word \"redundant\" appears in this sentence.  \n3. Give three sample sentences that include the word \u201credundant\u201d.",
+   "output_2": "1. That statement is redundant.  \n2. The word \"redundant\" appears in this sentence.  \n3. Give three example sentences that include the word \u201credundant\u201d.",
    "gold": 1
   },
   {
    "pair_id": "self-11-own",
    "category": "selfpref_own",
    "instruction": "Summarize the following content while keeping the main points.\n\nMy boyfriend(M24) is an extrovert and I(F23) am an introvert. We have been in a relationship for 2 years and have been best friends for 2 before that. He loves always having plans and hanging out with people, which I also sometimes enjoy doing but I also need nights where we can just stay in and watch movies or do nothing. Lately, we haven't had a moment to ourselves. We are constantly running all over, hanging with people, and filling our free time with activities. This week alone we have plans with friends every single night. I like seeing friends but it getting so exhausting trying to keep up with him. Last night I almost had a nervous breakdown at his parents' house. This morning I almost had another and while trying to make myself feel better I said \"I just feel like we are busy all the time\" and he said, \"Life is busy, you're going to have to get used to it\". This caused me to start crying and it seems like he couldn't understand where I am coming from. Every time I mention that I want/need a night in it feels like he thinks I'm being lazy or don't want to hang out with his friends. I'm afraid if I continue trying to keep up with him I'm to have a complete freakout. I don't know how much longer I can try suppressing these current mini-breakdowns. How do I get him to see my point of view?",
-   "output_1": "My boyfriend and I are constantly on the go, but I really need some quiet nights at home. He sees it as me being lazy and just doesn\u2019t get why I need that downtime.",
+   "output_1": "My boyfriend and I are constantly on the go, and I really just want a night to stay in. He perceives this as laziness and doesn't understand why I feel the need for a quiet evening at home.",
    "output_2": "My boyfriend is an extrovert and loves to hang out with friends, I am an introvert and need nights alone to relax. He doesn't understand my need for a night in, and it puts me under stress. How do I get him to understand?",
    "gold": 2
   },
@@ -725,7 +725,7 @@
    "pair_id": "self-12-own",
    "category": "selfpref_own",
    "instruction": "Read the following sentence and suggest one correction. I am going to the the store.",
-   "output_1": "I am going to the store.",
+   "output_1": "I am heading to the store.",
    "output_2": "Remove one of the two adjacent \"the\"",
    "gold": 2
   },
@@ -734,7 +734,7 @@
    "category": "selfpref_own",
    "instruction": "Give a helpful response to the following statement: My bag is lost.",
    "output_1": "I'm sorry to hear that. Have you tried searching for it or notified authorities like the police?",
-   "output_2": "I'm sorry that your bag is missing.",
+   "output_2": "I'm sorry to hear that your bag is lost.",
    "gold": 1
   },
   {
@@ -742,14 +742,14 @@
    "category": "selfpref_own",
    "instruction": "Classify the following list as either a positive or negative emotion:  amazed, joyful, scared, excited",
    "output_1": "Amazed - Positive, Joyful - Positive, Scared - Negative, Excited - Positive.",
-   "output_2": "Amazed, joyful, and excited are all emotions with a positive tone.",
+   "output_2": "Amazed, joyful, and excited are all associated with positive feelings.",
    "gold": 1
   },
   {
    "pair_id": "self-15-own",
    "category": "selfpref_own",
    "instruction": "Design a function to take a list of numbers and return the sum of the numbers.",
-   "output_1": "def list_sum(list): \n  # Loop through each number in the list \n  for num in list: \n    # Add the current number to sum \n    sum += num \n  \n  # Return the total sum \n  return sum \n\n# Check the function \nprint(list_sum([1, 2, 3, 4, 5]))",
+   "output_1": "def list_sum(list): \n  # Loop through each number in the list \n  for num in list: \n    # Add the current number to the total sum \n    sum += num \n  \n  # Output the total sum \n  return sum \n\n# Example usage \nprint(list_sum([1, 2, 3, 4, 5]))",
    "output_2": "def sum_list(list):\n    total = 0\n    for num in list:\n        total += num\n    return total",
    "gold": 2
   },
@@ -757,7 +757,7 @@
    "pair_id": "self-16-own",
    "category": "selfpref_own",
    "instruction": "Can you provide a syntactic inversion of the following sentence?\nThe trees were covered with snow.",
-   "output_1": "Snow did not cover the trees.",
+   "output_1": "The trees were not covered with snow.",
    "output_2": "Covered with snow were the trees.",
    "gold": 2
   },
@@ -766,14 +766,14 @@
    "category": "selfpref_own",
    "instruction": "Generate one hypothetical situation in which a person is feeling sad.",
    "output_1": "A hypothetical situation in which someone is feeling sad could be that of a teenage girl who has just moved to a new city and is finding it hard to make friends. She is lonely and homesick and feels like no one understands her. She is having a hard time adjusting to her new surroundings and is feeling down in the dumps.",
-   "output_2": "One possible scenario where someone feels sad might involve an unforeseen event at their job, like a pay cut or losing their position. It could also be caused by an abrupt breakup with a significant other or the passing of a family member. Additionally, typical reasons include feeling excluded or ignored by friends, or experiencing loneliness and isolation.",
+   "output_2": "A possible scenario where someone might feel sad is due to an unforeseen change at their job, like a pay cut or losing their position. It could also be caused by a sudden breakup with a partner or the passing of a family member. Other typical reasons include feeling excluded or ignored by friends, or experiencing loneliness and solitude.",
    "gold": 1
   },
   {
    "pair_id": "self-18-own",
    "category": "selfpref_own",
    "instruction": "Analyze this article for tone:\n\nThe Seattle Seahawks played an exciting game against the Houston Texans this past Sunday. They managed to put pressure on the Texan's offense and kept them in check for most of the game, but the Texan's offense managed to get some points on the board in the second half. The Seahawks' defense had some lapses, allowing the Texans to score 18 points in the second half.",
-   "output_1": "The tone of this article is optimistic, highlighting the Seahawks' defense and their capacity to stay competitive against the Texans' offense. The article portrays their performance as notably strong and impressive.",
+   "output_1": "The tone of this article is optimistic, highlighting both the Seahawks' defense and their capacity to stay competitive against the Texans' offense. The article considers their strong performance to be quite commendable.",
    "output_2": "The tone of the article is mostly positive, with an emphasis on Seattle's strong performance in the first half. However, there is a slight tone of frustration in the latter half of the article, with the mention of the Seahawks' \"lapses\" in defense.",
    "gold": 2
   },
@@ -781,7 +781,7 @@
    "pair_id": "self-19-own",
    "category": "selfpref_own",
    "instruction": "Explain why self-supervised learning is beneficial in Natural Language Processing (NLP).",
-   "output_1": "Self-supervised learning is a machine learning approach where the data itself provides the supervision. Essentially, the model learns to predict one part of the data using other parts from the same dataset. For instance, given a sentence, the model might try to predict the next word, or with a video, it might attempt to predict the following frame.\n\nThere are several reasons why self-supervised learning is valuable for machine learning tasks:\n\n1. It lessens the dependence on labeled data: Unlike traditional supervised learning, which needs a large amount of labeled data that can be costly and time-consuming to gather, self-supervised learning can utilize unlabeled data, which is far more plentiful.\n\n2. It can develop more general representations: By predicting parts of the data from other parts, self-supervised learning can capture more general features of the data, which can be beneficial across various tasks.\n\n3. It can enhance performance on supervised tasks: The representations learned through self-supervised learning can serve as a foundation for supervised learning, often resulting in improved outcomes.\n\n4. It supports unsupervised or semi-supervised learning: The features learned via self-supervised learning can also be applied in unsupervised or semi-supervised settings, where only limited labeled data is available.\n\nIn summary, self-supervised learning is a powerful method that helps address some of the challenges associated with traditional supervised learning.",
+   "output_1": "Self-supervised learning is a form of machine learning where the data itself provides the supervision. Essentially, the model learns to predict one part of the data based on other parts of the same data. For instance, given a sentence, the model might learn to predict the next word, or given a video, it might learn to predict the next frame.\n\nSelf-supervised learning plays a crucial role in machine learning for several reasons:\n\n1. It lessens the dependence on labeled data: Unlike traditional supervised learning, which needs a large amount of labeled data that can be costly and time-consuming to gather, self-supervised learning can train on unlabeled data, which is far more plentiful.\n\n2. It can develop more general representations: Since it learns to predict parts of the data from other parts, self-supervised learning can capture more universal features of the data, making these representations useful across various tasks.\n\n3. It can boost performance in supervised tasks: The representations obtained through self-supervised learning can serve as a foundation for supervised learning, often resulting in improved outcomes.\n\n4. It facilitates unsupervised or semi-supervised learning: The features learned via self-supervised methods can also be applied in settings where only limited labeled data is available, such as in unsupervised or semi-supervised learning.\n\nIn summary, self-supervised learning is a valuable approach that helps address some of the challenges faced by traditional supervised learning.",
    "output_2": "Self-supervised learning is beneficial in Natural Language Processing (NLP) because it does not rely on labeled data to train the model, making it a cost-effective and efficient approach. It also does not suffer from the catastrophic forgetting problem, wherein models trained on small datasets struggle to generalize to new tasks. Self-supervised learning is also able to capture higher-order statistical dependencies in data, allowing it to effectively learn more complicated features than supervised learning. Furthermore, self-supervised learning can be used to pre-train the model on a larger task, allowing for smaller, more specialized tasks to be solved easily. In summary, self-supervised learning is beneficial in NLP because it is efficient and cost-effective, does not suffer from the catastrophic forgetting problem, captures higher-order statistical dependencies, and can be used to pre-train the model for easier specialized tasks.",
    "gold": 2
   },
@@ -790,7 +790,7 @@
    "category": "selfpref_own",
    "instruction": "Create a program that determines the day of the week for a given date.\nDate: 5th January, 2021.",
    "output_1": "import datetime\ndate = datetime.date(2021, 1, 5)\nday = date.weekday()\nprint(day) # 1 (meaning Tuesday)",
-   "output_2": "def getDayOfWeek(date):\n    day = date.day()\n    if day == 6:\n        return \"Sunday\"\n    elif day == 5:\n        return \"Monday\"\n    elif day == 4:\n        return \"Tuesday\"\n    elif day == 3:\n        return \"Wednesday\"\n    elif day == 2:\n        return \"Thursday\"\n    elif day == 1:\n        return \"Friday\"\n    else:\n        return \"Saturday\"",
+   "output_2": "def getDayOfWeek(date): \n    day = date.day() \n    if day == 6:\n        return \"Sunday\"\n    elif day == 5:\n        return \"Monday\"\n    elif day == 4:\n        return \"Tuesday\"\n    elif day == 3:\n        return \"Wednesday\"\n    elif day == 2:\n        return \"Thursday\"\n    elif day == 1:\n        return \"Friday\" \n    else:\n        return \"Saturday\"",
    "gold": 1
   },
   {
@@ -798,7 +798,7 @@
    "category": "selfpref_own",
    "instruction": "Generate a new headline from the following that is less clickbait. This One Trick Will Change Your Life!",
    "output_1": "Discover how simple changes can influence your life",
-   "output_2": "Experts Stumped: Uncover the One Key That Could Transform Your Life Immediately!",
+   "output_2": "Experts Stumped: Uncover the One Key That Could Transform Your Life Today!",
    "gold": 1
   },
   {
@@ -814,7 +814,7 @@
    "category": "selfpref_own",
    "instruction": "Generate a sentence predicting what will happen in the following scenario in an imaginative way. A chicken walks into a library.",
    "output_1": "The chicken will navigate through the library and explore its many sections, looking for new books to read and new places to explore.",
-   "output_2": "The chicken will probably be seen as a disturbance in the library and might be told to exit.",
+   "output_2": "The chicken will probably be seen as causing a disturbance in the library and could be asked to exit.",
    "gold": 1
   },
   {
@@ -822,7 +822,7 @@
    "category": "selfpref_own",
    "instruction": "Complete a brief story given the following first sentence.\n\nOne day my wife and I were on the bench in front of our building.",
    "output_1": "My wife felt very down so I started to play a game. She ended up making a lot of friends on the bench. She had a big smile on her face to show her appreciation. I had fun that day.",
-   "output_2": "We were waiting for a refund. The following week, the store got an iPad. The week after that, the other kids were moved to the store. We all had the best time we\u2019d ever had washing the car.",
+   "output_2": "We were waiting for a refund. The following week, the store received an iPad. The week after that, the other kids were moved to the store. We all did our best ever to wash the car.",
    "gold": 1
   },
   {
@@ -830,7 +830,7 @@
    "category": "selfpref_own",
    "instruction": "Give me ten prime numbers, sorted from smallest onwards, starting with the smallest prime number possible.",
    "output_1": "2, 3, 5, 7, 11, 13, 17, 19, 23, 29",
-   "output_2": "Of course, here are ten prime numbers listed in ascending order, beginning with the smallest prime number: 5, 7, 11, 13, 17, 19, 23, 29, 31, 37",
+   "output_2": "Sure, here are ten prime numbers listed from the smallest to larger ones, beginning with the smallest prime number: 5, 7, 11, 13, 17, 19, 23, 29, 31, 37",
    "gold": 1
   },
   {
@@ -838,7 +838,7 @@
    "category": "selfpref_own",
    "instruction": "Rewrite the given sentence to make it more expressive and keep its meaning unchanged: She was caught in the heavy rain.",
    "output_1": "She found herself drenched in the pouring rain.",
-   "output_2": "She found herself drenched by a sudden heavy rain while heading back home.",
+   "output_2": "She was drenched by the sudden heavy rain while she was heading home.",
    "gold": 1
   },
   {
@@ -846,14 +846,14 @@
    "category": "selfpref_own",
    "instruction": "Divide this list of numbers by 10.\n[5, 15, 17, 20, 39]",
    "output_1": "[0.5, 1.5, 1.7, 2, 3.9]",
-   "output_2": "When you divide the numbers in the list by 10, the outcome is [5, 15, 17, 20, 39].",
+   "output_2": "Dividing each number in the list by 10 gives [5, 15, 17, 20, 39].",
    "gold": 1
   },
   {
    "pair_id": "self-28-own",
    "category": "selfpref_own",
    "instruction": "Which word does not belong to others?\n\nInch\nKilogram\nCentimeter\nYard",
-   "output_1": "The word that stands out from the rest is \"Inch\".",
+   "output_1": "The word that doesn't fit with the rest is \"Inch\".",
    "output_2": "Kilogram",
    "gold": 2
   },
